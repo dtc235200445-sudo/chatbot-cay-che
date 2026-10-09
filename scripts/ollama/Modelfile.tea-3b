@@ -1,0 +1,7 @@
+# Bản qwen2.5:3b cho chatbot cây chè: nằm gọn trong GPU 4 GB nên trả lời nhanh hơn nhiều so với bản 7B
+# (bản 7B cần 5,4 GB, phải chạy 58% trên CPU, mất 20–40 giây mỗi câu).
+# Ngữ cảnh 8192 token: mặc định 4096 không đủ cho prompt hệ thống + 6000 ký tự tài liệu + câu trả lời.
+#
+# Tạo model:  ollama create tea-qwen2.5:3b -f scripts/ollama/Modelfile.tea-3b
+FROM qwen2.5:3b
+PARAMETER num_ctx 8192

@@ -1,0 +1,31 @@
+# Tea Scholar AI — Backend dependencies (Python 3.12)
+# Cài đặt: pip install -r requirements.txt
+
+# --- Web framework ---
+fastapi==0.111.0
+uvicorn==0.30.0
+pydantic==2.13.4
+email-validator==2.2.0
+python-dotenv==1.0.1
+
+# --- Database ---
+SQLAlchemy==2.0.51
+psycopg2-binary==2.9.13      # Driver PostgreSQL (dùng khi DATABASE_URL trỏ tới PostgreSQL)
+
+# --- Authentication ---
+PyJWT==2.13.0
+passlib==1.7.4
+bcrypt==4.0.1                # passlib 1.7.4 chưa tương thích bcrypt >= 4.1
+
+# --- LLM / HTTP client ---
+openai==2.44.0               # Client OpenAI-compatible, dùng để gọi Groq
+httpx==0.28.1                # Gọi Open-Meteo
+
+# --- RAG ---
+sentence-transformers==5.6.0
+pyvi==0.1.1                 # Tách từ tiếng Việt cho model embedding bkai/vietnamese-bi-encoder
+chromadb==1.5.9
+numpy==2.5.1
+
+# --- Test ---
+pytest==9.1.1

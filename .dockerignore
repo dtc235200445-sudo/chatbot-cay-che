@@ -1,0 +1,15 @@
+.env
+.git
+.github
+.claude
+.venv
+venv
+.pytest_cache
+**/__pycache__
+*.pyc
+frontend
+docs
+database/*.db
+database/chroma_db
+backend/evaluation/runs
+.hf_cache

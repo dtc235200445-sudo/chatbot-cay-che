@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Local data (sinh lại được bằng database/seed.py và rag/)
+database/*.db
+database/chroma_db/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Cấu hình riêng của máy (Claude Code)
+.claude/

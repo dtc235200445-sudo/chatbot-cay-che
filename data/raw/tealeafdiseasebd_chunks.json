@@ -1,0 +1,371 @@
+[
+  {
+    "chunk_id": "tealeaf_0001",
+    "title": "TeaLeafDiseaseBD – Tổng quan bộ dữ liệu",
+    "category": "dataset_overview",
+    "disease": null,
+    "text": "TeaLeafDiseaseBD là bộ dữ liệu hình ảnh lá chè được thu thập tại Bangladesh, gồm 13.085 ảnh lá chè độ phân giải cao. Bộ dữ liệu được xây dựng để biểu diễn các lớp lá khỏe mạnh và các loại bệnh thường gặp trên lá chè, đồng thời cung cấp nhãn ở cấp độ toàn ảnh và vùng tổn thương.",
+    "source": "TeaLeafDiseaseBD: Annotated smartphone images and lesion-level labels of tea leaf diseases from Bangladesh",
+    "source_type": "dataset_documentation",
+    "dataset": "TeaLeafDiseaseBD",
+    "version": "2",
+    "language": "vi",
+    "metadata": {
+      "doi": "10.17632/jcvxm4gh7d.2",
+      "published": "2026-01-21",
+      "image_count": 13085
+    }
+  },
+  {
+    "chunk_id": "tealeaf_0002",
+    "title": "TeaLeafDiseaseBD – Thiết bị và thời gian thu thập ảnh",
+    "category": "data_collection",
+    "disease": null,
+    "text": "Các hình ảnh trong TeaLeafDiseaseBD được chụp bằng CMF Phone 2 Pro, một điện thoại có camera 50 megapixel. Dữ liệu được thu thập vào mùa thu năm 2025.",
+    "source": "TeaLeafDiseaseBD: Annotated smartphone images and lesion-level labels of tea leaf diseases from Bangladesh",
+    "source_type": "dataset_documentation",
+    "dataset": "TeaLeafDiseaseBD",
+    "version": "2",
+    "language": "vi",
+    "metadata": {
+      "device": "CMF Phone 2 Pro",
+      "camera": "50 megapixel",
+      "collection_period": "autumn 2025"
+    }
+  },
+  {
+    "chunk_id": "tealeaf_0003",
+    "title": "TeaLeafDiseaseBD – Khu vực thu thập dữ liệu",
+    "category": "data_collection",
+    "disease": null,
+    "text": "Hình ảnh được thu thập tại ba khu vực sản xuất chè lớn của Bangladesh gồm Sylhet, Sreemangal và Habiganj. Việc thu thập từ ba khu vực này nhằm tạo ra sự đa dạng về địa lý và môi trường trong bộ dữ liệu.",
+    "source": "TeaLeafDiseaseBD: Annotated smartphone images and lesion-level labels of tea leaf diseases from Bangladesh",
+    "source_type": "dataset_documentation",
+    "dataset": "TeaLeafDiseaseBD",
+    "version": "2",
+    "language": "vi",
+    "metadata": {
+      "country": "Bangladesh",
+      "locations": [
+        "Sylhet",
+        "Sreemangal",
+        "Habiganj"
+      ]
+    }
+  },
+  {
+    "chunk_id": "tealeaf_0004",
+    "title": "TeaLeafDiseaseBD – Nền ảnh và mục đích chuẩn hóa bối cảnh",
+    "category": "image_acquisition",
+    "disease": null,
+    "text": "Mỗi lá chè được chụp trên nền màu đen nhằm giảm nhiễu thị giác và làm rõ bệnh cũng như biến thiên tự nhiên của lá. Cách bố trí này tạo bối cảnh tương đối nhất quán cho hình ảnh trong bộ dữ liệu.",
+    "source": "TeaLeafDiseaseBD: Annotated smartphone images and lesion-level labels of tea leaf diseases from Bangladesh",
+    "source_type": "dataset_documentation",
+    "dataset": "TeaLeafDiseaseBD",
+    "version": "2",
+    "language": "vi",
+    "metadata": {
+      "background": "black"
+    }
+  },
+  {
+    "chunk_id": "tealeaf_0005",
+    "title": "TeaLeafDiseaseBD – Các lớp dữ liệu",
+    "category": "class_definition",
+    "disease": null,
+    "text": "TeaLeafDiseaseBD gồm bảy lớp, trong đó có một lớp lá khỏe mạnh và sáu lớp bệnh hoặc đối tượng gây tổn thương trên lá chè. Sáu lớp được nêu trong tài liệu là Red Spider, Brown Blight, Gray Blight, Helopeltis, Algal Leaf Spot và Red Rust.",
+    "source": "TeaLeafDiseaseBD: Annotated smartphone images and lesion-level labels of tea leaf diseases from Bangladesh",
+    "source_type": "dataset_documentation",
+    "dataset": "TeaLeafDiseaseBD",
+    "version": "2",
+    "language": "vi",
+    "metadata": {
+      "class_count": 7,
+      "healthy_class": "Healthy",
+      "disease_classes": [
+        "Red Spider",
+        "Brown Blight",
+        "Gray Blight",
+        "Helopeltis",
+        "Algal Leaf Spot",
+        "Red Rust"
+      ]
+    }
+  },
+  {
+    "chunk_id": "tealeaf_0006",
+    "title": "Red Spider – Lớp dữ liệu TeaLeafDiseaseBD",
+    "category": "disease_class",
+    "disease": "Red Spider",
+    "text": "Red Spider là một trong sáu lớp bệnh hoặc đối tượng gây tổn thương được xác định trong TeaLeafDiseaseBD. Các hình ảnh thuộc lớp này mang nhãn Red Spider ở cấp độ phân loại của bộ dữ liệu.",
+    "source": "TeaLeafDiseaseBD: Annotated smartphone images and lesion-level labels of tea leaf diseases from Bangladesh",
+    "source_type": "dataset_documentation",
+    "dataset": "TeaLeafDiseaseBD",
+    "version": "2",
+    "language": "vi",
+    "metadata": {
+      "class_name": "Red Spider"
+    }
+  },
+  {
+    "chunk_id": "tealeaf_0007",
+    "title": "Brown Blight – Lớp dữ liệu TeaLeafDiseaseBD",
+    "category": "disease_class",
+    "disease": "Brown Blight",
+    "text": "Brown Blight là một trong sáu lớp bệnh hoặc đối tượng gây tổn thương được xác định trong TeaLeafDiseaseBD. Các hình ảnh thuộc lớp này mang nhãn Brown Blight ở cấp độ phân loại của bộ dữ liệu.",
+    "source": "TeaLeafDiseaseBD: Annotated smartphone images and lesion-level labels of tea leaf diseases from Bangladesh",
+    "source_type": "dataset_documentation",
+    "dataset": "TeaLeafDiseaseBD",
+    "version": "2",
+    "language": "vi",
+    "metadata": {
+      "class_name": "Brown Blight"
+    }
+  },
+  {
+    "chunk_id": "tealeaf_0008",
+    "title": "Gray Blight – Lớp dữ liệu TeaLeafDiseaseBD",
+    "category": "disease_class",
+    "disease": "Gray Blight",
+    "text": "Gray Blight là một trong sáu lớp bệnh hoặc đối tượng gây tổn thương được xác định trong TeaLeafDiseaseBD. Các hình ảnh thuộc lớp này mang nhãn Gray Blight ở cấp độ phân loại của bộ dữ liệu.",
+    "source": "TeaLeafDiseaseBD: Annotated smartphone images and lesion-level labels of tea leaf diseases from Bangladesh",
+    "source_type": "dataset_documentation",
+    "dataset": "TeaLeafDiseaseBD",
+    "version": "2",
+    "language": "vi",
+    "metadata": {
+      "class_name": "Gray Blight"
+    }
+  },
+  {
+    "chunk_id": "tealeaf_0009",
+    "title": "Helopeltis – Lớp dữ liệu TeaLeafDiseaseBD",
+    "category": "disease_class",
+    "disease": "Helopeltis",
+    "text": "Helopeltis là một trong sáu lớp bệnh hoặc đối tượng gây tổn thương được xác định trong TeaLeafDiseaseBD. Các hình ảnh thuộc lớp này mang nhãn Helopeltis ở cấp độ phân loại của bộ dữ liệu.",
+    "source": "TeaLeafDiseaseBD: Annotated smartphone images and lesion-level labels of tea leaf diseases from Bangladesh",
+    "source_type": "dataset_documentation",
+    "dataset": "TeaLeafDiseaseBD",
+    "version": "2",
+    "language": "vi",
+    "metadata": {
+      "class_name": "Helopeltis"
+    }
+  },
+  {
+    "chunk_id": "tealeaf_0010",
+    "title": "Algal Leaf Spot – Lớp dữ liệu TeaLeafDiseaseBD",
+    "category": "disease_class",
+    "disease": "Algal Leaf Spot",
+    "text": "Algal Leaf Spot là một trong sáu lớp bệnh hoặc đối tượng gây tổn thương được xác định trong TeaLeafDiseaseBD. Các hình ảnh thuộc lớp này mang nhãn Algal Leaf Spot ở cấp độ phân loại của bộ dữ liệu.",
+    "source": "TeaLeafDiseaseBD: Annotated smartphone images and lesion-level labels of tea leaf diseases from Bangladesh",
+    "source_type": "dataset_documentation",
+    "dataset": "TeaLeafDiseaseBD",
+    "version": "2",
+    "language": "vi",
+    "metadata": {
+      "class_name": "Algal Leaf Spot"
+    }
+  },
+  {
+    "chunk_id": "tealeaf_0011",
+    "title": "Red Rust – Lớp dữ liệu TeaLeafDiseaseBD",
+    "category": "disease_class",
+    "disease": "Red Rust",
+    "text": "Red Rust là một trong sáu lớp bệnh hoặc đối tượng gây tổn thương được xác định trong TeaLeafDiseaseBD. Các hình ảnh thuộc lớp này mang nhãn Red Rust ở cấp độ phân loại của bộ dữ liệu.",
+    "source": "TeaLeafDiseaseBD: Annotated smartphone images and lesion-level labels of tea leaf diseases from Bangladesh",
+    "source_type": "dataset_documentation",
+    "dataset": "TeaLeafDiseaseBD",
+    "version": "2",
+    "language": "vi",
+    "metadata": {
+      "class_name": "Red Rust"
+    }
+  },
+  {
+    "chunk_id": "tealeaf_0012",
+    "title": "Healthy – Lớp lá khỏe mạnh",
+    "category": "disease_class",
+    "disease": "Healthy",
+    "text": "Healthy là lớp lá khỏe mạnh trong TeaLeafDiseaseBD. Đây là một trong bảy lớp của bộ dữ liệu và được sử dụng cùng với sáu lớp bệnh hoặc đối tượng gây tổn thương.",
+    "source": "TeaLeafDiseaseBD: Annotated smartphone images and lesion-level labels of tea leaf diseases from Bangladesh",
+    "source_type": "dataset_documentation",
+    "dataset": "TeaLeafDiseaseBD",
+    "version": "2",
+    "language": "vi",
+    "metadata": {
+      "class_name": "Healthy"
+    }
+  },
+  {
+    "chunk_id": "tealeaf_0013",
+    "title": "TeaLeafDiseaseBD – Nhãn cấp độ toàn ảnh",
+    "category": "classification_annotation",
+    "disease": null,
+    "text": "Bộ dữ liệu bao gồm các nhãn phân loại cho từng hình ảnh. Tài liệu mô tả rằng các nhãn phân loại được đưa vào dataset bên cạnh thông tin về các vùng bệnh ở cấp độ toàn vùng hình ảnh. Điều này cho phép dữ liệu phục vụ các bài toán phân loại hình ảnh.",
+    "source": "TeaLeafDiseaseBD: Annotated smartphone images and lesion-level labels of tea leaf diseases from Bangladesh",
+    "source_type": "dataset_documentation",
+    "dataset": "TeaLeafDiseaseBD",
+    "version": "2",
+    "language": "vi",
+    "metadata": {
+      "annotation_level": "image-level"
+    }
+  },
+  {
+    "chunk_id": "tealeaf_0014",
+    "title": "TeaLeafDiseaseBD – Gán nhãn với sự tham gia của chuyên gia",
+    "category": "label_validation",
+    "disease": null,
+    "text": "Việc gán nhãn bệnh được thực hiện cùng với các chuyên gia từ Department of Agricultural, nhằm tăng độ chính xác và độ tin cậy của nhãn trong điều kiện thực địa.",
+    "source": "TeaLeafDiseaseBD: Annotated smartphone images and lesion-level labels of tea leaf diseases from Bangladesh",
+    "source_type": "dataset_documentation",
+    "dataset": "TeaLeafDiseaseBD",
+    "version": "2",
+    "language": "vi",
+    "metadata": {
+      "validation": "agricultural professionals"
+    }
+  },
+  {
+    "chunk_id": "tealeaf_0015",
+    "title": "TeaLeafDiseaseBD – Kích thước và chuẩn hóa hình ảnh",
+    "category": "image_preprocessing",
+    "disease": null,
+    "text": "Tất cả hình ảnh trong TeaLeafDiseaseBD được đặt và chuẩn hóa về kích thước 1024 × 1024 pixel. Việc chuẩn hóa kích thước được mô tả nhằm hỗ trợ khả năng tái lập và hiệu năng ổn định của các mô hình thị giác.",
+    "source": "TeaLeafDiseaseBD: Annotated smartphone images and lesion-level labels of tea leaf diseases from Bangladesh",
+    "source_type": "dataset_documentation",
+    "dataset": "TeaLeafDiseaseBD",
+    "version": "2",
+    "language": "vi",
+    "metadata": {
+      "image_size": "1024x1024"
+    }
+  },
+  {
+    "chunk_id": "tealeaf_0016",
+    "title": "TeaLeafDiseaseBD – Phát hiện vùng tổn thương",
+    "category": "lesion_annotation",
+    "disease": null,
+    "text": "Các vùng tổn thương trên lá được đánh dấu bằng một pipeline thị giác máy tính tự động. Pipeline này gồm phân đoạn màu HSV, lọc hình thái học và phân tích thành phần liên thông. Phương pháp tự động được lựa chọn thay cho thao tác thủ công nhằm giảm biến thiên giữa những người gán nhãn và duy trì tính nhất quán trong quá trình phân đoạn vùng tổn thương.",
+    "source": "TeaLeafDiseaseBD: Annotated smartphone images and lesion-level labels of tea leaf diseases from Bangladesh",
+    "source_type": "dataset_documentation",
+    "dataset": "TeaLeafDiseaseBD",
+    "version": "2",
+    "language": "vi",
+    "metadata": {
+      "pipeline": [
+        "HSV color segmentation",
+        "morphological filtering",
+        "connected-component analysis"
+      ]
+    }
+  },
+  {
+    "chunk_id": "tealeaf_0017",
+    "title": "TeaLeafDiseaseBD – Bounding box vùng tổn thương",
+    "category": "lesion_annotation",
+    "disease": null,
+    "text": "Các annotation vùng tổn thương chứa bounding box nhằm đánh dấu những vùng quan tâm có ý nghĩa sinh học. Annotation ở cấp độ lesion bổ sung thông tin vị trí vùng tổn thương bên cạnh nhãn phân loại của toàn hình ảnh.",
+    "source": "TeaLeafDiseaseBD: Annotated smartphone images and lesion-level labels of tea leaf diseases from Bangladesh",
+    "source_type": "dataset_documentation",
+    "dataset": "TeaLeafDiseaseBD",
+    "version": "2",
+    "language": "vi",
+    "metadata": {
+      "annotation_type": "bounding_box",
+      "annotation_level": "lesion"
+    }
+  },
+  {
+    "chunk_id": "tealeaf_0018",
+    "title": "TeaLeafDiseaseBD – Kiểm tra chất lượng annotation",
+    "category": "annotation_quality_control",
+    "disease": null,
+    "text": "Các annotation được kiểm tra nghiêm ngặt nhằm loại bỏ nhiễu nền và các phát hiện bị phân mảnh. Quy trình kiểm tra này nhằm đảm bảo các vùng được đánh dấu phù hợp với mục tiêu biểu diễn vùng tổn thương.",
+    "source": "TeaLeafDiseaseBD: Annotated smartphone images and lesion-level labels of tea leaf diseases from Bangladesh",
+    "source_type": "dataset_documentation",
+    "dataset": "TeaLeafDiseaseBD",
+    "version": "2",
+    "language": "vi",
+    "metadata": {
+      "quality_control": [
+        "background noise removal",
+        "fragmented detection removal"
+      ]
+    }
+  },
+  {
+    "chunk_id": "tealeaf_0019",
+    "title": "TeaLeafDiseaseBD – Định dạng annotation YOLO",
+    "category": "annotation_format",
+    "disease": null,
+    "text": "Các tệp annotation tương ứng được cung cấp ở dạng văn bản tương thích với YOLO. Định dạng này cho phép sử dụng trực tiếp các annotation trong các workflow phát hiện đối tượng dựa trên YOLO.",
+    "source": "TeaLeafDiseaseBD: Annotated smartphone images and lesion-level labels of tea leaf diseases from Bangladesh",
+    "source_type": "dataset_documentation",
+    "dataset": "TeaLeafDiseaseBD",
+    "version": "2",
+    "language": "vi",
+    "metadata": {
+      "format": "YOLO-compatible plain text"
+    }
+  },
+  {
+    "chunk_id": "tealeaf_0020",
+    "title": "TeaLeafDiseaseBD – Mục đích sử dụng dữ liệu",
+    "category": "dataset_application",
+    "disease": null,
+    "text": "Cấu trúc dữ liệu gồm nhãn phân loại và bounding box vùng tổn thương cho phép TeaLeafDiseaseBD được sử dụng trong các workflow thị giác máy tính liên quan đến phân loại hình ảnh và phát hiện đối tượng. Định dạng annotation tương thích YOLO hỗ trợ việc đưa dữ liệu vào các quy trình object detection.",
+    "source": "TeaLeafDiseaseBD: Annotated smartphone images and lesion-level labels of tea leaf diseases from Bangladesh",
+    "source_type": "dataset_documentation",
+    "dataset": "TeaLeafDiseaseBD",
+    "version": "2",
+    "language": "vi",
+    "metadata": {
+      "applications": [
+        "image classification",
+        "object detection"
+      ]
+    }
+  },
+  {
+    "chunk_id": "tealeaf_0021",
+    "title": "TeaLeafDiseaseBD – Thông tin xuất bản và giấy phép",
+    "category": "dataset_metadata",
+    "disease": null,
+    "text": "TeaLeafDiseaseBD phiên bản 2 được công bố ngày 21 tháng 1 năm 2026 với DOI 10.17632/jcvxm4gh7d.2. Dataset được cung cấp theo giấy phép CC BY 4.0. Đơn vị được liệt kê trong phần Institutions là Independent University, Dhaka District, Dhaka.",
+    "source": "TeaLeafDiseaseBD: Annotated smartphone images and lesion-level labels of tea leaf diseases from Bangladesh",
+    "source_type": "dataset_documentation",
+    "dataset": "TeaLeafDiseaseBD",
+    "version": "2",
+    "language": "vi",
+    "metadata": {
+      "doi": "10.17632/jcvxm4gh7d.2",
+      "license": "CC BY 4.0",
+      "institution": "Independent University"
+    }
+  },
+  {
+    "chunk_id": "tealeaf_0022",
+    "title": "TeaLeafDiseaseBD – Các lĩnh vực của dataset",
+    "category": "dataset_metadata",
+    "disease": null,
+    "text": "TeaLeafDiseaseBD được phân loại trong các lĩnh vực Artificial Intelligence, Computer Vision, Image Processing, Machine Learning, Tea, Plant Pathology và Agriculture.",
+    "source": "TeaLeafDiseaseBD: Annotated smartphone images and lesion-level labels of tea leaf diseases from Bangladesh",
+    "source_type": "dataset_documentation",
+    "dataset": "TeaLeafDiseaseBD",
+    "version": "2",
+    "language": "vi",
+    "metadata": {
+      "categories": [
+        "Artificial Intelligence",
+        "Computer Vision",
+        "Image Processing",
+        "Machine Learning",
+        "Tea",
+        "Plant Pathology",
+        "Agriculture"
+      ]
+    }
+  }
+]

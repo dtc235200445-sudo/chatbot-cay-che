@@ -1,0 +1,1313 @@
+{
+ "generator": "qwen/qwen3.8-27b",
+ "judge": "openai/gpt-oss-120b",
+ "summary": {
+  "n_in_domain": 24,
+  "n_out_of_scope": 12,
+  "wrongly_refused": 0,
+  "wrongly_answered": 0,
+  "answers_with_unsupported_numbers": 1,
+  "n_judged": 24,
+  "faithfulness": 0.9836601307189543,
+  "relevance": 4.833333333333333,
+  "completeness": 4.75,
+  "judge_failures": 0,
+  "avg_latency_s": 1.0925
+ },
+ "records": [
+  {
+   "id": "q001",
+   "type": "in_domain",
+   "question": "Bệnh thối búp trên cây chè có triệu chứng gì?",
+   "gate_relevant": true,
+   "answer": "Dựa vào cơ sở tri thức được cung cấp, bệnh thối búp trên cây chè có các triệu chứng sau:\n\n*   **Vị trí gây hại:** Bệnh thường gây hại ở lá non, cuống lá và cành non.\n*   **Diễn biến vết bệnh:**\n    *   Lúc đầu, vết bệnh bằng đầu kim, có màu nâu đen.\n    *   Sau đó, vết bệnh lan dần ra hết cả búp và cành chè.\n    *   Bệnh chỉ gây hại ở phần chưa hóa nâu.\n*   **Hậu quả khi bị hại nặng:** Cây chè có thể bị khô, rụng hết lá và búp không thể thu hoạch được.",
+   "refused": false,
+   "unsupported_numbers": [],
+   "latency_s": 0.87,
+   "judge": {
+    "claims": [
+     {
+      "claim": "Bệnh thường gây hại ở lá non, cuống lá và cành non.",
+      "supported": true
+     },
+     {
+      "claim": "Lúc đầu, vết bệnh bằng đầu kim, có màu nâu đen.",
+      "supported": true
+     },
+     {
+      "claim": "Sau đó, vết bệnh lan dần ra hết cả búp và cành chè.",
+      "supported": true
+     },
+     {
+      "claim": "Bệnh chỉ gây hại ở phần chưa hóa nâu.",
+      "supported": true
+     },
+     {
+      "claim": "Cây chè có thể bị khô, rụng hết lá và búp không thể thu hoạch được khi bị hại nặng.",
+      "supported": true
+     }
+    ],
+    "faithfulness": 1.0,
+    "relevance": 5,
+    "completeness": 5,
+    "comment": "Trả lời đầy đủ, đúng ngữ cảnh và liên quan trực tiếp."
+   },
+   "judge_error": null
+  },
+  {
+   "id": "q004",
+   "type": "in_domain",
+   "question": "Bệnh đốm nâu làm hại lá chè như thế nào?",
+   "gate_relevant": true,
+   "answer": "Dựa vào cơ sở tri thức được cung cấp, bệnh đốm nâu (do nấm *Colletotrichum camellia* gây ra) làm hại lá chè với các triệu chứng cụ thể như sau:\n\n1.  **Hình dạng và vị trí vết bệnh:**\n    *   Gây ra các vết chết khô hình tròn hoặc gần tròn trên lá.\n    *   Vết bệnh ban đầu là các chấm nhỏ màu nâu, thường xuất hiện từ mép lá hoặc giữa lá.\n    *   Vết bệnh lớn dần lên với các hình dạng: tròn, oval, bán nguyệt hoặc bất định.\n\n2.  **Đặc điểm bề mặt vết bệnh:**\n    *   Đôi khi có các đường tròn đồng tâm.\n    *   Bề mặt vết bệnh có màu nâu và xuất hiện các chấm màu đen (là ổ bào tử của nấm).\n\n3.  **Hậu quả:**\n    *   Gây rụng lá.\n    *   Làm tán cây chè trở nên xơ xác.",
+   "refused": false,
+   "unsupported_numbers": [],
+   "latency_s": 1.07,
+   "judge": {
+    "claims": [
+     {
+      "claim": "Gây ra các vết chết khô hình tròn hoặc gần tròn trên lá.",
+      "supported": true
+     },
+     {
+      "claim": "Vết bệnh ban đầu là các chấm nhỏ màu nâu, thường xuất hiện từ mép lá hoặc giữa lá.",
+      "supported": true
+     },
+     {
+      "claim": "Vết bệnh lớn dần lên với các hình dạng: tròn, oval, bán nguyệt hoặc bất định.",
+      "supported": true
+     },
+     {
+      "claim": "Đôi khi có các đường tròn đồng tâm.",
+      "supported": true
+     },
+     {
+      "claim": "Bề mặt vết bệnh có màu nâu và xuất hiện các chấm màu đen (là ổ bào tử của nấm).",
+      "supported": true
+     },
+     {
+      "claim": "Gây rụng lá.",
+      "supported": true
+     },
+     {
+      "claim": "Làm tán cây chè trở nên xơ xác.",
+      "supported": true
+     }
+    ],
+    "faithfulness": 1.0,
+    "relevance": 5,
+    "completeness": 5,
+    "comment": "Trả lời đầy đủ, đúng với ngữ cảnh và trả lời trực tiếp câu hỏi."
+   },
+   "judge_error": null
+  },
+  {
+   "id": "q007",
+   "type": "in_domain",
+   "question": "Cành chè bị khô chết do bệnh gì?",
+   "gate_relevant": true,
+   "answer": "Dựa vào cơ sở tri thức được cung cấp, hiện tượng cành chè bị khô chết có thể do hai loại bệnh sau gây ra:\n\n1. **Bệnh khô cành chè** (*Physalospora neglecta Petch*):\n   - Triệu chứng: Cành xuất hiện vết bệnh lõm xuống (loét), nhiều vết sẹo liền lại tạo vết màu nâu đen cứng làm tắc mạch. Gặp hạn, cành chè sẽ chết khô từ phía trên vết sẹo, phần gỗ biến nâu. Nếu toàn bộ số cành bị bệnh, cây chè sẽ chết.\n\n2. **Bệnh dán cao (nấm cao) hại chè** (*Septobasidium theae*):\n   - Triệu chứng: Các đoạn cành chè bị hại sưng loét, chết từng đám vỏ, mạch gỗ và mạch libe bị tắc làm cây ngừng sinh trưởng và chết khô. Nếu cây chè có nhiều cành bị hại, cây sẽ chết.\n\n*Lưu ý: Bệnh thối búp (*Collectotrichum theae-sinensis*) cũng có thể làm cây chè bị khô, rụng hết lá, nhưng tài liệu mô tả bệnh này chủ yếu gây hại ở lá non, cuống lá và cành non, không mô tả cụ thể triệu chứng \"cành khô chết\" tương tự như hai bệnh trên.*",
+   "refused": false,
+   "unsupported_numbers": [],
+   "latency_s": 1.11,
+   "judge": {
+    "claims": [
+     {
+      "claim": "Cành chè bị khô chết có thể do bệnh khô cành chè (Physalospora neglecta Petch).",
+      "supported": true
+     },
+     {
+      "claim": "Triệu chứng của bệnh khô cành chè: Cành xuất hiện vết bệnh lõm xuống (loét), nhiều vết sẹo liền lại tạo vết màu nâu đen cứng làm tắc mạch.",
+      "supported": true
+     },
+     {
+      "claim": "Khi hạn, cành chè sẽ chết khô từ phía trên vết sẹo, phần gỗ biến nâu.",
+      "supported": true
+     },
+     {
+      "claim": "Nếu toàn bộ số cành bị bệnh, cây chè sẽ chết.",
+      "supported": true
+     },
+     {
+      "claim": "Cành chè bị khô chết có thể do bệnh dán cao (Septobasidium theae).",
+      "supported": true
+     },
+     {
+      "claim": "Triệu chứng của bệnh dán cao: Các đoạn cành chè bị hại sưng loét, chết từng đám vỏ, mạch gỗ và mạch libe bị tắc làm cây ngừng sinh trưởng và chết khô.",
+      "supported": true
+     },
+     {
+      "claim": "Nếu cây chè có nhiều cành bị hại, cây sẽ chết.",
+      "supported": true
+     },
+     {
+      "claim": "Bệnh thối búp (Collectotrichum theae‑sinensis) cũng có thể làm cây chè bị khô, rụng hết lá.",
+      "supported": true
+     },
+     {
+      "claim": "Tài liệu mô tả bệnh thối búp chủ yếu gây hại ở lá non, cuống lá và cành non, không mô tả cụ thể triệu chứng \"cành khô chết\".",
+      "supported": true
+     }
+    ],
+    "faithfulness": 1.0,
+    "relevance": 5,
+    "completeness": 5,
+    "comment": "Các mệnh đề đều dựa trên nội dung tài liệu, trả lời đúng câu hỏi và bao quát đầy đủ thông tin có trong ngữ cảnh."
+   },
+   "judge_error": null
+  },
+  {
+   "id": "q010",
+   "type": "in_domain",
+   "question": "Nhện đỏ nâu làm lá chè biến màu ra sao?",
+   "gate_relevant": true,
+   "answer": "Theo cơ sở tri thức, nhện đỏ nâu chích hút dịch cây dọc hai bên gân chính của các lá chè bánh tẻ đến lá trưởng thành, làm cho các lá chè **chuyển thành màu hung đỏ**.\n\nNgoài ra, tại nơi nhện sinh sống còn có nhiều bụi bẩn màu trắng xám (là xác nhện khi lột xác) và có thể có lớp mạng nhện bao phủ.",
+   "refused": false,
+   "unsupported_numbers": [],
+   "latency_s": 0.8,
+   "judge": {
+    "claims": [
+     {
+      "claim": "Nhện đỏ nâu chích hút dịch cây dọc hai bên gân chính của các lá chè bánh tẻ đến lá trưởng thành, làm cho các lá chè chuyển thành màu hung đỏ.",
+      "supported": true
+     },
+     {
+      "claim": "Nơi nhện sinh sống còn có nhiều bụi bẩn màu trắng xám (là xác nhện khi lột xác).",
+      "supported": true
+     },
+     {
+      "claim": "Có thể có lớp mạng nhện bao phủ.",
+      "supported": true
+     }
+    ],
+    "faithfulness": 1.0,
+    "relevance": 5,
+    "completeness": 5,
+    "comment": "All claims are supported; answer directly addresses the color‑change question."
+   },
+   "judge_error": null
+  },
+  {
+   "id": "q013",
+   "type": "in_domain",
+   "question": "Sâu chùm hại chè",
+   "gate_relevant": true,
+   "answer": "Dựa trên cơ sở tri thức được cung cấp, thông tin về **Sâu chùm hại chè** (*Andraca bipunctata Walker*) như sau:\n\n**1. Đặc điểm sinh học và triệu chứng gây hại:**\n*   **Tập tính:** Sâu luôn sống quần tụ 5 - 7 con tạo thành từng chùm.\n*   **Hoạt động:**\n    *   Ban ngày: Quấn lấy nhau trên cành chè, không hoạt động.\n    *   Ban đêm: Tản ra xung quanh ăn trụi lá, búp chè.\n*   **Mức độ hại:** Có thể gây chết cây.\n\n**2. Biện pháp phòng trừ:**\n*   **Biện pháp thủ công và canh tác:**\n    *   Bắt diệt sâu non.\n    *   Làm cỏ, xới xáo quanh gốc chè để diệt nhộng.\n*   **Biện pháp hóa học:**\n    *   Phun thuốc trừ sâu hại bằng các loại thuốc: Bt, Ma, Ba, Actara 25WG, Trebon 10EC, 20WP, 30EC.",
+   "refused": false,
+   "unsupported_numbers": [
+    "2"
+   ],
+   "latency_s": 1.11,
+   "judge": {
+    "claims": [
+     {
+      "claim": "Sâu chùm luôn sống quần tụ 5 - 7 con tạo thành từng chùm.",
+      "supported": true
+     },
+     {
+      "claim": "Ban ngày sâu chùm quấn lấy nhau trên cành chè, không hoạt động.",
+      "supported": true
+     },
+     {
+      "claim": "Ban đêm sâu chùm tản ra xung quanh ăn trụi lá, búp chè.",
+      "supported": true
+     },
+     {
+      "claim": "Sâu chùm có thể gây chết cây.",
+      "supported": true
+     },
+     {
+      "claim": "Biện pháp phòng trừ bao gồm bắt diệt sâu non.",
+      "supported": true
+     },
+     {
+      "claim": "Biện pháp phòng trừ bao gồm làm cỏ, xới xáo quanh gốc chè để diệt nhộng.",
+      "supported": true
+     },
+     {
+      "claim": "Phun thuốc trừ sâu hại bằng các loại thuốc: Bt, Ma, Ba, Actra 25WG, Trebon 10EC, 20WP, 30EC.",
+      "supported": true
+     }
+    ],
+    "faithfulness": 1.0,
+    "relevance": 5,
+    "completeness": 5,
+    "comment": "Trả lời đầy đủ, đúng nội dung và phù hợp với ngữ cảnh."
+   },
+   "judge_error": null
+  },
+  {
+   "id": "q016",
+   "type": "in_domain",
+   "question": "Thuốc bảo vệ thực vật nào được dùng để trừ rầy xanh và nhện đỏ?",
+   "gate_relevant": true,
+   "answer": "Dựa vào cơ sở tri thức được cung cấp, các loại thuốc bảo vệ thực vật được liệt kê để phòng trừ rầy xanh và nhện đỏ như sau:\n\n**1. Đối với rầy xanh (Empoasca flavescens):**\nTài liệu nêu rõ hạn chế thuốc hóa học; nếu cần, chỉ dùng các thuốc ít độc, phổ tác động hẹp bao gồm:\n*   Abamectin\n*   Clothianidin\n*   Dinotefuran\n*   Emamectin benzoate\n*   Matrine\n*   Etofenprox\n*   Nitenpyram\n\n**2. Đối với nhện đỏ (Oligonychus coffeae):**\nTài liệu phân loại biện pháp phòng trừ thành hai nhóm:\n*   **Ưu tiên chế phẩm sinh học, thảo mộc:**\n    *   Abamectin\n    *   Petroleum oil\n    *   Emamectin benzoate\n    *   Matrine\n    *   Rotenone\n    *   Saponin\n*   **Thuốc hóa học (chỉ dùng khi nhện bùng phát mạnh):**\n    *   Propargite\n    *   Hexythiazox\n    *   Pyridaben\n\n*Lưu ý: Nguồn 3 cũng liệt kê một số thuốc cụ thể (Abatox, Comite, Daisy, Đandy, Actimax, July) dùng khi mật độ nhện đỏ cao và tỷ lệ lá bị hại >20%, nhưng không nêu rõ thành phần hoạt chất tương ứng với các nhóm trên.*\n\n**Các hoạt chất được đề cập cho cả hai đối tượng (rầy xanh và nhện đỏ) bao gồm:**\n*   Abamectin\n*   Emamectin benzoate\n*   Matrine",
+   "refused": false,
+   "unsupported_numbers": [],
+   "latency_s": 1.31,
+   "judge": {
+    "claims": [
+     {
+      "claim": "For rầy xanh, the document states that chemical pesticides should be limited; if needed, only low‑toxicity, narrow‑spectrum pesticides should be used, namely Abamectin, Clothianidin, Dinotefuran, Emamectin benzoate, Matrine, Etofenprox, and Nitenpyram.",
+      "supported": true
+     },
+     {
+      "claim": "For nhện đỏ, the document classifies control measures into two groups: (a) priority biological/herbal products – Abamectin, Petroleum oil, Emamectin benzoate, Matrine, Rotenone, Saponin; (b) chemical pesticides used only when outbreaks are severe – Propargite, Hexythiazox, Pyridaben.",
+      "supported": true
+     },
+     {
+      "claim": "Source 3 also lists specific pesticide products (Abatox, Comite, Daisy, Đandy, Actimax, July) to be applied when red‑mite density is high and leaf damage exceeds 20 %, but it does not give the active ingredients of these products.",
+      "supported": true
+     },
+     {
+      "claim": "The active ingredients that appear for both rầy xanh and nhện đỏ are Abamectin, Emamectin benzoate, and Matrine.",
+      "supported": true
+     }
+    ],
+    "faithfulness": 1.0,
+    "relevance": 5,
+    "completeness": 5,
+    "comment": "Answer directly lists all pesticides mentioned for both pests and notes overlapping active ingredients."
+   },
+   "judge_error": null
+  },
+  {
+   "id": "q019",
+   "type": "in_domain",
+   "question": "Thuốc BVTV được phân loại theo độ độc như thế nào?",
+   "gate_relevant": true,
+   "answer": "Theo cơ sở tri thức được cung cấp, thuốc bảo vệ thực vật (BVTV) được phân loại theo độ độc thành 4 nhóm như sau:\n\n*   **Nhóm I - Rất độc:** Có biểu tượng đầu lâu xương chéo và vạch đỏ.\n*   **Nhóm II - Độc cao:** Có biểu tượng hình vuông chữ thập đen và vạch vàng.\n*   **Nhóm III - Nguy hiểm:** Có biểu tượng hình vuông vạch đen đứt đoạn và vạch xanh nước biển.\n*   **Nhóm IV - Cẩn thận:** Không có biểu tượng và không có vạch màu.",
+   "refused": false,
+   "unsupported_numbers": [],
+   "latency_s": 0.84,
+   "judge": {
+    "claims": [
+     {
+      "claim": "Thuốc BVTV được phân loại theo độ độc thành 4 nhóm.",
+      "supported": true
+     },
+     {
+      "claim": "Nhóm I - Rất độc: Có biểu tượng đầu lâu xương chéo và vạch đỏ.",
+      "supported": true
+     },
+     {
+      "claim": "Nhóm II - Độc cao: Có biểu tượng hình vuông chữ thập đen và vạch vàng.",
+      "supported": true
+     },
+     {
+      "claim": "Nhóm III - Nguy hiểm: Có biểu tượng hình vuông vạch đen đứt đoạn và vạch xanh nước biển.",
+      "supported": true
+     },
+     {
+      "claim": "Nhóm IV - Cẩn thận: Không có biểu tượng và không có vạch màu.",
+      "supported": true
+     }
+    ],
+    "faithfulness": 1.0,
+    "relevance": 5,
+    "completeness": 5,
+    "comment": "Trả lời đầy đủ, đúng ngữ cảnh và chính xác."
+   },
+   "judge_error": null
+  },
+  {
+   "id": "q022",
+   "type": "in_domain",
+   "question": "Chè nên trồng trên loại đất nào?",
+   "gate_relevant": true,
+   "answer": "Dựa vào cơ sở tri thức được cung cấp, chè nên trồng trên loại đất có các đặc điểm sau:\n\n*   **Tầng canh tác:** Trên 50cm.\n*   **Độ pH (pHKCl):** Từ 4,0 - 5,5.\n*   **Độ dốc:**\n    *   Chè trồng tập trung: Không quá 25°.\n    *   Chè Shan tự nhiên: Có thể trên 25°.\n\nNgoài ra, tài liệu cũng nêu rõ chè chủ yếu được trồng trên đất dốc 10-25° và được coi là cây chống xói mòn hữu hiệu đối với đất dốc.",
+   "refused": false,
+   "unsupported_numbers": [],
+   "latency_s": 0.9,
+   "judge": {
+    "claims": [
+     {
+      "claim": "Tầng canh tác: Trên 50cm.",
+      "supported": true
+     },
+     {
+      "claim": "Độ pH (pHKCl): Từ 4,0 - 5,5.",
+      "supported": true
+     },
+     {
+      "claim": "Độ dốc: Chè trồng tập trung: Không quá 25°.",
+      "supported": true
+     },
+     {
+      "claim": "Độ dốc: Chè Shan tự nhiên: Có thể trên 25°.",
+      "supported": true
+     },
+     {
+      "claim": "Chè chủ yếu được trồng trên đất dốc 10-25° và được coi là cây chống xói mòn hữu hiệu đối với đất dốc.",
+      "supported": true
+     }
+    ],
+    "faithfulness": 1.0,
+    "relevance": 5,
+    "completeness": 5,
+    "comment": "Câu trả lời đầy đủ, đúng ngữ cảnh và trả lời trực tiếp câu hỏi."
+   },
+   "judge_error": null
+  },
+  {
+   "id": "q025",
+   "type": "in_domain",
+   "question": "Mật độ trồng chè là bao nhiêu cây trên một ha?",
+   "gate_relevant": true,
+   "answer": "Dựa vào cơ sở tri thức được cung cấp, mật độ trồng chè (số cây/ha) phụ thuộc vào **giống chè** và **độ dốc** hoặc **độ cao** của vùng đất. Cụ thể như sau:\n\n**1. Theo loại giống và độ dốc (Nguồn 1, Nguồn 2):**\n\n*   **Chè Shan:**\n    *   Đất dốc > 15°: **10.000 – 13.000 cây/ha**.\n    *   Đất dốc ≤ 15°: **13.000 – 15.000 cây/ha**.\n*   **Chè mới nhập nội, lai tạo:**\n    *   Đất dốc > 15°: **16.000 – 18.000 cây/ha**.\n    *   Đất dốc ≤ 15°: **20.000 – 22.000 cây/ha**.\n\n**2. Theo độ cao vùng đất và nhóm giống (Nguồn 3):**\n\n*   **Vùng đất độ cao < 500m:**\n    *   Các giống Kim Tuyên, Phúc Vân Tiên, Hùng Đỉnh Bạch, PH10: **18.000 – 20.000 cây/ha** (1,8 - 2 vạn cây/ha).\n    *   Các giống khác (như PH8, LDP1): **16.000 – 18.000 cây/ha** (1,6 - 1,8 vạn cây/ha).\n*   **Vùng đất độ cao > 500m:**\n    *   Các giống PH12, PH14, Shan Chất Tiền, TB14: **13.000 – 16.000 cây/ha** (1,3 - 1,6 vạn cây/ha).\n\n*Lưu ý: Cơ sở tri thức chưa cung cấp thông tin về mật độ trồng cho các giống chè khác ngoài những giống được liệt kê ở trên.*",
+   "refused": false,
+   "unsupported_numbers": [],
+   "latency_s": 1.58,
+   "judge": {
+    "claims": [
+     {
+      "claim": "Mật độ trồng chè phụ thuộc vào giống chè và độ dốc hoặc độ cao của vùng đất.",
+      "supported": true
+     },
+     {
+      "claim": "Đối với chè Shan trên đất dốc > 15°, mật độ trồng là 10.000 – 13.000 cây/ha.",
+      "supported": true
+     },
+     {
+      "claim": "Đối với chè Shan trên đất dốc ≤ 15°, mật độ trồng là 13.000 – 15.000 cây/ha.",
+      "supported": true
+     },
+     {
+      "claim": "Đối với chè mới nhập nội, lai tạo trên đất dốc > 15°, mật độ trồng là 16.000 – 18.000 cây/ha.",
+      "supported": true
+     },
+     {
+      "claim": "Đối với chè mới nhập nội, lai tạo trên đất dốc ≤ 15°, mật độ trồng là 20.000 – 22.000 cây/ha.",
+      "supported": true
+     },
+     {
+      "claim": "Vùng đất độ cao < 500m, các giống Kim Tuyên, Phúc Vân Tiên, Hùng Đỉnh Bạch, PH10 có mật độ trồng 18.000 – 20.000 cây/ha.",
+      "supported": true
+     },
+     {
+      "claim": "Vùng đất độ cao < 500m, các giống khác (như PH8, LDP1) có mật độ trồng 16.000 – 18.000 cây/ha.",
+      "supported": true
+     },
+     {
+      "claim": "Vùng đất độ cao > 500m, các giống PH12, PH14, Shan Chất Tiền, TB14 có mật độ trồng 13.000 – 16.000 cây/ha.",
+      "supported": true
+     },
+     {
+      "claim": "Cơ sở tri thức chưa cung cấp thông tin về mật độ trồng cho các giống chè khác ngoài những giống được liệt kê ở trên.",
+      "supported": true
+     }
+    ],
+    "faithfulness": 1.0,
+    "relevance": 5,
+    "completeness": 5,
+    "comment": "Câu trả lời liệt kê đầy đủ các mức mật độ trong ngữ cảnh và liên quan trực tiếp tới câu hỏi."
+   },
+   "judge_error": null
+  },
+  {
+   "id": "q028",
+   "type": "in_domain",
+   "question": "Kỹ thuật trồng chè bằng hom cành",
+   "gate_relevant": true,
+   "answer": "Dựa vào cơ sở tri thức được cung cấp, thông tin về kỹ thuật trồng chè bằng hom cành (cụ thể là kỹ thuật trồng chè cành) bao gồm các bước sau:\n\n1.  **Bổ hốc:** Bổ hốc theo hàng chè rộng 20cm, sâu 20 - 25cm; khoảng cách giữa các hốc theo mật độ qui định.\n2.  **Xử lý bầu:** Dùng dao rạch nhẹ túi bầu, giữ nguyên bầu đất, tránh gây vỡ bầu.\n3.  **Đặt bầu:** Đặt bầu chè thẳng đứng, lá chè xuôi theo hướng gió chính.\n4.  **Lèn và lấp đất:** Lèn chặt quanh bầu sau đó lấp 1 lớp đất tơi xốp cao hơn mặt bầu chè 2 - 3cm.\n\n*Lưu ý: Cơ sở tri thức hiện có cung cấp chi tiết kỹ thuật trồng cho \"chè cành\" (thường là cây con có bầu đất) và tiêu chuẩn cắt hom, nhưng không mô tả cụ thể quy trình kỹ thuật giâm hom vào đất (như cách cắm hom, chế độ tưới sau giâm, v.v.).*",
+   "refused": false,
+   "unsupported_numbers": [],
+   "latency_s": 1.08,
+   "judge": {
+    "claims": [
+     {
+      "claim": "Bổ hốc theo hàng chè rộng 20cm, sâu 20 - 25cm; khoảng cách giữa các hốc theo mật độ qui định.",
+      "supported": true
+     },
+     {
+      "claim": "Dùng dao rạch nhẹ túi bầu, giữ nguyên bầu đất, tránh gây vỡ bầu.",
+      "supported": true
+     },
+     {
+      "claim": "Đặt bầu chè thẳng đứng, lá chè xuôi theo hướng gió chính.",
+      "supported": true
+     },
+     {
+      "claim": "Lèn chặt quanh bầu sau đó lấp 1 lớp đất tơi xốp cao hơn mặt bầu chè 2 - 3cm.",
+      "supported": true
+     },
+     {
+      "claim": "Cơ sở tri thức hiện có cung cấp chi tiết kỹ thuật trồng cho \"chè cành\" (thường là cây con có bầu đất) và tiêu chuẩn cắt hom, nhưng không mô tả cụ thể quy trình kỹ thuật giâm hom vào đất (như cách cắm hom, chế độ tưới sau giâm, v.v.).",
+      "supported": true
+     }
+    ],
+    "faithfulness": 1.0,
+    "relevance": 3,
+    "completeness": 3,
+    "comment": "Các bước trồng cành được nêu đúng, nhưng câu trả lời chưa đầy đủ về kỹ thuật giâm hom, nên chỉ đáp ứng một phần yêu cầu."
+   },
+   "judge_error": null
+  },
+  {
+   "id": "q031",
+   "type": "in_domain",
+   "question": "Trồng cây che bóng cho chè để làm gì?",
+   "gate_relevant": true,
+   "answer": "Dựa vào cơ sở tri thức được cung cấp, việc trồng cây che bóng cho chè có các tác dụng sau:\n\n1.  **Giảm cường độ ánh sáng trực xạ.**\n2.  **Điều hòa nhiệt độ:** Giảm nhiệt độ vào mùa hè và làm ấm vào mùa đông.\n3.  **Điều hòa ẩm độ.**\n4.  **Tạo điều kiện cho vi sinh vật đất hoạt động.**\n5.  **Giảm xói mòn.**\n6.  **Bổ sung phân xanh** thông qua lá rụng.\n7.  **Làm ẩm đất tầng mặt:** Bộ rễ của cây che bóng tầng cao/trung ăn sâu (50-70m, thậm chí 100m) giúp hút nước từ mạch ngầm.\n\nNgoài ra, tài liệu cũng nêu rõ trong bối cảnh biến đổi khí hậu, việc trồng cây che bóng (nhất là tầng trung và tầng cao) giúp vườn chè an toàn, tránh tình trạng cháy lá và chết cây khi nhiệt độ cao.",
+   "refused": false,
+   "unsupported_numbers": [],
+   "latency_s": 1.0,
+   "judge": {
+    "claims": [
+     {
+      "claim": "Giảm cường độ ánh sáng trực xạ.",
+      "supported": true
+     },
+     {
+      "claim": "Điều hòa nhiệt độ: giảm nhiệt độ vào mùa hè và làm ấm vào mùa đông.",
+      "supported": true
+     },
+     {
+      "claim": "Điều hòa ẩm độ.",
+      "supported": true
+     },
+     {
+      "claim": "Tạo điều kiện cho vi sinh vật đất hoạt động.",
+      "supported": true
+     },
+     {
+      "claim": "Giảm xói mòn.",
+      "supported": true
+     },
+     {
+      "claim": "Bổ sung phân xanh thông qua lá rụng.",
+      "supported": true
+     },
+     {
+      "claim": "Làm ẩm đất tầng mặt: bộ rễ của cây che bóng tầng cao/trung ăn sâu (50‑70 m, thậm chí 100 m) giúp hút nước từ mạch ngầm.",
+      "supported": true
+     },
+     {
+      "claim": "Trong bối cảnh biến đổi khí hậu, việc trồng cây che bóng (nhất là tầng trung và tầng cao) giúp vườn chè an toàn, tránh cháy lá và chết cây khi nhiệt độ cao.",
+      "supported": true
+     }
+    ],
+    "faithfulness": 1.0,
+    "relevance": 5,
+    "completeness": 5,
+    "comment": "Câu trả lời liệt kê đầy đủ các tác dụng được nêu trong ngữ cảnh, tất cả các mệnh đề đều được hỗ trợ."
+   },
+   "judge_error": null
+  },
+  {
+   "id": "q034",
+   "type": "in_domain",
+   "question": "Bón phân lót trước khi trồng chè gồm những loại nào?",
+   "gate_relevant": true,
+   "answer": "Dựa vào cơ sở tri thức được cung cấp, bón phân lót trước khi trồng chè gồm các loại sau:\n\n1.  **Phân hữu cơ:**\n    *   Phân chuồng hoai mục.\n    *   Phân hữu cơ hoặc hữu cơ vi sinh đạt tiêu chuẩn chất lượng theo khuyến cáo của nhà sản xuất.\n2.  **Phân hóa học:**\n    *   Phân supe lân (hoặc được biểu thị dưới dạng lượng P2O5).\n\n**Lưu ý về liều lượng và cách bón:**\n*   Liều lượng cụ thể tùy theo nguồn tài liệu:\n    *   Nguồn 1: 25 - 30 tấn/ha phân hữu cơ và 0,8 - 1 tấn/ha phân supe lân.\n    *   Nguồn 2: 15–20 tấn phân hữu cơ hoai mục và 95–160 kg P2O5.\n    *   Nguồn 3: 20-30 tấn phân hữu cơ và 100 kg P2O5 cho 1 ha.\n*   Cách bón: Phân được rải, trộn đều vào rãnh hoặc hàng, trộn đều với đất trước khi trồng chè.",
+   "refused": false,
+   "unsupported_numbers": [],
+   "latency_s": 1.12,
+   "judge": {
+    "claims": [
+     {
+      "claim": "Bón phân lót trước khi trồng chè gồm phân hữu cơ và phân hóa học.",
+      "supported": true
+     },
+     {
+      "claim": "Phân hữu cơ bao gồm phân chuồng hoai mục.",
+      "supported": true
+     },
+     {
+      "claim": "Phân hữu cơ bao gồm phân hữu cơ hoặc hữu cơ vi sinh đạt tiêu chuẩn chất lượng theo khuyến cáo của nhà sản xuất.",
+      "supported": true
+     },
+     {
+      "claim": "Phân hóa học là phân supe lân (hoặc được biểu thị dưới dạng lượng P2O5).",
+      "supported": true
+     },
+     {
+      "claim": "Liều lượng: 25 - 30 tấn/ha phân hữu cơ và 0,8 - 1 tấn/ha phân supe lân.",
+      "supported": true
+     },
+     {
+      "claim": "Liều lượng: 15–20 tấn phân hữu cơ hoai mục và 95–160 kg P2O5.",
+      "supported": true
+     },
+     {
+      "claim": "Liều lượng: 20-30 tấn phân hữu cơ và 100 kg P2O5 cho 1 ha.",
+      "supported": true
+     },
+     {
+      "claim": "Cách bón: Phân được rải, trộn đều vào rãnh hoặc hàng, trộn đều với đất trước khi trồng chè.",
+      "supported": true
+     }
+    ],
+    "faithfulness": 1.0,
+    "relevance": 5,
+    "completeness": 5,
+    "comment": "Trả lời đúng, đầy đủ và dựa trên ngữ cảnh."
+   },
+   "judge_error": null
+  },
+  {
+   "id": "q037",
+   "type": "in_domain",
+   "question": "Phương pháp bón phân cho chè kinh doanh nên bón thế nào?",
+   "gate_relevant": true,
+   "answer": "Dựa trên cơ sở tri thức được cung cấp, phương pháp bón phân cho chè kinh doanh được thực hiện như sau:\n\n**1. Kỹ thuật bón:**\n*   Trộn đều phân bón.\n*   Bón theo rạch sâu **15–20 cm**.\n*   Vị trí bón cách gốc **30–40 cm**.\n*   Sau khi bón, lấp đất kín.\n*   Thời điểm bón: Sau khi mưa (khi đất đủ ẩm).\n\n**2. Lịch bón và liều lượng (theo Nguồn 3):**\nTổng lượng NPK chia làm 4 lần trong năm, MgSO4 chia làm 2 lần:\n*   **Lần 1 (tháng 2):** Bón 30% NPK + 60% MgSO4.\n*   **Lần 2 (tháng 5):** Bón 30% NPK + 40% MgSO4.\n*   **Lần 3 (tháng 7):** Bón 25% NPK.\n*   **Lần 4 (tháng 9):** Bón 15% NPK.\n\n**3. Lưu ý quan trọng (theo Nguồn 2):**\n*   **Không bón** phân khoáng trong các tháng mùa khô và lúc trời mưa to.\n*   Tránh bón phân ở vị trí cách dòng sông/mương nước **3-4m**.\n*   Khi có bón phân hữu cơ, nên điều chỉnh tỷ lệ NPK theo **3:1:1** (với lượng 20-25kg N/1 tấn chè búp tươi) kết hợp MgSO4 (50-70kg/ha) và phân hữu cơ vi sinh (2.000-4.000kg/ha).",
+   "refused": false,
+   "unsupported_numbers": [],
+   "latency_s": 1.32,
+   "judge": {
+    "claims": [
+     {
+      "claim": "Trộn đều phân bón.",
+      "supported": true
+     },
+     {
+      "claim": "Bón theo rạch sâu 15–20 cm.",
+      "supported": true
+     },
+     {
+      "claim": "Vị trí bón cách gốc 30–40 cm.",
+      "supported": true
+     },
+     {
+      "claim": "Sau khi bón, lấp đất kín.",
+      "supported": true
+     },
+     {
+      "claim": "Thời điểm bón: Sau khi mưa (khi đất đủ ẩm).",
+      "supported": true
+     },
+     {
+      "claim": "Tổng lượng NPK chia làm 4 lần trong năm, MgSO4 chia làm 2 lần.",
+      "supported": true
+     },
+     {
+      "claim": "Lần 1 (tháng 2): Bón 30% NPK + 60% MgSO4.",
+      "supported": true
+     },
+     {
+      "claim": "Lần 2 (tháng 5): Bón 30% NPK + 40% MgSO4.",
+      "supported": true
+     },
+     {
+      "claim": "Lần 3 (tháng 7): Bón 25% NPK.",
+      "supported": true
+     },
+     {
+      "claim": "Lần 4 (tháng 9): Bón 15% NPK.",
+      "supported": true
+     },
+     {
+      "claim": "Không bón phân khoáng trong các tháng mùa khô và lúc trời mưa to.",
+      "supported": true
+     },
+     {
+      "claim": "Tránh bón phân ở vị trí cách dòng sông/mương nước 3-4m.",
+      "supported": true
+     },
+     {
+      "claim": "Khi có bón phân hữu cơ, nên điều chỉnh tỷ lệ NPK theo 3:1:1 (với lượng 20-25kg N/1 tấn chè búp tươi) kết hợp MgSO4 (50-70kg/ha) và phân hữu cơ vi sinh (2.000-4.000kg/ha).",
+      "supported": true
+     }
+    ],
+    "faithfulness": 1.0,
+    "relevance": 5,
+    "completeness": 3,
+    "comment": "Trả lời đúng câu hỏi và hầu hết thông tin trong ngữ cảnh, nhưng thiếu một số chi tiết về bón hữu cơ định kỳ và liều lượng N cụ thể."
+   },
+   "judge_error": null
+  },
+  {
+   "id": "q040",
+   "type": "in_domain",
+   "question": "Đốn phớt chè để làm gì?",
+   "gate_relevant": true,
+   "answer": "Hiện tại cơ sở tri thức chưa có đủ thông tin để trả lời chính xác câu hỏi này của bạn.\n\nCác tài liệu trong \"CƠ SỞ TRI THỨC\" chỉ mô tả **kỹ thuật thực hiện** (thời vụ, độ cao đốn, chu kỳ) và **điều kiện áp dụng** (ví dụ: đối với nương chè sinh trưởng yếu), nhưng **không nêu rõ mục đích** hay lý do tại sao phải thực hiện đốn phớt.",
+   "refused": false,
+   "unsupported_numbers": [],
+   "latency_s": 0.86,
+   "judge": {
+    "claims": [
+     {
+      "claim": "Cơ sở tri thức hiện tại không có đủ thông tin để trả lời chính xác câu hỏi về mục đích của việc đốn phớt chè.",
+      "supported": true
+     },
+     {
+      "claim": "Các tài liệu trong cơ sở tri thức chỉ mô tả kỹ thuật thực hiện đốn phớt (thời vụ, độ cao đốn, chu kỳ) và các điều kiện áp dụng.",
+      "supported": true
+     },
+     {
+      "claim": "Các tài liệu không nêu rõ mục đích hoặc lý do tại sao phải thực hiện đốn phớt chè.",
+      "supported": true
+     }
+    ],
+    "faithfulness": 1.0,
+    "relevance": 3,
+    "completeness": 5,
+    "comment": "Trả lời đúng việc thiếu thông tin mục đích, nhưng không cung cấp câu trả lời trực tiếp cho câu hỏi."
+   },
+   "judge_error": null
+  },
+  {
+   "id": "q043",
+   "type": "in_domain",
+   "question": "Hái chè trong mùa khô hạn cần chú ý gì?",
+   "gate_relevant": true,
+   "answer": "Dựa trên cơ sở tri thức được cung cấp, khi hái chè trong mùa khô hạn cần tuân thủ các lưu ý sau:\n\n1. **Tuân thủ hệ số lá chừa:** Phải tuyệt đối tuân thủ hệ số lá chừa.\n2. **Đảm bảo chiều cao vết hái:** Vết hái sau phải cao hơn vết hái trước tối thiểu 2 cm.\n3. **Ngừng thu hoạch bằng máy:** Trong thời gian nắng hạn đột biến, phải ngừng thu hoạch chè bằng máy.\n4. **Đối với chè đốn trẻ lại hoặc đốn đau:** Hái chè trên nương đốn trẻ lại hoặc đốn đau được tiến hành như đối với chè kiến thiết cơ bản.",
+   "refused": false,
+   "unsupported_numbers": [],
+   "latency_s": 0.95,
+   "judge": {
+    "claims": [
+     {
+      "claim": "Phải tuyệt đối tuân thủ hệ số lá chừa khi hái chè trong mùa khô hạn.",
+      "supported": true
+     },
+     {
+      "claim": "Vết hái sau phải cao hơn vết hái trước tối thiểu 2 cm.",
+      "supported": true
+     },
+     {
+      "claim": "Trong thời gian nắng hạn đột biến, phải ngừng thu hoạch chè bằng máy.",
+      "supported": true
+     },
+     {
+      "claim": "Hái chè trên nương đốn trẻ lại hoặc đốn đau được tiến hành như đối với chè kiến thiết cơ bản.",
+      "supported": true
+     }
+    ],
+    "faithfulness": 1.0,
+    "relevance": 5,
+    "completeness": 5,
+    "comment": "Trả lời đầy đủ, đúng nguồn, phù hợp câu hỏi."
+   },
+   "judge_error": null
+  },
+  {
+   "id": "q046",
+   "type": "in_domain",
+   "question": "Có được dùng thuốc trừ cỏ cho chè không?",
+   "gate_relevant": true,
+   "answer": "Dựa vào cơ sở tri thức được cung cấp, **không sử dụng thuốc trừ cỏ** để phòng trừ cỏ dại trên nương chè.\n\nCụ thể, tài liệu quy định rõ:\n*   **Không dùng thuốc trừ cỏ:** Hướng dẫn quy định không sử dụng thuốc trừ cỏ trên nương chè.\n*   **Biện pháp thay thế:**\n    *   **Chè kiến thiết cơ bản:** Xới cỏ đảm bảo sạch quanh năm trên hàng chè; chè 1 tuổi nhổ cỏ bằng tay ở gốc để bảo vệ cây, giữa hàng trồng xen cây phân xanh, đậu đỗ.\n    *   **Chè kinh doanh:** Xới sạch cỏ dại và cây giữa hàng hoặc cày sâu 10 cm, đồng thời lấp phân hữu cơ và cành lá già sau khi đốn.\n\n*(Lưu ý: Nguồn 2 nêu nguyên tắc sử dụng thuốc BVTV nói chung, nhưng Nguồn 1 và Nguồn 3 cụ thể hóa cho vấn đề cỏ dại là KHÔNG dùng thuốc trừ cỏ, mà dùng biện pháp cơ học và canh tác.)*",
+   "refused": false,
+   "unsupported_numbers": [],
+   "latency_s": 1.05,
+   "judge": {
+    "claims": [
+     {
+      "claim": "Không sử dụng thuốc trừ cỏ để phòng trừ cỏ dại trên nương chè.",
+      "supported": true
+     },
+     {
+      "claim": "Hướng dẫn quy định không sử dụng thuốc trừ cỏ trên nương chè.",
+      "supported": true
+     },
+     {
+      "claim": "Chè kiến thiết cơ bản: xới cỏ đảm bảo sạch quanh năm trên hàng chè.",
+      "supported": true
+     },
+     {
+      "claim": "Chè kiến thiết cơ bản: chè 1 tuổi nhổ cỏ bằng tay ở gốc để bảo vệ cây.",
+      "supported": true
+     },
+     {
+      "claim": "Chè kiến thiết cơ bản: giữa hàng trồng xen cây phân xanh, đậu đỗ.",
+      "supported": true
+     },
+     {
+      "claim": "Chè kinh doanh: xới sạch cỏ dại và cây giữa hàng hoặc cày sâu 10 cm.",
+      "supported": true
+     },
+     {
+      "claim": "Chè kinh doanh: đồng thời lấp phân hữu cơ và cành lá già sau khi đốn.",
+      "supported": true
+     }
+    ],
+    "faithfulness": 1.0,
+    "relevance": 5,
+    "completeness": 5,
+    "comment": "đáp đúng, đầy đủ"
+   },
+   "judge_error": null
+  },
+  {
+   "id": "q049",
+   "type": "in_domain",
+   "question": "Diệt men chè bằng thùng quay",
+   "gate_relevant": true,
+   "answer": "Dựa vào cơ sở tri thức được cung cấp, quy trình và thông số kỹ thuật cho việc diệt men chè bằng thùng quay như sau:\n\n*   **Thiết bị:** Thùng quay được chế tạo bằng thép không gỉ.\n*   **Lượng chè:** 1,4 - 1,6 kg/mẻ.\n*   **Thời gian:** 2,5 - 3 phút.\n*   **Nhiệt độ thùng sao:** 250 - 260°C.\n*   **Tốc độ quay:** 40 - 45 vòng/phút.\n*   **Chỉ tiêu chất lượng sau diệt men:**\n    *   Thủy phần búp chè: 60 - 62%.\n    *   Đặc điểm cảm quan: Nguyên liệu có mùi thơm, búp chè chín đều, không bị cháy, khét và có màu vàng sáng.",
+   "refused": false,
+   "unsupported_numbers": [],
+   "latency_s": 0.95,
+   "judge": {
+    "claims": [
+     {
+      "claim": "Thiết bị: Thùng quay được chế tạo bằng thép không gỉ.",
+      "supported": true
+     },
+     {
+      "claim": "Lượng chè: 1,4 - 1,6 kg/mẻ.",
+      "supported": true
+     },
+     {
+      "claim": "Thời gian: 2,5 - 3 phút.",
+      "supported": true
+     },
+     {
+      "claim": "Nhiệt độ thùng sao: 250 - 260°C.",
+      "supported": true
+     },
+     {
+      "claim": "Tốc độ quay: 40 - 45 vòng/phút.",
+      "supported": true
+     },
+     {
+      "claim": "Thủy phần búp chè: 60 - 62%.",
+      "supported": true
+     },
+     {
+      "claim": "Nguyên liệu có mùi thơm, búp chè chín đều, không bị cháy, khét và có màu vàng sáng.",
+      "supported": true
+     }
+    ],
+    "faithfulness": 1.0,
+    "relevance": 5,
+    "completeness": 5,
+    "comment": "Đáp đúng, đầy đủ và dựa trên ngữ cảnh."
+   },
+   "judge_error": null
+  },
+  {
+   "id": "q052",
+   "type": "in_domain",
+   "question": "Bảo quản chè búp tươi sau khi hái",
+   "gate_relevant": true,
+   "answer": "Dựa trên cơ sở tri thức được cung cấp, các yêu cầu và kỹ thuật bảo quản chè búp tươi sau khi hái như sau:\n\n**1. Yêu cầu chung trong quá trình thu hái và vận chuyển:**\n*   Không thu hái khi trời mưa hoặc tán chè bị ướt sương.\n*   Không dùng bao đựng hóa chất, thức ăn chăn nuôi để đựng chè.\n*   Không để tạp chất lẫn vào chè.\n*   Không nhét chặt chè trong bao, không làm giập nát búp chè.\n*   Không để chè sau khi hái ngoài trời nắng.\n*   Không đựng chè trong bao kín.\n*   Không để chè bị héo.\n*   Không để lẫn bẩn với vật lạ hoặc tạp chất.\n*   Khẩn trương mang chè đã hái về nơi bảo quản.\n\n**2. Kỹ thuật bảo quản tại nơi tập kết:**\n*   **Vị trí đặt chè:** Không đổ trực tiếp chè xuống nền đất, gạch hoặc xi-măng chưa vệ sinh sạch sẽ. Nên bảo quản chè trên bạt, trên hộc, trong nong hoặc nia.\n*   **Độ dày lớp chè:** Chiều dày lớp chè bảo quản không quá 20 cm.\n*   **Điều kiện môi trường:** Đặt ở nơi râm mát, thoáng mát.\n*   **Chăm sóc trong quá trình bảo quản:** Thường xuyên đảo chè.\n*   **Thời gian bảo quản:**\n    *   Theo Nguồn 2: Thời gian bảo quản không quá **8 giờ**.\n    *   Theo Nguồn 1: Chè búp tươi phải được đưa đến nơi chế biến trong vòng **10 giờ** sau khi hái.\n\n*(Lưu ý: Có sự khác biệt nhỏ về thời gian tối đa giữa hai nguồn tài liệu: 8 giờ và 10 giờ. Bạn nên tuân thủ mức thời gian ngắn hơn (8 giờ) để đảm bảo an toàn chất lượng theo khuyến cáo kỹ thuật chi tiết hơn, hoặc làm theo quy định cụ thể của đơn vị chế biến).*",
+   "refused": false,
+   "unsupported_numbers": [],
+   "latency_s": 1.42,
+   "judge": {
+    "claims": [
+     {
+      "claim": "Không thu hái khi trời mưa hoặc tán chè bị ướt sương.",
+      "supported": true
+     },
+     {
+      "claim": "Không dùng bao đựng hóa chất, thức ăn chăn nuôi để đựng chè.",
+      "supported": true
+     },
+     {
+      "claim": "Không để tạp chất lẫn vào chè.",
+      "supported": true
+     },
+     {
+      "claim": "Không nhét chặt chè trong bao, không làm giập nát búp chè.",
+      "supported": true
+     },
+     {
+      "claim": "Không để chè sau khi hái ngoài trời nắng.",
+      "supported": true
+     },
+     {
+      "claim": "Không đựng chè trong bao kín.",
+      "supported": true
+     },
+     {
+      "claim": "Không để chè bị héo.",
+      "supported": true
+     },
+     {
+      "claim": "Không để lẫn bẩn với vật lạ hoặc tạp chất.",
+      "supported": true
+     },
+     {
+      "claim": "Khẩn trương mang chè đã hái về nơi bảo quản.",
+      "supported": true
+     },
+     {
+      "claim": "Không đổ trực tiếp chè xuống nền đất, gạch hoặc xi-măng chưa vệ sinh sạch sẽ.",
+      "supported": true
+     },
+     {
+      "claim": "Nên bảo quản chè trên bạt, trên hộc, trong nong hoặc nia.",
+      "supported": true
+     },
+     {
+      "claim": "Chiều dày lớp chè bảo quản không quá 20 cm.",
+      "supported": true
+     },
+     {
+      "claim": "Đặt ở nơi râm mát, thoáng mát.",
+      "supported": true
+     },
+     {
+      "claim": "Thường xuyên đảo chè.",
+      "supported": true
+     },
+     {
+      "claim": "Thời gian bảo quản không quá 8 giờ.",
+      "supported": true
+     },
+     {
+      "claim": "Chè búp tươi phải được đưa đến nơi chế biến trong vòng 10 giờ sau khi hái.",
+      "supported": true
+     },
+     {
+      "claim": "Bạn nên tuân thủ mức thời gian ngắn hơn (8 giờ) để đảm bảo an toàn chất lượng.",
+      "supported": false
+     }
+    ],
+    "faithfulness": 0.9411764705882353,
+    "relevance": 5,
+    "completeness": 4,
+    "comment": "Trả lời đầy đủ, hầu hết các mệnh đề dựa trên NGỮ CẢNH; chỉ có lời khuyên tự thêm không được hỗ trợ."
+   },
+   "judge_error": null
+  },
+  {
+   "id": "q055",
+   "type": "in_domain",
+   "question": "Mô hình CSA trồng chè tại Phú Thọ đạt kết quả gì?",
+   "gate_relevant": true,
+   "answer": "Dựa vào cơ sở tri thức được cung cấp, mô hình CSA trồng chè tại Phú Thọ (cụ thể tại Thanh Sơn) đạt được các kết quả chính sau:\n\n**1. Về kỹ thuật và năng suất:**\n*   **Giống chè:** Sử dụng giống Kim Tuyên chất lượng cao với tỷ lệ sống trên 90%.\n*   **Năng suất búp tươi:** Tăng 10-15% so với sản xuất đại trà (ngoài mô hình). Cụ thể:\n    *   Lứa xuân: 0,8 tấn/ha (ngoài mô hình: 0,5 tấn/ha).\n    *   Lứa 2: 1,6 tấn/ha (ngoài mô hình: 1,2 tấn/ha).\n    *   Lứa 3: 2,0 tấn/ha (ngoài mô hình: 1,6 tấn/ha).\n    *   Lứa 4: 2,5 tấn/ha (ngoài mô hình: 2,0-2,2 tấn/ha).\n    *   Lứa 5: 2,4-2,6 tấn/ha (ngoài mô hình: 2,2-2,4 tấn/ha).\n    *   Lứa 6: 2,3-2,5 tấn/ha (ngoài mô hình: 2,1-2,3 tấn/ha).\n*   **Sâu bệnh:** Nương chè trong mô hình chỉ bị hại nhẹ do sâu cánh tơ và rầy xanh (trong khi ngoài mô hình còn bị thêm bệnh khô lá chè).\n\n**2. Về chất lượng chè xanh:**\nKết quả phân tích mẫu từ 15 hộ tham gia cho thấy các chỉ tiêu trung bình:\n*   Chất hòa tan: 40,03%\n*   Tanin: 29,57%\n*   Acid amin tổng số: 2,84%\n*   Hợp chất thơm tổng số: 64,03 ml KMnO4 0,02N/100g\n*   Đường khử: 1,90 mg/100g\n*   Catechin tổng số: 140,25 mg/100g\n*   Cafein: 2,27%\n*   **An toàn thực phẩm:** Đều đạt ngưỡng an toàn về dư lượng thuốc bảo vệ thực vật (BVTV).\n\n**3. Về hiệu quả kinh tế và xã hội:**\n*   **Kinh tế:** Giá chè tăng trên 20%; lợi nhuận tăng trên 10% so với sản xuất thông thường.\n*   **Môi trường:** Giảm ô nhiễm nhờ áp dụng ICM/IPM (Quản lý dịch hại tổng hợp/Quản lý dịch",
+   "refused": false,
+   "unsupported_numbers": [],
+   "latency_s": 1.78,
+   "judge": {
+    "claims": [
+     {
+      "claim": "Mô hình sử dụng giống Kim Tuyên chất lượng cao với tỷ lệ sống trên 90%.",
+      "supported": true
+     },
+     {
+      "claim": "Năng suất búp tươi tăng 10-15% so với sản xuất đại trà.",
+      "supported": true
+     },
+     {
+      "claim": "Lứa xuân năng suất 0,8 tấn/ha (ngoài mô hình 0,5 tấn/ha).",
+      "supported": true
+     },
+     {
+      "claim": "Lứa 2 năng suất 1,6 tấn/ha (ngoài mô hình 1,2 tấn/ha).",
+      "supported": true
+     },
+     {
+      "claim": "Lứa 3 năng suất 2,0 tấn/ha (ngoài mô hình 1,6 tấn/ha).",
+      "supported": true
+     },
+     {
+      "claim": "Lứa 4 năng suất 2,5 tấn/ha (ngoài mô hình 2,0-2,2 tấn/ha).",
+      "supported": true
+     },
+     {
+      "claim": "Lứa 5 năng suất 2,4-2,6 tấn/ha (ngoài mô hình 2,2-2,4 tấn/ha).",
+      "supported": true
+     },
+     {
+      "claim": "Lứa 6 năng suất 2,3-2,5 tấn/ha (ngoài mô hình 2,1-2,3 tấn/ha).",
+      "supported": true
+     },
+     {
+      "claim": "Nương chè trong mô hình chỉ bị hại nhẹ do sâu cánh tơ và rầy xanh.",
+      "supported": true
+     },
+     {
+      "claim": "Hàm lượng chất hòa tan trung bình của chè xanh là 40,03%.",
+      "supported": true
+     },
+     {
+      "claim": "Hàm lượng tanin trung bình của chè xanh là 29,57%.",
+      "supported": true
+     },
+     {
+      "claim": "Hàm lượng acid amin tổng số trung bình là 2,84%.",
+      "supported": true
+     },
+     {
+      "claim": "Hợp chất thơm tổng số trung bình là 64,03 ml KMnO4 0,02N/100g.",
+      "supported": true
+     },
+     {
+      "claim": "Đường khử trung bình là 1,90 mg/100g.",
+      "supported": true
+     },
+     {
+      "claim": "Catechin tổng số trung bình là 140,25 mg/100g.",
+      "supported": true
+     },
+     {
+      "claim": "Caféin trung bình là 2,27%.",
+      "supported": true
+     },
+     {
+      "claim": "Tất cả các chỉ tiêu đều đạt ngưỡng an toàn về dư lượng thuốc bảo vệ thực vật.",
+      "supported": true
+     },
+     {
+      "claim": "Giá chè tăng trên 20% so với sản xuất đại trà.",
+      "supported": true
+     },
+     {
+      "claim": "Lợi nhuận tăng trên 10% so với sản xuất thông thường.",
+      "supported": true
+     },
+     {
+      "claim": "Giảm ô nhiễm nhờ áp dụng ICM/IPM.",
+      "supported": true
+     }
+    ],
+    "faithfulness": 1.0,
+    "relevance": 5,
+    "completeness": 4,
+    "comment": "Câu trả lời bao quát hầu hết các kết quả được nêu trong ngữ cảnh, nhưng chưa đề cập đến một số chi tiết như giảm chi phí quản lý dịch hại 15‑20%."
+   },
+   "judge_error": null
+  },
+  {
+   "id": "q058",
+   "type": "in_domain",
+   "question": "Bộ dữ liệu TeaLeafDiseaseBD gồm những lớp bệnh nào?",
+   "gate_relevant": true,
+   "answer": "Dựa vào cơ sở tri thức được cung cấp, bộ dữ liệu TeaLeafDiseaseBD gồm **bảy lớp**, bao gồm:\n\n1.  Một lớp lá khỏe mạnh.\n2.  Sáu lớp bệnh hoặc đối tượng gây tổn thương trên lá chè, cụ thể là:\n    *   Red Spider\n    *   Brown Blight\n    *   Gray Blight\n    *   Helopeltis\n    *   Algal Leaf Spot\n    *   Red Rust",
+   "refused": false,
+   "unsupported_numbers": [],
+   "latency_s": 0.86,
+   "judge": {
+    "claims": [
+     {
+      "claim": "TeaLeafDiseaseBD gồm bảy lớp",
+      "supported": true
+     },
+     {
+      "claim": "Có một lớp lá khỏe mạnh",
+      "supported": true
+     },
+     {
+      "claim": "Red Spider là một lớp bệnh",
+      "supported": true
+     },
+     {
+      "claim": "Brown Blight là một lớp bệnh",
+      "supported": true
+     },
+     {
+      "claim": "Gray Blight là một lớp bệnh",
+      "supported": true
+     },
+     {
+      "claim": "Helopeltis là một lớp bệnh",
+      "supported": true
+     },
+     {
+      "claim": "Algal Leaf Spot là một lớp bệnh",
+      "supported": true
+     },
+     {
+      "claim": "Red Rust là một lớp bệnh",
+      "supported": true
+     }
+    ],
+    "faithfulness": 1.0,
+    "relevance": 5,
+    "completeness": 5,
+    "comment": "Trả lời đầy đủ, đúng nguồn, phù hợp câu hỏi"
+   },
+   "judge_error": null
+  },
+  {
+   "id": "q061",
+   "type": "in_domain",
+   "question": "Quyết định ban hành hướng dẫn kỹ thuật trồng chè có hiệu lực từ khi nào?",
+   "gate_relevant": true,
+   "answer": "Dựa vào cơ sở tri thức được cung cấp, cụ thể tại Nguồn 3 (Mục: Điều 2, Điều 3), Quyết định ban hành hướng dẫn kỹ thuật trồng chè **có hiệu lực thi hành kể từ ngày ký**.\n\nTài liệu không nêu cụ thể ngày tháng năm ký chính xác của Quyết định mới này, chỉ nêu rõ nó được ban hành kèm theo Quyết định số /QĐ-SNNMT tháng 7 năm 2025 (theo Nguồn 1).",
+   "refused": false,
+   "unsupported_numbers": [],
+   "latency_s": 0.84,
+   "judge": {
+    "claims": [
+     {
+      "claim": "Quyết định ban hành hướng dẫn kỹ thuật trồng chè có hiệu lực thi hành kể từ ngày ký.",
+      "supported": true
+     },
+     {
+      "claim": "Tài liệu không nêu cụ thể ngày tháng năm ký chính xác của Quyết định mới này.",
+      "supported": false
+     },
+     {
+      "claim": "Tài liệu chỉ nêu rõ nó được ban hành kèm theo Quyết định số /QĐ‑SNNMT tháng 7 năm 2025.",
+      "supported": true
+     }
+    ],
+    "faithfulness": 0.6666666666666666,
+    "relevance": 5,
+    "completeness": 5,
+    "comment": "Trả lời đúng câu hỏi, cung cấp thông tin chính và các chi tiết liên quan; các mệnh đề đều được tách rõ."
+   },
+   "judge_error": null
+  },
+  {
+   "id": "q064",
+   "type": "in_domain",
+   "question": "Sâu hại chính trên cây chè",
+   "gate_relevant": true,
+   "answer": "Dựa vào cơ sở tri thức được cung cấp, các đối tượng sâu hại chính trên cây chè bao gồm:\n\n1.  **Sâu chùm** (*Andraca bipunctata Walker*):\n    *   Sống quần tụ 5 - 7 con tạo thành từng chùm.\n    *   Ban ngày quấn lấy nhau trên cành chè, ban đêm tản ra ăn trụi lá, búp chè và có thể gây chết cây.\n\n2.  **Sâu róm** (*Euproctis pseudoconspersa Strand*):\n    *   Thường tập trung ăn lá bánh tẻ và lá già, ít ăn lá non (nhưng khi ăn lá non thì ăn khuyết cả lá).\n    *   Gây hại làm cây chè xơ xác, khả năng phục hồi ra búp chậm.\n    *   Phát sinh 5 - 6 lứa mỗi năm, gây hại nhiều ở các lứa 2, 3 và 4 (từ tháng 6 đến đầu tháng 10).\n\nCơ sở tri thức cũng đề cập đến việc phòng trừ các đối tượng sâu hại nói chung bằng biện pháp quản lý dịch hại tổng hợp (IPM), nhưng chỉ chi tiết về triệu chứng và phòng trừ của hai loài sâu nêu trên.",
+   "refused": false,
+   "unsupported_numbers": [],
+   "latency_s": 1.14,
+   "judge": {
+    "claims": [
+     {
+      "claim": "Sâu chùm (Andraca bipunctata Walker) là sâu hại chính trên cây chè.",
+      "supported": true
+     },
+     {
+      "claim": "Sâu chùm sống quần tụ 5 - 7 con tạo thành từng chùm.",
+      "supported": true
+     },
+     {
+      "claim": "Ban ngày sâu chùm quấn lấy nhau trên cành chè và không hoạt động.",
+      "supported": true
+     },
+     {
+      "claim": "Ban đêm sâu chùm tản ra xung quanh ăn trụi lá, búp chè và có thể gây chết cây.",
+      "supported": true
+     },
+     {
+      "claim": "Sâu róm (Euproctis pseudoconspersa Strand) là sâu hại chính trên cây chè.",
+      "supported": true
+     },
+     {
+      "claim": "Sâu róm thường tập trung ăn lá bánh tẻ và lá già, ít ăn lá non.",
+      "supported": true
+     },
+     {
+      "claim": "Khi ăn lá non, sâu róm ăn khuyết cả lá.",
+      "supported": true
+     },
+     {
+      "claim": "Sâu róm gây hại làm cây chè xơ xác, khả năng phục hồi ra búp chậm.",
+      "supported": true
+     },
+     {
+      "claim": "Sâu róm phát sinh 5 - 6 lứa mỗi năm, gây hại nhiều ở các lứa 2, 3 và 4 (từ tháng 6 đến đầu tháng 10).",
+      "supported": true
+     },
+     {
+      "claim": "Tài liệu cũng đề cập đến việc phòng trừ các đối tượng sâu hại nói chung bằng biện pháp quản lý dịch hại tổng hợp (IPM).",
+      "supported": true
+     }
+    ],
+    "faithfulness": 1.0,
+    "relevance": 5,
+    "completeness": 5,
+    "comment": "Câu trả lời liệt kê đầy đủ các sâu hại được nêu trong ngữ cảnh và các chi tiết liên quan, đáp ứng câu hỏi."
+   },
+   "judge_error": null
+  },
+  {
+   "id": "q079",
+   "type": "in_domain",
+   "question": "Chè trồng được ở độ cao tối đa bao nhiêu mét?",
+   "gate_relevant": true,
+   "answer": "Theo cơ sở tri thức được cung cấp, chè có thể được trồng ở độ cao tối đa khoảng **2.400–3.000 m** ở vùng nhiệt đới.\n\nCụ thể, tài liệu FAO EcoCrop nêu rõ:\n*   Chè có thể trồng ở vùng đất thấp cận nhiệt đới và lên đến khoảng **1.800 m**.\n*   Thậm chí, ở vùng nhiệt đới, chè có thể được trồng ở độ cao **2.400–3.000 m**.",
+   "refused": false,
+   "unsupported_numbers": [],
+   "latency_s": 0.86,
+   "judge": {
+    "claims": [
+     {
+      "claim": "Chè có thể được trồng ở độ cao tối đa khoảng 2.400–3.000 m ở vùng nhiệt đới.",
+      "supported": true
+     },
+     {
+      "claim": "Chè có thể trồng ở vùng đất thấp cận nhiệt đới và lên đến khoảng 1.800 m.",
+      "supported": true
+     },
+     {
+      "claim": "Ở vùng nhiệt đới, chè có thể được trồng ở độ cao 2.400–3.000 m.",
+      "supported": true
+     }
+    ],
+    "faithfulness": 1.0,
+    "relevance": 5,
+    "completeness": 5,
+    "comment": "Trả lời đúng câu hỏi, dựa trên nguồn, đầy đủ thông tin cần thiết."
+   },
+   "judge_error": null
+  },
+  {
+   "id": "q082",
+   "type": "in_domain",
+   "question": "Một tấn chè lấy đi bao nhiêu đạm, lân, kali từ đất?",
+   "gate_relevant": true,
+   "answer": "Theo cơ sở tri thức được cung cấp (Nguồn 1), mỗi tấn chè lấy đi khỏi ruộng khoảng:\n*   **Đạm (N):** 45–60 kg\n*   **Lân (P):** 4–7 kg\n*   **Kali (K):** 20–30 kg",
+   "refused": false,
+   "unsupported_numbers": [],
+   "latency_s": 1.4,
+   "judge": {
+    "claims": [
+     {
+      "claim": "Mỗi tấn chè lấy đi khoảng 45–60 kg đạm (N) từ đất.",
+      "supported": true
+     },
+     {
+      "claim": "Mỗi tấn chè lấy đi khoảng 4–7 kg lân (P) từ đất.",
+      "supported": true
+     },
+     {
+      "claim": "Mỗi tấn chè lấy đi khoảng 20–30 kg kali (K) từ đất.",
+      "supported": true
+     }
+    ],
+    "faithfulness": 1.0,
+    "relevance": 5,
+    "completeness": 5,
+    "comment": "đáp đúng, đầy đủ"
+   },
+   "judge_error": null
+  },
+  {
+   "id": "q065",
+   "type": "out_of_domain",
+   "question": "Cách sửa xe máy bị chết máy",
+   "gate_relevant": false,
+   "answer": "Hiện tại cơ sở tri thức chưa tìm thấy nguồn thông tin đủ phù hợp để giải đáp chính xác câu hỏi này. Bạn có thể diễn đạt lại, hoặc hỏi về kỹ thuật trồng, chăm sóc, bón phân, đốn hái, sâu bệnh hại và chế biến chè.",
+   "refused": true,
+   "unsupported_numbers": [],
+   "latency_s": 0.03,
+   "judge": null,
+   "judge_error": null
+  },
+  {
+   "id": "q066",
+   "type": "out_of_domain",
+   "question": "Giá Bitcoin hôm nay là bao nhiêu?",
+   "gate_relevant": false,
+   "answer": "Hiện tại cơ sở tri thức chưa tìm thấy nguồn thông tin đủ phù hợp để giải đáp chính xác câu hỏi này. Bạn có thể diễn đạt lại, hoặc hỏi về kỹ thuật trồng, chăm sóc, bón phân, đốn hái, sâu bệnh hại và chế biến chè.",
+   "refused": true,
+   "unsupported_numbers": [],
+   "latency_s": 0.04,
+   "judge": null,
+   "judge_error": null
+  },
+  {
+   "id": "q067",
+   "type": "out_of_domain",
+   "question": "Công thức nấu phở bò",
+   "gate_relevant": false,
+   "answer": "Hiện tại cơ sở tri thức chưa tìm thấy nguồn thông tin đủ phù hợp để giải đáp chính xác câu hỏi này. Bạn có thể diễn đạt lại, hoặc hỏi về kỹ thuật trồng, chăm sóc, bón phân, đốn hái, sâu bệnh hại và chế biến chè.",
+   "refused": true,
+   "unsupported_numbers": [],
+   "latency_s": 0.03,
+   "judge": null,
+   "judge_error": null
+  },
+  {
+   "id": "q068",
+   "type": "out_of_domain",
+   "question": "Ai là tổng thống Mỹ hiện tại?",
+   "gate_relevant": false,
+   "answer": "Hiện tại cơ sở tri thức chưa tìm thấy nguồn thông tin đủ phù hợp để giải đáp chính xác câu hỏi này. Bạn có thể diễn đạt lại, hoặc hỏi về kỹ thuật trồng, chăm sóc, bón phân, đốn hái, sâu bệnh hại và chế biến chè.",
+   "refused": true,
+   "unsupported_numbers": [],
+   "latency_s": 0.04,
+   "judge": null,
+   "judge_error": null
+  },
+  {
+   "id": "q069",
+   "type": "out_of_domain",
+   "question": "Kỹ thuật ghép cành cây sầu riêng",
+   "gate_relevant": false,
+   "answer": "Hiện tại cơ sở tri thức chưa tìm thấy nguồn thông tin đủ phù hợp để giải đáp chính xác câu hỏi này. Bạn có thể diễn đạt lại, hoặc hỏi về kỹ thuật trồng, chăm sóc, bón phân, đốn hái, sâu bệnh hại và chế biến chè.",
+   "refused": true,
+   "unsupported_numbers": [],
+   "latency_s": 0.03,
+   "judge": null,
+   "judge_error": null
+  },
+  {
+   "id": "q070",
+   "type": "out_of_domain",
+   "question": "Cách trị mụn trứng cá",
+   "gate_relevant": false,
+   "answer": "Hiện tại cơ sở tri thức chưa tìm thấy nguồn thông tin đủ phù hợp để giải đáp chính xác câu hỏi này. Bạn có thể diễn đạt lại, hoặc hỏi về kỹ thuật trồng, chăm sóc, bón phân, đốn hái, sâu bệnh hại và chế biến chè.",
+   "refused": true,
+   "unsupported_numbers": [],
+   "latency_s": 0.03,
+   "judge": null,
+   "judge_error": null
+  },
+  {
+   "id": "q071",
+   "type": "out_of_domain",
+   "question": "Lịch thi đấu bóng đá Ngoại hạng Anh",
+   "gate_relevant": false,
+   "answer": "Hiện tại cơ sở tri thức chưa tìm thấy nguồn thông tin đủ phù hợp để giải đáp chính xác câu hỏi này. Bạn có thể diễn đạt lại, hoặc hỏi về kỹ thuật trồng, chăm sóc, bón phân, đốn hái, sâu bệnh hại và chế biến chè.",
+   "refused": true,
+   "unsupported_numbers": [],
+   "latency_s": 0.03,
+   "judge": null,
+   "judge_error": null
+  },
+  {
+   "id": "q072",
+   "type": "out_of_domain",
+   "question": "Cách cài đặt Windows 11",
+   "gate_relevant": false,
+   "answer": "Hiện tại cơ sở tri thức chưa tìm thấy nguồn thông tin đủ phù hợp để giải đáp chính xác câu hỏi này. Bạn có thể diễn đạt lại, hoặc hỏi về kỹ thuật trồng, chăm sóc, bón phân, đốn hái, sâu bệnh hại và chế biến chè.",
+   "refused": true,
+   "unsupported_numbers": [],
+   "latency_s": 0.03,
+   "judge": null,
+   "judge_error": null
+  },
+  {
+   "id": "q073",
+   "type": "knowledge_gap",
+   "question": "Tại sao lá chè bị vàng?",
+   "gate_relevant": false,
+   "answer": "Hiện tại cơ sở tri thức chưa tìm thấy nguồn thông tin đủ phù hợp để giải đáp chính xác câu hỏi này. Bạn có thể diễn đạt lại, hoặc hỏi về kỹ thuật trồng, chăm sóc, bón phân, đốn hái, sâu bệnh hại và chế biến chè.",
+   "refused": true,
+   "unsupported_numbers": [],
+   "latency_s": 0.03,
+   "judge": null,
+   "judge_error": null
+  },
+  {
+   "id": "q074",
+   "type": "knowledge_gap",
+   "question": "Cách pha trà ô long ngon nhất",
+   "gate_relevant": false,
+   "answer": "Hiện tại cơ sở tri thức chưa tìm thấy nguồn thông tin đủ phù hợp để giải đáp chính xác câu hỏi này. Bạn có thể diễn đạt lại, hoặc hỏi về kỹ thuật trồng, chăm sóc, bón phân, đốn hái, sâu bệnh hại và chế biến chè.",
+   "refused": true,
+   "unsupported_numbers": [],
+   "latency_s": 0.04,
+   "judge": null,
+   "judge_error": null
+  },
+  {
+   "id": "q075",
+   "type": "knowledge_gap",
+   "question": "Giá chè búp tươi hôm nay ở Thái Nguyên",
+   "gate_relevant": false,
+   "answer": "Hiện tại cơ sở tri thức chưa tìm thấy nguồn thông tin đủ phù hợp để giải đáp chính xác câu hỏi này. Bạn có thể diễn đạt lại, hoặc hỏi về kỹ thuật trồng, chăm sóc, bón phân, đốn hái, sâu bệnh hại và chế biến chè.",
+   "refused": true,
+   "unsupported_numbers": [],
+   "latency_s": 0.04,
+   "judge": null,
+   "judge_error": null
+  },
+  {
+   "id": "q076",
+   "type": "knowledge_gap",
+   "question": "Công dụng của trà xanh với sức khỏe",
+   "gate_relevant": false,
+   "answer": "Hiện tại cơ sở tri thức chưa tìm thấy nguồn thông tin đủ phù hợp để giải đáp chính xác câu hỏi này. Bạn có thể diễn đạt lại, hoặc hỏi về kỹ thuật trồng, chăm sóc, bón phân, đốn hái, sâu bệnh hại và chế biến chè.",
+   "refused": true,
+   "unsupported_numbers": [],
+   "latency_s": 0.04,
+   "judge": null,
+   "judge_error": null
+  }
+ ]
+}

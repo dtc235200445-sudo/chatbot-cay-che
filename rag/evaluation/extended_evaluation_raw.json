@@ -1,0 +1,292 @@
+{
+  "label_ambiguity": {
+    "n": 928,
+    "another_chunk_covers": 77
+  },
+  "relaxed": {
+    "all-MiniLM-L6-v2": {
+      "strict_hit3": 218,
+      "relaxed_hit3": 218,
+      "strict_hit1": 125,
+      "relaxed_hit1": 126,
+      "n": 928
+    },
+    "paraphrase-multilingual-MiniLM": {
+      "strict_hit3": 279,
+      "relaxed_hit3": 283,
+      "strict_hit1": 164,
+      "relaxed_hit1": 167,
+      "n": 928
+    },
+    "bkai dense": {
+      "strict_hit3": 815,
+      "relaxed_hit3": 819,
+      "strict_hit1": 651,
+      "relaxed_hit1": 664,
+      "n": 928
+    },
+    "BM25 tiếng Việt": {
+      "strict_hit3": 911,
+      "relaxed_hit3": 911,
+      "strict_hit1": 859,
+      "relaxed_hit1": 859,
+      "n": 928
+    },
+    "Tea AI hybrid": {
+      "strict_hit3": 920,
+      "relaxed_hit3": 920,
+      "strict_hit1": 862,
+      "relaxed_hit1": 862,
+      "n": 928
+    }
+  },
+  "hand": {
+    "all-MiniLM-L6-v2": {
+      "hit@1": 0.3333333333333333,
+      "hit@3": 0.4722222222222222,
+      "hit@5": 0.5138888888888888,
+      "mrr": 0.4048611111111111,
+      "ndcg@3": 0.30648249802839733,
+      "precision@3": 0.20833333333333334
+    },
+    "paraphrase-multilingual-MiniLM": {
+      "hit@1": 0.5138888888888888,
+      "hit@3": 0.7083333333333334,
+      "hit@5": 0.75,
+      "mrr": 0.6092592592592593,
+      "ndcg@3": 0.49247481112458247,
+      "precision@3": 0.33796296296296297
+    },
+    "bkai dense": {
+      "hit@1": 0.8472222222222222,
+      "hit@3": 0.9305555555555556,
+      "hit@5": 0.9583333333333334,
+      "mrr": 0.8905092592592592,
+      "ndcg@3": 0.7819648323983853,
+      "precision@3": 0.5185185185185185
+    },
+    "BM25 tiếng Việt": {
+      "hit@1": 0.8888888888888888,
+      "hit@3": 0.9861111111111112,
+      "hit@5": 0.9861111111111112,
+      "mrr": 0.9328703703703705,
+      "ndcg@3": 0.8232199897854386,
+      "precision@3": 0.5555555555555556
+    },
+    "Tea AI hybrid": {
+      "hit@1": 0.9166666666666666,
+      "hit@3": 0.9861111111111112,
+      "hit@5": 1.0,
+      "mrr": 0.949537037037037,
+      "ndcg@3": 0.8627615768652961,
+      "precision@3": 0.5925925925925926
+    }
+  },
+  "hand_n": 72,
+  "shifted": {
+    "summary": {
+      "model": "openai/gpt-oss-20b",
+      "n_chunks": 91,
+      "n_generated": 182,
+      "n_kept": 112,
+      "max_overlap": 0.5,
+      "mean_overlap_original_928": 0.322,
+      "mean_overlap_generated": 0.474,
+      "mean_overlap_kept": 0.328
+    },
+    "sets": {
+      "trùng từ ≤ 0.35": {
+        "n": 60,
+        "mean_overlap": 0.22463333333333332,
+        "n_chunks": 43,
+        "per_system": {
+          "all-MiniLM-L6-v2": {
+            "hit1": 3,
+            "hit3": 4,
+            "hit5": 6,
+            "mrr": 0.06583333333333334
+          },
+          "paraphrase-multilingual-MiniLM": {
+            "hit1": 6,
+            "hit3": 15,
+            "hit5": 19,
+            "mrr": 0.1852777777777778
+          },
+          "bkai dense": {
+            "hit1": 10,
+            "hit3": 22,
+            "hit5": 26,
+            "mrr": 0.26944444444444443
+          },
+          "BM25 tiếng Việt": {
+            "hit1": 8,
+            "hit3": 19,
+            "hit5": 23,
+            "mrr": 0.22694444444444442
+          },
+          "Tea AI hybrid": {
+            "hit1": 13,
+            "hit3": 20,
+            "hit5": 27,
+            "mrr": 0.29055555555555557
+          }
+        }
+      },
+      "trùng từ ≤ 0.20 (rất lệch)": {
+        "n": 24,
+        "mean_overlap": 0.10258333333333332,
+        "n_chunks": 18,
+        "per_system": {
+          "all-MiniLM-L6-v2": {
+            "hit1": 0,
+            "hit3": 0,
+            "hit5": 0,
+            "mrr": 0.0
+          },
+          "paraphrase-multilingual-MiniLM": {
+            "hit1": 4,
+            "hit3": 6,
+            "hit5": 7,
+            "mrr": 0.21666666666666667
+          },
+          "bkai dense": {
+            "hit1": 2,
+            "hit3": 8,
+            "hit5": 10,
+            "mrr": 0.20138888888888887
+          },
+          "BM25 tiếng Việt": {
+            "hit1": 0,
+            "hit3": 2,
+            "hit5": 2,
+            "mrr": 0.03472222222222222
+          },
+          "Tea AI hybrid": {
+            "hit1": 2,
+            "hit3": 3,
+            "hit5": 6,
+            "mrr": 0.13125
+          }
+        }
+      }
+    }
+  },
+  "typo": {
+    "gõ nhầm (có dấu)": {
+      "all-MiniLM-L6-v2": {
+        "hit3": 138,
+        "n": 928
+      },
+      "paraphrase-multilingual-MiniLM": {
+        "hit3": 165,
+        "n": 928
+      },
+      "bkai dense": {
+        "hit3": 605,
+        "n": 928
+      },
+      "BM25 tiếng Việt": {
+        "hit3": 819,
+        "n": 928
+      },
+      "Tea AI hybrid": {
+        "hit3": 854,
+        "n": 928
+      }
+    },
+    "gõ nhầm + không dấu": {
+      "all-MiniLM-L6-v2": {
+        "hit3": 149,
+        "n": 928
+      },
+      "paraphrase-multilingual-MiniLM": {
+        "hit3": 32,
+        "n": 928
+      },
+      "bkai dense": {
+        "hit3": 344,
+        "n": 928
+      },
+      "BM25 tiếng Việt": {
+        "hit3": 810,
+        "n": 928
+      },
+      "Tea AI hybrid": {
+        "hit3": 802,
+        "n": 928
+      }
+    }
+  },
+  "latency_ms": {
+    "all-MiniLM-L6-v2": {
+      "median": 13.201050000134273,
+      "p95": 19.849329999897222
+    },
+    "paraphrase-multilingual-MiniLM": {
+      "median": 21.931799999947543,
+      "p95": 27.975470000069436
+    },
+    "bkai dense": {
+      "median": 53.550399999721776,
+      "p95": 68.2530499997938
+    },
+    "BM25 tiếng Việt": {
+      "median": 57.338049999998475,
+      "p95": 68.61031000005369
+    },
+    "Tea AI hybrid": {
+      "median": 57.62305000007473,
+      "p95": 67.67706500008899
+    }
+  },
+  "chunking": {
+    "gốc (theo mục, ~95 từ/chunk)|paraphrase-multilingual-MiniLM": {
+      "n_chunks": 171,
+      "relaxed_hit3": 283,
+      "n": 928,
+      "context_words": 352.7510775862069
+    },
+    "gốc (theo mục, ~95 từ/chunk)|Tea AI hybrid": {
+      "n_chunks": 171,
+      "relaxed_hit3": 920,
+      "n": 928,
+      "context_words": 302.36422413793105
+    },
+    "cố định 50 từ (chồng 10)|paraphrase-multilingual-MiniLM": {
+      "n_chunks": 407,
+      "relaxed_hit3": 139,
+      "n": 928,
+      "context_words": 149.53879310344828
+    },
+    "cố định 50 từ (chồng 10)|Tea AI hybrid": {
+      "n_chunks": 407,
+      "relaxed_hit3": 393,
+      "n": 928,
+      "context_words": 149.38469827586206
+    },
+    "cố định 100 từ (chồng 20)|paraphrase-multilingual-MiniLM": {
+      "n_chunks": 205,
+      "relaxed_hit3": 225,
+      "n": 928,
+      "context_words": 290.54418103448273
+    },
+    "cố định 100 từ (chồng 20)|Tea AI hybrid": {
+      "n_chunks": 205,
+      "relaxed_hit3": 564,
+      "n": 928,
+      "context_words": 293.20043103448273
+    },
+    "cố định 200 từ (chồng 40)|paraphrase-multilingual-MiniLM": {
+      "n_chunks": 103,
+      "relaxed_hit3": 237,
+      "n": 928,
+      "context_words": 563.1918103448276
+    },
+    "cố định 200 từ (chồng 40)|Tea AI hybrid": {
+      "n_chunks": 103,
+      "relaxed_hit3": 621,
+      "n": 928,
+      "context_words": 576.4525862068965
+    }
+  }
+}

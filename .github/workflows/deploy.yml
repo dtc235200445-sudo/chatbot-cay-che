@@ -1,0 +1,103 @@
+# Tự động kiểm thử và deploy mỗi khi push lên nhánh main.
+#   test            : chạy toàn bộ test backend + RAG (lỗi thì dừng, không deploy)
+#   deploy-backend  : đẩy backend lên Hugging Face Space (Space tự build Docker)
+#   deploy-frontend : build giao diện và deploy lên Cloudflare Workers
+#
+# Cần khai báo trong GitHub: Settings -> Secrets and variables -> Actions (xem docs/DEPLOY.md)
+#   Variables: HF_SPACE, BACKEND_URL, FRONTEND_URL
+#   Secrets  : HF_TOKEN, GROQ_API_KEY, DATABASE_URL, SECRET_KEY, CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID
+name: Test và deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Cài thư viện (PyTorch bản CPU)
+        run: |
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -r requirements.txt
+
+      - name: Dùng lại model embedding đã tải ở lần chạy trước
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-bkai-vietnamese-bi-encoder-v1
+
+      - name: Tạo chỉ mục vector từ data/knowledge_base.json
+        run: python -m rag.ingest
+
+      - name: Chạy test
+        run: python -m pytest backend/tests rag/tests -q
+
+  deploy-backend:
+    needs: test
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main' && vars.HF_SPACE != ''
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Đẩy backend lên Hugging Face Space
+        run: |
+          pip install huggingface_hub
+          python scripts/deploy/push_to_hf_space.py
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_SPACE: ${{ vars.HF_SPACE }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          SECRET_KEY: ${{ secrets.SECRET_KEY }}
+          CORS_ORIGINS: ${{ vars.FRONTEND_URL }}
+          LLM_FALLBACKS: ${{ vars.LLM_FALLBACKS }}
+
+  deploy-frontend:
+    needs: test
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main' && vars.BACKEND_URL != ''
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Cài thư viện
+        run: npm ci
+
+      - name: Build giao diện (trỏ tới backend trên Hugging Face)
+        run: npm run build
+        env:
+          VITE_API_BASE_URL: ${{ vars.BACKEND_URL }}
+
+      - name: Deploy lên Cloudflare Workers
+        run: npx wrangler deploy --name tea-scholar
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

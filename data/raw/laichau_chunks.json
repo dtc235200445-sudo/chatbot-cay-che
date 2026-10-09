@@ -1,0 +1,737 @@
+[
+  {
+    "chunk_id": "laichau_0001",
+    "title": "Quyết định ban hành hướng dẫn kỹ thuật trồng và chăm sóc cây chè",
+    "category": "document_overview",
+    "disease": null,
+    "text": "Sở Nông nghiệp và Môi trường tỉnh Lai Châu ban hành Quyết định về việc hướng dẫn kỹ thuật trồng và chăm sóc cây chè trên địa bàn tỉnh Lai Châu. Hướng dẫn được ban hành kèm theo Quyết định số /QĐ-SNNMT tháng 7 năm 2025. Nội dung hướng dẫn bao gồm điều kiện sinh thái, kỹ thuật trồng, kỹ thuật chăm sóc, phòng trừ cỏ dại, phòng trừ sâu bệnh hại, kỹ thuật đốn, thu hoạch và bảo quản chè búp tươi.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 1,
+      "pages": [
+        1,
+        3,
+        9
+      ]
+    }
+  },
+  {
+    "chunk_id": "laichau_0002",
+    "title": "Căn cứ ban hành hướng dẫn kỹ thuật trồng chè",
+    "category": "legal_basis",
+    "disease": null,
+    "text": "Hướng dẫn được xây dựng căn cứ Quyết định số 07/2025/QĐ-UBND ngày 28/02/2025 của UBND tỉnh Lai Châu; TCVN 10684-6:2018 về cây công nghiệp lâu năm, tiêu chuẩn cây giống và hạt giống phần 6: chè; Quyết định số 49/2024/QĐ-UBND ngày 09/10/2024; các quyết định công nhận tiến bộ kỹ thuật về quy trình trồng thâm canh chè Shan và một số giống chè nhập nội; Công văn số 105/TT-CCN ngày 26/01/2022 về gói kỹ thuật canh tác thích ứng với biến đổi khí hậu; và Tài liệu hướng dẫn sản xuất chè bền vững do Trung tâm Khuyến nông quốc gia biên soạn, Nhà Xuất bản Nông nghiệp Hà Nội xuất bản năm 2023.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 1,
+      "section": "Căn cứ"
+    }
+  },
+  {
+    "chunk_id": "laichau_0003",
+    "title": "Hiệu lực và phạm vi áp dụng của quyết định",
+    "category": "legal_information",
+    "disease": null,
+    "text": "Quyết định có hiệu lực thi hành kể từ ngày ký và thay thế các Quyết định số 456/QĐ-SNN ngày 15/12/2015 về quy trình trồng và chăm sóc cây chè Shan giâm cành, số 238/QĐ-SNN ngày 06/6/2016 về quy trình trồng và chăm sóc cây chè Kim tuyên giâm cành, và số 134/QĐ-SNN ngày 31/3/2017 về quy trình trồng và chăm sóc cây chè PH8, PH9 trên địa bàn tỉnh Lai Châu. Chánh Văn phòng Sở, các phòng và đơn vị trực thuộc Sở, UBND các xã, phường cùng tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 2,
+      "section": "Điều 2, Điều 3"
+    }
+  },
+  {
+    "chunk_id": "laichau_0004",
+    "title": "Điều kiện sinh thái – Lượng mưa và độ ẩm",
+    "category": "ecological_conditions",
+    "disease": null,
+    "text": "Chè có nguồn gốc Á nhiệt đới nên đòi hỏi lượng mưa hàng năm lớn từ 1.500 đến 2.000 mm. Độ ẩm không khí là yếu tố quan trọng quyết định năng suất của cây chè; độ ẩm phù hợp giúp tốc độ ra búp mạnh, mật độ búp cao và trọng lượng búp lớn. Độ ẩm không khí từ 75–80% và độ ẩm đất 80–85% phù hợp cho cây chè sinh trưởng và phát triển tốt.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 3,
+      "section": "I.1. Khí hậu"
+    }
+  },
+  {
+    "chunk_id": "laichau_0005",
+    "title": "Điều kiện sinh thái – Nhiệt độ và ánh sáng",
+    "category": "ecological_conditions",
+    "disease": null,
+    "text": "Nhiệt độ không khí ảnh hưởng lớn đến tốc độ ra búp, mật độ búp, trọng lượng búp và thời gian cho búp thu hoạch. Chè sinh trưởng tốt ở nhiệt độ 15–20°C và trong quá trình sinh trưởng yêu cầu tổng lượng tích ôn trong năm khoảng 3.500–4.000°C. Cây chè thích hợp ánh sáng tán xạ và cần có cây che bóng để sinh trưởng tốt.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 3,
+      "section": "I.1. Khí hậu"
+    }
+  },
+  {
+    "chunk_id": "laichau_0006",
+    "title": "Điều kiện đất đai phù hợp cho cây chè",
+    "category": "soil_conditions",
+    "disease": null,
+    "text": "Đất trồng chè cần có tầng dày canh tác từ 50 cm trở lên và kết cấu tơi xốp. Độ sâu mực nước ngầm trên 1 m. Nên chọn những lô đất có độ dốc bình quân không quá 25°. Độ pH thích hợp cho cây chè là 4–6 và hàm lượng mùn tổng số phải lớn hơn 2,0%.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 3,
+      "section": "I.2. Điều kiện đất đai"
+    }
+  },
+  {
+    "chunk_id": "laichau_0007",
+    "title": "Thiết kế đồi và hàng chè theo độ dốc",
+    "category": "planting_design",
+    "disease": null,
+    "text": "Thiết kế từng đồi phải nằm trong thiết kế tổng thể chung toàn vùng. Nơi đồi có độ dốc bình quân từ 6° trở xuống, cục bộ có thể tới 8°, thiết kế hàng chè thẳng theo hàng dài nhất, song song với đường bình độ chính, hàng cụt xếp ở bìa lô. Nơi đồi có độ dốc bình quân trên 6°, thiết kế hàng theo đường đồng mức, hàng cụt xếp xen kẽ và tập trung thành nhóm số chẵn.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 3,
+      "section": "II.1. Thiết kế đồi, hàng chè"
+    }
+  },
+  {
+    "chunk_id": "laichau_0008",
+    "title": "Làm đất và đào rãnh trồng chè",
+    "category": "soil_preparation",
+    "disease": null,
+    "text": "Những vùng bằng phẳng có quy mô diện tích lớn áp dụng kỹ thuật bừa san và cày sâu toàn bộ bề mặt với độ sâu 20–25 cm. Trường hợp không cày toàn bộ bề mặt phải đào rãnh trồng. Rãnh trồng sâu 40–45 cm, miệng rộng 50–60 cm và đáy rộng 30–40 cm. Đất mặt được lấp xuống dưới, đất cái lấp trên cách mặt đất 5–10 cm.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 4,
+      "section": "II.2. Làm đất"
+    }
+  },
+  {
+    "chunk_id": "laichau_0009",
+    "title": "Thời điểm làm đất và cải tạo đất mới khai hoang",
+    "category": "soil_preparation",
+    "disease": null,
+    "text": "Tùy điều kiện thực tế, thời gian làm đất tập trung từ đầu mùa khô, khi lượng mưa dưới 150 mm/tháng, để tránh xói mòn. Đối với đất mới khai hoang ít mùn hoặc đất phục hóa, nên trồng một vụ các cây họ đậu để cải tạo đất trước khi trồng chè.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 4,
+      "section": "II.2. Làm đất"
+    }
+  },
+  {
+    "chunk_id": "laichau_0010",
+    "title": "Tiêu chuẩn chung của cây chè giâm cành",
+    "category": "planting_material",
+    "disease": null,
+    "text": "Cây chè giâm cành phải sinh trưởng khỏe, thân cây thẳng và cứng cáp, mức hóa nâu thân cây từ 50% trở lên, bầu nguyên vẹn, đã được huấn luyện từ 10–15 ngày, có từ 8 lá thật trở lên, sạch sâu bệnh và phải được ngắt bỏ hết nụ hoa.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 4,
+      "section": "II.3. Tiêu chuẩn giống"
+    }
+  },
+  {
+    "chunk_id": "laichau_0011",
+    "title": "Tiêu chuẩn giống chè nhóm 1",
+    "category": "planting_material",
+    "disease": null,
+    "text": "Giống chè nhóm 1 gồm các giống thuộc thứ chè Shan (Camellia sinensis var. shan) và Assamica (Camellia sinensis var. assamica), cây sinh trưởng khỏe, kiểu cây gỗ hoặc bán gỗ như PH1, PH11, PH12, PH14, Chất Tiền và Tham Vè. Đường kính thân từ 0,30 cm trở lên; chiều cao cây từ 25–34 cm tính từ mặt bầu; tuổi cây từ 10–12 tháng kể từ khi cắm hom vào bầu.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 4,
+      "section": "II.3. Tiêu chuẩn giống",
+      "group": 1
+    }
+  },
+  {
+    "chunk_id": "laichau_0012",
+    "title": "Tiêu chuẩn giống chè nhóm 2",
+    "category": "planting_material",
+    "disease": null,
+    "text": "Giống chè nhóm 2 gồm các giống thuộc thứ chè Trung Quốc lá to (Camellia sinensis var. macrophylla), chè lai, cây sinh trưởng trung bình, kiểu cây bán gỗ như LDP1, LDP2, PH8, PH9, TRI777 và Bát tiên. Đường kính thân từ 0,25 cm trở lên; chiều cao cây từ 25–29 cm tính từ mặt bầu; tuổi cây từ 8–12 tháng kể từ khi cắm hom vào bầu.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 4,
+      "section": "II.3. Tiêu chuẩn giống",
+      "group": 2
+    }
+  },
+  {
+    "chunk_id": "laichau_0013",
+    "title": "Tiêu chuẩn giống chè nhóm 3",
+    "category": "planting_material",
+    "disease": null,
+    "text": "Giống chè nhóm 3 gồm các giống thuộc thứ chè Trung Quốc lá nhỏ (Camellia sinensis var. microphylla), chè lai, kiểu cây bụi như Kim Tuyên, Thuý Ngọc, Phúc Vân Tiên, Hùng Đỉnh Bạch, PT95 và Keo Am Tích. Đường kính thân từ 0,20 cm trở lên; chiều cao cây từ 20–30 cm tính từ mặt bầu; tuổi cây từ 8–12 tháng kể từ khi cắm hom vào bầu.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 4,
+      "section": "II.3. Tiêu chuẩn giống",
+      "group": 3
+    }
+  },
+  {
+    "chunk_id": "laichau_0014",
+    "title": "Tiêu chuẩn chè Shan nhân giống bằng hạt",
+    "category": "planting_material",
+    "disease": null,
+    "text": "Đối với chè Shan nhân giống bằng hạt, cây giống cần có đường kính thân từ 0,6 cm trở lên, chiều cao cây 40–45 cm và có 10–12 lá thật. Tuổi cây từ 10–12 tháng. Vỏ phía gốc màu đỏ nâu, phía ngọn xanh thẫm; lá chè to, dày, xanh đậm, bóng láng và không có nụ hoa.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 4,
+      "section": "II.3. Tiêu chuẩn giống"
+    }
+  },
+  {
+    "chunk_id": "laichau_0015",
+    "title": "Thời vụ trồng chè",
+    "category": "planting_time",
+    "disease": null,
+    "text": "Thời vụ trồng chè được bố trí tùy tình hình thời tiết hàng năm. Tốt nhất trồng trong mùa mưa và kết thúc thời vụ trước mùa khô để đảm bảo tỷ lệ sống của cây trồng.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 4,
+      "section": "II.4. Thời vụ"
+    }
+  },
+  {
+    "chunk_id": "laichau_0016",
+    "title": "Mật độ và khoảng cách trồng chè Shan",
+    "category": "planting_density",
+    "disease": null,
+    "text": "Đối với chè Shan trên đất dốc lớn hơn 15°, mật độ trồng từ 10.000–13.000 cây/ha, khoảng cách hàng cách hàng 1,5 m và cây cách cây từ 0,5–0,67 m. Trên đất dốc nhỏ hơn hoặc bằng 15°, mật độ trồng từ 13.000–15.000 cây/ha, khoảng cách hàng cách hàng 1,5 m và cây cách cây từ 0,44–0,5 m.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 5,
+      "section": "II.5. Mật độ, khoảng cách trồng",
+      "variety": "Shan"
+    }
+  },
+  {
+    "chunk_id": "laichau_0017",
+    "title": "Mật độ và khoảng cách trồng giống chè mới nhập nội, lai tạo",
+    "category": "planting_density",
+    "disease": null,
+    "text": "Đối với các giống chè mới nhập nội, lai tạo trên đất dốc lớn hơn 15°, mật độ trồng từ 16.000–18.000 cây/ha, khoảng cách hàng cách hàng 1,4 m và cây cách cây từ 0,39–0,44 m. Trên đất dốc nhỏ hơn hoặc bằng 15°, mật độ trồng từ 20.000–22.000 cây/ha, khoảng cách hàng cách hàng 1,4 m và cây cách cây từ 0,32–0,36 m.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 5,
+      "section": "II.5. Mật độ, khoảng cách trồng"
+    }
+  },
+  {
+    "chunk_id": "laichau_0018",
+    "title": "Cách trồng và bảo vệ cây chè sau khi trồng",
+    "category": "planting_method",
+    "disease": null,
+    "text": "Khi trồng, đặt bầu vào hố rạch, bỏ túi bầu, lấp đất và nén đất đều xung quanh bầu, đặt mầm cây theo một hướng xuôi chiều gió chính. Sau khi trồng, tủ cỏ hoặc rác hai bên hàng chè hay hốc trồng bằng xác thực vật không có khả năng tái sinh. Tưới khi có điều kiện và rào xung quanh khu vực trồng để bảo vệ cây khỏi gia súc phá hại.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 5,
+      "section": "II.5. Cách trồng"
+    }
+  },
+  {
+    "chunk_id": "laichau_0019",
+    "title": "Trồng cây phân xanh để cải tạo đất",
+    "category": "soil_management",
+    "disease": null,
+    "text": "Cây phân xanh và các cây trồng có khả năng cải tạo đất, làm phân bón giúp tăng chất dinh dưỡng cho cây chè; tốt nhất là các cây họ đậu. Thời vụ gieo từ tháng 1–4 hàng năm, ngay sau khi làm đất trồng chè. Cây hàng năm như lạc và đậu được gieo giữa hàng, mật độ tùy loại cây, cách gốc chè ít nhất 40 cm về mỗi bên. Khi thu hoạch để phần thân và chất xanh vùi, tủ cho chè.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 5,
+      "section": "II.6. Trồng cây phân xanh, che bóng và cải tạo đất"
+    }
+  },
+  {
+    "chunk_id": "laichau_0020",
+    "title": "Cây che bóng cho nương chè",
+    "category": "soil_management",
+    "disease": null,
+    "text": "Cây bóng mát nên thuộc bộ đậu, thân gỗ, tán thưa và rộng, không tranh chấp nước với cây chè về mùa đông. Cây bóng mát được trồng cùng hàng hoặc giữa hai hàng chè. Mật độ trồng tùy thuộc vào chiều cao cây và độ rộng tán cây che bóng. Cần cắt tỉa vào tháng 4 và tháng 9 để vùi, tủ cho chè.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 5,
+      "section": "II.6. Trồng cây phân xanh, che bóng và cải tạo đất"
+    }
+  },
+  {
+    "chunk_id": "laichau_0021",
+    "title": "Giặm cây con trong nương chè",
+    "category": "crop_care",
+    "disease": null,
+    "text": "Nương chè phải được giặm cây con ngay từ năm đầu sau trồng vào những chỗ mất khoảng. Cây con đem giặm phải có cùng tuổi với cây trồng trên nương. Nên trồng giặm vào ngày râm mát, mưa nhỏ hoặc sau mưa to. Việc giặm chè cần được tiến hành liên tục trong thời kỳ nương chè kiến thiết để đảm bảo nương chè đông đặc và đồng đều. Thời điểm tốt nhất là vụ xuân sớm, tháng 1–2, khi có mưa nhỏ và đất vừa ẩm.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 5,
+      "section": "III.1. Giặm cây con"
+    }
+  },
+  {
+    "chunk_id": "laichau_0022",
+    "title": "Bón lót trước khi trồng chè",
+    "category": "fertilization",
+    "disease": null,
+    "text": "Bón lót trước khi trồng từ 15–20 tấn phân hữu cơ hoai mục và 95–160 kg P2O5. Phân được trộn đều với đất dưới rãnh hoặc hàng trước khi trồng.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 6,
+      "section": "III.2.a. Bón lót trước khi trồng"
+    }
+  },
+  {
+    "chunk_id": "laichau_0023",
+    "title": "Bón phân chè kiến thiết cơ bản – Năm thứ nhất",
+    "category": "fertilization",
+    "disease": null,
+    "text": "Trong năm thứ nhất, lượng N là 35–55 kg/ha, bón 2 lần vào tháng 2–3 và 6–7. K2O là 35–55 kg/ha, bón 1 lần vào tháng 2–3. Phân sinh học là 10 kg/ha, bón 1 lần vào tháng 8–9. Phân được trộn đều, bón sâu 6–8 cm, cách gốc 15–30 cm và lấp kín.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 6,
+      "section": "III.2.b. Chè kiến thiết cơ bản",
+      "year": 1
+    }
+  },
+  {
+    "chunk_id": "laichau_0024",
+    "title": "Bón phân chè kiến thiết cơ bản – Năm thứ hai",
+    "category": "fertilization",
+    "disease": null,
+    "text": "Trong năm thứ hai, lượng N là 70–80 kg/ha, bón 2 lần vào tháng 2–3 và 6–7. P2O5 là 95–160 kg/ha, bón 1 lần vào tháng 2–3. K2O là 35–70 kg/ha, bón 1 lần vào tháng 2–3. Phân sinh học là 10–15 kg/ha, bón 1 lần vào tháng 4–5. Phân được trộn đều, bón sâu 6–8 cm, cách gốc 15–30 cm và lấp kín.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 6,
+      "section": "III.2.b. Chè kiến thiết cơ bản",
+      "year": 2
+    }
+  },
+  {
+    "chunk_id": "laichau_0025",
+    "title": "Bón phân chè kiến thiết cơ bản – Năm thứ ba",
+    "category": "fertilization",
+    "disease": null,
+    "text": "Trong năm thứ ba, lượng N là 110–120 kg/ha, bón 2 lần vào tháng 2–3 và 6–7. P2O5 là 160–170 kg/ha, bón 1 lần vào tháng 2–3. K2O là 90–100 kg/ha, bón 2 lần vào tháng 2–3 và 6–7. Phân sinh học là 20 kg/ha, bón 1 lần vào tháng 4–5. Phân được trộn đều, bón sâu 6–8 cm, cách gốc 30–40 cm và lấp kín.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 6,
+      "section": "III.2.b. Chè kiến thiết cơ bản",
+      "year": 3
+    }
+  },
+  {
+    "chunk_id": "laichau_0026",
+    "title": "Bón phân chè kinh doanh theo năng suất dưới 60 tạ/ha",
+    "category": "fertilization",
+    "disease": null,
+    "text": "Đối với chè kinh doanh có năng suất búp dưới 60 tạ/ha, phân hữu cơ 25.000–30.000 kg/ha được bón 1 lần vào tháng 12–1 và định kỳ 3 năm bón một lần. N là 100–120 kg/ha, bón 3–4 lần vào các tháng 2, 4, 6 và 8. P2O5 là 40–60 kg/ha, bón 1 lần vào tháng 2. K2O là 60–80 kg/ha, bón theo lịch được quy định trong hướng dẫn.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 7,
+      "section": "III.2.c. Chè kinh doanh",
+      "yield": "<60 tạ/ha"
+    }
+  },
+  {
+    "chunk_id": "laichau_0027",
+    "title": "Bón phân chè kinh doanh theo năng suất từ 60–80 tạ/ha",
+    "category": "fertilization",
+    "disease": null,
+    "text": "Đối với chè kinh doanh có năng suất búp từ 60–80 tạ/ha, phân hữu cơ 25.000–30.000 kg/ha được bón 1 lần vào tháng 12–1 và định kỳ 3 năm bón một lần. N là 150–180 kg/ha, bón 3–4 lần vào các tháng 2, 4, 6 và 8. P2O5 là 60–100 kg/ha, bón 2 lần vào tháng 2 và 8. K2O là 60–100 kg/ha, bón 4 lần vào các tháng 2, 4, 6 và 8.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 7,
+      "section": "III.2.c. Chè kinh doanh",
+      "yield": "60–80 tạ/ha"
+    }
+  },
+  {
+    "chunk_id": "laichau_0028",
+    "title": "Bón phân chè kinh doanh theo năng suất từ 80–120 tạ/ha",
+    "category": "fertilization",
+    "disease": null,
+    "text": "Đối với chè kinh doanh có năng suất búp từ 80–120 tạ/ha, phân hữu cơ 25.000–30.000 kg/ha được bón 1 lần vào tháng 12–1 và định kỳ 3 năm bón một lần. N là 180–300 kg/ha, bón 3–4 lần vào các tháng 2, 4, 6 và 8. P2O5 là 100–160 kg/ha, bón 1 lần vào tháng 2. K2O là 120–200 kg/ha, bón 2–3 lần vào các tháng 2, 4 và 6.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 7,
+      "section": "III.2.c. Chè kinh doanh",
+      "yield": "80–120 tạ/ha"
+    }
+  },
+  {
+    "chunk_id": "laichau_0029",
+    "title": "Bón phân chè kinh doanh theo năng suất từ 120 tạ/ha trở lên",
+    "category": "fertilization",
+    "disease": null,
+    "text": "Đối với chè kinh doanh có năng suất búp từ 120 tạ/ha trở lên, phân hữu cơ 25.000–30.000 kg/ha được bón 1 lần vào tháng 12–1 và định kỳ 3 năm bón một lần. N là 300–600 kg/ha, bón 3–4 lần vào các tháng 2, 4, 6 và 8. P2O5 là 160–200 kg/ha, bón 1 lần vào tháng 2. K2O là 200–300 kg/ha, bón 2–3 lần vào các tháng 2, 4 và 6.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 7,
+      "section": "III.2.c. Chè kinh doanh",
+      "yield": ">=120 tạ/ha"
+    }
+  },
+  {
+    "chunk_id": "laichau_0030",
+    "title": "Phương pháp bón phân cho chè kinh doanh",
+    "category": "fertilization",
+    "disease": null,
+    "text": "Phân bón cho chè kinh doanh được trộn đều, bón theo rạch sâu 15–20 cm, cách gốc 30–40 cm và lấp đất kín.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 7,
+      "section": "III.2.c. Chè kinh doanh"
+    }
+  },
+  {
+    "chunk_id": "laichau_0031",
+    "title": "Không sử dụng thuốc trừ cỏ trên nương chè",
+    "category": "weed_management",
+    "disease": null,
+    "text": "Hướng dẫn quy định không sử dụng thuốc trừ cỏ để phòng trừ cỏ dại trên nương chè. Đối với chè kiến thiết cơ bản, cần xới cỏ và đảm bảo cỏ sạch quanh năm trên hàng chè; riêng chè 1 tuổi cần nhổ cỏ bằng tay ở gốc chè để bảo vệ cây và giữa hàng trồng xen cây phân xanh, đậu đỗ. Đối với chè kinh doanh, xới sạch cỏ dại và cây giữa hàng hoặc cày sâu 10 cm, đồng thời lấp phân hữu cơ và cành lá già sau khi đốn.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 7,
+      "section": "III.4. Phòng trừ cỏ dại"
+    }
+  },
+  {
+    "chunk_id": "laichau_0032",
+    "title": "Phòng trừ sâu bệnh hại chè theo IPM",
+    "category": "pest_and_disease_management",
+    "disease": null,
+    "text": "Phòng trừ các đối tượng sâu hại trên chè bằng biện pháp quản lý dịch hại tổng hợp (IPM). Cần kiểm tra đồng ruộng thường xuyên, phát hiện sớm để tập trung phòng trừ. Biện pháp canh tác gồm cày bừa diệt cỏ, vệ sinh nương đồi, lấp đất diệt nhộng, diệt mầm bệnh và bón phân hợp lý.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 7,
+      "section": "III.5. Phòng trừ sâu, bệnh hại"
+    }
+  },
+  {
+    "chunk_id": "laichau_0033",
+    "title": "Biện pháp sinh học và sinh thái trong quản lý sâu bệnh chè",
+    "category": "pest_and_disease_management",
+    "disease": null,
+    "text": "Biện pháp sinh học và sinh thái gồm trồng cây bóng mát với loại thích hợp và mật độ đảm bảo độ ẩm trên nương chè. Cần hạn chế đến mức thấp nhất việc sử dụng thuốc hóa học để duy trì tập đoàn thiên địch có ích và cân bằng sinh thái trên nương chè.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 8,
+      "section": "III.5. Phòng trừ sâu, bệnh hại"
+    }
+  },
+  {
+    "chunk_id": "laichau_0034",
+    "title": "Nguyên tắc sử dụng thuốc bảo vệ thực vật trên chè",
+    "category": "pest_and_disease_management",
+    "disease": null,
+    "text": "Chỉ sử dụng thuốc bảo vệ thực vật đăng ký sử dụng trên chè và nằm trong danh mục được phép sử dụng của Việt Nam; tuyệt đối không sử dụng thuốc bảo vệ thực vật ngoài danh mục hoặc thuốc cấm sử dụng. Chỉ sử dụng thuốc khi sâu bệnh đến ngưỡng phòng trừ, theo nguyên tắc 4 đúng và bảo đảm thời gian cách ly trước khi thu hái búp chè. Hướng dẫn khuyến cáo sử dụng thuốc bảo vệ thực vật có nguồn gốc sinh học.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 8,
+      "section": "III.5. Phòng trừ sâu, bệnh hại"
+    }
+  },
+  {
+    "chunk_id": "laichau_0035",
+    "title": "Hoạt chất được nêu để phòng trừ sâu bệnh trên chè",
+    "category": "pest_and_disease_management",
+    "disease": null,
+    "text": "Hướng dẫn nêu Abamectin và Azadirachtin để trừ rầy xanh, nhện đỏ và bọ xít muỗi trên chè. Cucuminoid và Kasugamycin được nêu để trừ bệnh phồng lá và chấm xám trên chè. Citrus oil, Chitosan + Polyoxin và Streptomyces lydicus WYEC 108 được nêu để phòng trừ bệnh thối búp trên chè.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 8,
+      "section": "III.5. Phòng trừ sâu, bệnh hại"
+    }
+  },
+  {
+    "chunk_id": "laichau_0036",
+    "title": "Kỹ thuật đốn tạo hình chè",
+    "category": "pruning",
+    "disease": null,
+    "text": "Đốn tạo hình lần 1 thực hiện khi chè 2 tuổi: đốn thân chính cách mặt đất 12–15 cm, đốn cành cách mặt đất 30–35 cm. Lần 2 thực hiện khi chè 3 tuổi: đốn cành chính cách mặt đất 30–35 cm, đốn cành tán cách mặt đất 40–45 cm.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 8,
+      "section": "III.6. Kỹ thuật đốn chè"
+    }
+  },
+  {
+    "chunk_id": "laichau_0037",
+    "title": "Kỹ thuật đốn phớt chè",
+    "category": "pruning",
+    "disease": null,
+    "text": "Trong hai năm đầu, mỗi năm đốn phớt trên vết đốn cũ 5 cm. Sau đó mỗi năm đốn cao thêm 3 cm. Khi vết đốn dưới cùng cao 70 cm so với mặt đất thì hàng năm chỉ đốn cao thêm 1 cm so với vết đốn cũ. Tuyệt đối không cắt tỉa cành la, đảm bảo độ che phủ và khép tán trên nương. Đối với nương chè sinh trưởng yếu, tán lá thưa mỏng, có thể áp dụng chu kỳ đốn 3 năm đối với chè ổn định kinh doanh.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 8,
+      "section": "III.6. Kỹ thuật đốn chè"
+    }
+  },
+  {
+    "chunk_id": "laichau_0038",
+    "title": "Kỹ thuật đốn lửng, đốn đau và đốn trẻ lại",
+    "category": "pruning",
+    "disease": null,
+    "text": "Những đồi chè đã được đốn phớt nhiều năm, vết đốn cao quá 90 cm so với mặt đất, nhiều cành tăm hương, u bướu, búp nhỏ và năng suất giảm thì đốn lửng cách mặt đất 60–65 cm; trường hợp chè có năng suất khá nhưng cây cao quá thì đốn lửng cách mặt đất 70–75 cm. Những đồi chè được đốn lửng nhiều năm, cành nhiều mấu, cây sinh trưởng kém và năng suất giảm rõ rệt thì đốn đau cách mặt đất 40–45 cm. Những nương chè già, cằn cỗi đã được đốn đau nhiều lần, năng suất giảm nghiêm trọng thì đốn trẻ lại cách mặt đất 10–25 cm.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 8,
+      "section": "III.6. Kỹ thuật đốn chè"
+    }
+  },
+  {
+    "chunk_id": "laichau_0039",
+    "title": "Thời vụ và trình tự đốn chè",
+    "category": "pruning",
+    "disease": null,
+    "text": "Thời vụ đốn chè từ tháng 11 đến tháng 12; những nơi thường bị sương muối đốn muộn hơn. Trình tự đốn là đốn đau trước, đốn phớt sau; đốn tạo hình chè con trước và đốn chè trưởng thành sau.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 8,
+      "section": "III.6. Kỹ thuật đốn chè"
+    }
+  },
+  {
+    "chunk_id": "laichau_0040",
+    "title": "Hái tạo hình chè kiến thiết cơ bản",
+    "category": "harvesting",
+    "disease": null,
+    "text": "Đối với chè 1 tuổi, từ tháng 10 hái bấm ngọn những cây cao từ 60 cm trở lên. Đối với chè 2 tuổi, hái búp trên những cây to khỏe và cách mặt đất từ 50 cm trở lên.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 9,
+      "section": "III.7. Thu hoạch"
+    }
+  },
+  {
+    "chunk_id": "laichau_0041",
+    "title": "Hái tạo hình sau khi đốn chè",
+    "category": "harvesting",
+    "disease": null,
+    "text": "Đối với chè đốn lần 1, đợt đầu hái cách mặt đất 40–45 cm, tạo thành mặt phẳng nghiêng theo sườn dốc; đợt 2 hái búp chừa 2 lá và lá cá. Đối với chè đốn lần 2, đợt đầu hái cao hơn chè đốn lần 1 từ 25–30 cm; các đợt sau hái chừa bình thường như ở chè đốn lần 1.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 9,
+      "section": "III.7. Thu hoạch"
+    }
+  },
+  {
+    "chunk_id": "laichau_0042",
+    "title": "Kỹ thuật hái chè bằng tay theo mùa vụ",
+    "category": "harvesting",
+    "disease": null,
+    "text": "Khi hái bằng tay, hái tôm và 2–3 lá non. Khi trên tán có 30% số búp đủ tiêu chuẩn hái thì tiến hành hái, không bỏ sót, không để quá lứa, cứ 7–10 ngày hái một lứa và tận thu búp mù xòe. Vụ xuân từ tháng 3–4, hái chừa 2 lá và lá cá, tạo tán bằng; búp vượt cao hơn mặt tán thì hái sát lá cá. Vụ hè thu từ tháng 5–10, hái chừa 1 lá và lá cá, tạo tán bằng; búp cao hơn mặt tán thì hái sát lá cá. Vụ thu đông tháng 11–12, tháng 11 hái chừa lá cá, tháng 12 hái cả lá cá.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 9,
+      "section": "III.7. Thu hoạch"
+    }
+  },
+  {
+    "chunk_id": "laichau_0043",
+    "title": "Hái chè bằng máy và sửa tán",
+    "category": "harvesting",
+    "disease": null,
+    "text": "Hái chè bằng máy được áp dụng phổ biến cho vùng và giống sản xuất chè đen. Sau mỗi lần hái máy, tán chè cần được sửa bằng dụng cụ thủ công.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 9,
+      "section": "III.7. Thu hoạch"
+    }
+  },
+  {
+    "chunk_id": "laichau_0044",
+    "title": "Thu hoạch chè trong mùa khô hạn",
+    "category": "harvesting",
+    "disease": null,
+    "text": "Hái chè trong mùa khô hạn phải tuyệt đối tuân thủ hệ số lá chừa. Đảm bảo nguyên tắc vết hái sau cao hơn vết hái trước tối thiểu 2 cm. Trong thời gian nắng hạn đột biến phải ngừng thu hoạch chè bằng máy. Hái chè trên nương đốn trẻ lại hoặc đốn đau được tiến hành như đối với chè kiến thiết cơ bản.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 9,
+      "section": "III.7. Thu hoạch"
+    }
+  },
+  {
+    "chunk_id": "laichau_0045",
+    "title": "Bảo quản chè búp tươi sau thu hoạch",
+    "category": "postharvest",
+    "disease": null,
+    "text": "Chè búp tươi sau khi thu hái phải để nơi râm mát, bỏ trong sọt không nén chặt, không đựng trong bao kín, không để héo, không để lẫn bẩn với vật lạ hoặc tạp chất. Chè búp tươi phải được đưa đến nơi chế biến trong vòng 10 giờ sau khi hái.",
+    "source": "450-qd-ban-hanh-huong-dan-trong-cheban-hanh-24.7(1).pdf",
+    "source_type": "official_technical_document",
+    "dataset": "LaiChau_Tea_Technical_Guideline",
+    "version": "2025",
+    "language": "vi",
+    "metadata": {
+      "page": 9,
+      "section": "III.8. Bảo quản"
+    }
+  }
+]

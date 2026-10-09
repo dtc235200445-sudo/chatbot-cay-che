@@ -1,0 +1,861 @@
+{
+ "version": 1,
+ "description": "Bộ câu hỏi đánh giá RAG. relevant_chunk_ids do người lập gán theo nội dung chunk. out_of_domain và knowledge_gap phải bị từ chối (không có chunk liên quan).",
+ "queries": [
+  {
+   "id": "q001",
+   "query": "Bệnh thối búp trên cây chè có triệu chứng gì?",
+   "relevant_chunk_ids": [
+    "tea_000032"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q002",
+   "query": "Cách phòng trừ bệnh thối búp",
+   "relevant_chunk_ids": [
+    "tea_000032"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q003",
+   "query": "Lá chè xuất hiện các chấm màu xám là bệnh gì?",
+   "relevant_chunk_ids": [
+    "tea_000033",
+    "tea_000103"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q004",
+   "query": "Bệnh đốm nâu làm hại lá chè như thế nào?",
+   "relevant_chunk_ids": [
+    "tea_000034",
+    "tea_000102"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q005",
+   "query": "Lá chè bị phồng rộp lên phải xử lý ra sao?",
+   "relevant_chunk_ids": [
+    "tea_000031"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q006",
+   "query": "Nấm cao dán trên cành chè gây hại gì?",
+   "relevant_chunk_ids": [
+    "tea_000035"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q007",
+   "query": "Cành chè bị khô chết do bệnh gì?",
+   "relevant_chunk_ids": [
+    "tea_000036"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q008",
+   "query": "Rầy xanh gây hại chè như thế nào?",
+   "relevant_chunk_ids": [
+    "tea_000025",
+    "tea_000092"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q009",
+   "query": "Bọ trĩ hại chè phòng trừ bằng cách nào?",
+   "relevant_chunk_ids": [
+    "tea_000026",
+    "tea_000091"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q010",
+   "query": "Nhện đỏ nâu làm lá chè biến màu ra sao?",
+   "relevant_chunk_ids": [
+    "tea_000028",
+    "tea_000093",
+    "tea_000101"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q011",
+   "query": "Bọ xít muỗi chích hút búp chè",
+   "relevant_chunk_ids": [
+    "tea_000027",
+    "tea_000090",
+    "tea_000104"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q012",
+   "query": "Sâu róm ăn lá chè có cách trị nào?",
+   "relevant_chunk_ids": [
+    "tea_000030"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q013",
+   "query": "Sâu chùm hại chè",
+   "relevant_chunk_ids": [
+    "tea_000029"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q014",
+   "query": "Nguyên tắc quản lý dịch hại tổng hợp IPM trên chè",
+   "relevant_chunk_ids": [
+    "tea_000073",
+    "tea_000149",
+    "tea_000150"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q015",
+   "query": "Biện pháp sinh học để hạn chế sâu bệnh trên nương chè",
+   "relevant_chunk_ids": [
+    "tea_000150",
+    "tea_000149"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q016",
+   "query": "Thuốc bảo vệ thực vật nào được dùng để trừ rầy xanh và nhện đỏ?",
+   "relevant_chunk_ids": [
+    "tea_000152"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q017",
+   "query": "Nguyên tắc 4 đúng khi phun thuốc bảo vệ thực vật",
+   "relevant_chunk_ids": [
+    "tea_000039",
+    "tea_000151"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q018",
+   "query": "Thời gian cách ly của thuốc BVTV là gì?",
+   "relevant_chunk_ids": [
+    "tea_000037"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q019",
+   "query": "Thuốc BVTV được phân loại theo độ độc như thế nào?",
+   "relevant_chunk_ids": [
+    "tea_000038"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q020",
+   "query": "Cây chè cần điều kiện nhiệt độ bao nhiêu để sinh trưởng tốt?",
+   "relevant_chunk_ids": [
+    "tea_000053",
+    "tea_000122"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q021",
+   "query": "Lượng mưa và độ ẩm thích hợp cho cây chè",
+   "relevant_chunk_ids": [
+    "tea_000121",
+    "tea_000053"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q022",
+   "query": "Chè nên trồng trên loại đất nào?",
+   "relevant_chunk_ids": [
+    "tea_000002",
+    "tea_000077",
+    "tea_000123"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q023",
+   "query": "Độ dốc bao nhiêu thì thiết kế hàng chè theo đường bình độ?",
+   "relevant_chunk_ids": [
+    "tea_000004",
+    "tea_000124",
+    "tea_000078",
+    "tea_000063"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q024",
+   "query": "Thời vụ trồng chè ở miền Bắc là khi nào?",
+   "relevant_chunk_ids": [
+    "tea_000010",
+    "tea_000080",
+    "tea_000132"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q025",
+   "query": "Mật độ trồng chè là bao nhiêu cây trên một ha?",
+   "relevant_chunk_ids": [
+    "tea_000009",
+    "tea_000066",
+    "tea_000133",
+    "tea_000134",
+    "tea_000085"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q026",
+   "query": "Nên chọn giống chè nào cho vùng núi cao?",
+   "relevant_chunk_ids": [
+    "tea_000009",
+    "tea_000060",
+    "tea_000081",
+    "tea_000128",
+    "tea_000129",
+    "tea_000130"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q027",
+   "query": "Tiêu chuẩn cây giống chè xuất vườn",
+   "relevant_chunk_ids": [
+    "tea_000011",
+    "tea_000085",
+    "tea_000127",
+    "tea_000083"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q028",
+   "query": "Kỹ thuật trồng chè bằng hom cành",
+   "relevant_chunk_ids": [
+    "tea_000012",
+    "tea_000082",
+    "tea_000083",
+    "tea_000066"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q029",
+   "query": "Cách nhân giống và chăm sóc vườn ươm chè",
+   "relevant_chunk_ids": [
+    "tea_000082",
+    "tea_000083",
+    "tea_000084"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q030",
+   "query": "Khi nào cần trồng dặm cây chè con?",
+   "relevant_chunk_ids": [
+    "tea_000014",
+    "tea_000086",
+    "tea_000138"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q031",
+   "query": "Trồng cây che bóng cho chè để làm gì?",
+   "relevant_chunk_ids": [
+    "tea_000007",
+    "tea_000068",
+    "tea_000137"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q032",
+   "query": "Tủ gốc cho chè có tác dụng gì?",
+   "relevant_chunk_ids": [
+    "tea_000013",
+    "tea_000023",
+    "tea_000069"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q033",
+   "query": "Trồng cây phân xanh cải tạo đất chè",
+   "relevant_chunk_ids": [
+    "tea_000006",
+    "tea_000136"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q034",
+   "query": "Bón phân lót trước khi trồng chè gồm những loại nào?",
+   "relevant_chunk_ids": [
+    "tea_000008",
+    "tea_000065",
+    "tea_000139"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q035",
+   "query": "Lượng phân bón cho chè kinh doanh",
+   "relevant_chunk_ids": [
+    "tea_000022",
+    "tea_000071",
+    "tea_000088",
+    "tea_000143",
+    "tea_000144",
+    "tea_000145",
+    "tea_000146",
+    "tea_000147"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q036",
+   "query": "Bón phân cho chè kiến thiết cơ bản năm thứ nhất",
+   "relevant_chunk_ids": [
+    "tea_000018",
+    "tea_000087",
+    "tea_000140",
+    "tea_000141",
+    "tea_000142"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q037",
+   "query": "Phương pháp bón phân cho chè kinh doanh nên bón thế nào?",
+   "relevant_chunk_ids": [
+    "tea_000147",
+    "tea_000022",
+    "tea_000071"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q038",
+   "query": "Đốn chè kinh doanh thực hiện như thế nào?",
+   "relevant_chunk_ids": [
+    "tea_000019",
+    "tea_000074",
+    "tea_000094",
+    "tea_000154",
+    "tea_000155",
+    "tea_000156"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q039",
+   "query": "Khi nào cần đốn trẻ lại cho nương chè già cỗi?",
+   "relevant_chunk_ids": [
+    "tea_000155",
+    "tea_000094",
+    "tea_000074"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q040",
+   "query": "Đốn phớt chè để làm gì?",
+   "relevant_chunk_ids": [
+    "tea_000154",
+    "tea_000094"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q041",
+   "query": "Hái chè bằng máy cần lưu ý gì?",
+   "relevant_chunk_ids": [
+    "tea_000021",
+    "tea_000075",
+    "tea_000160"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q042",
+   "query": "Kỹ thuật hái chè bằng tay",
+   "relevant_chunk_ids": [
+    "tea_000020",
+    "tea_000075",
+    "tea_000159",
+    "tea_000017"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q043",
+   "query": "Hái chè trong mùa khô hạn cần chú ý gì?",
+   "relevant_chunk_ids": [
+    "tea_000161"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q044",
+   "query": "Khi nào cần tưới nước cho chè?",
+   "relevant_chunk_ids": [
+    "tea_000095",
+    "tea_000072",
+    "tea_000024"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q045",
+   "query": "Cách phòng trừ cỏ dại trên nương chè",
+   "relevant_chunk_ids": [
+    "tea_000015",
+    "tea_000024",
+    "tea_000089",
+    "tea_000148"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q046",
+   "query": "Có được dùng thuốc trừ cỏ cho chè không?",
+   "relevant_chunk_ids": [
+    "tea_000148"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q047",
+   "query": "Chống xói mòn đất trồng chè",
+   "relevant_chunk_ids": [
+    "tea_000061",
+    "tea_000062"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q048",
+   "query": "Quy trình chế biến chè xanh gồm những bước nào?",
+   "relevant_chunk_ids": [
+    "tea_000042",
+    "tea_000041",
+    "tea_000043",
+    "tea_000044",
+    "tea_000045"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q049",
+   "query": "Diệt men chè bằng thùng quay",
+   "relevant_chunk_ids": [
+    "tea_000043"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q050",
+   "query": "Vò chè và rũ tơi để làm gì?",
+   "relevant_chunk_ids": [
+    "tea_000044"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q051",
+   "query": "Cách sao khô chè xanh",
+   "relevant_chunk_ids": [
+    "tea_000045"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q052",
+   "query": "Bảo quản chè búp tươi sau khi hái",
+   "relevant_chunk_ids": [
+    "tea_000162",
+    "tea_000040"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q053",
+   "query": "Bảo quản chè khô thành phẩm như thế nào?",
+   "relevant_chunk_ids": [
+    "tea_000046"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q054",
+   "query": "Biến đổi khí hậu ảnh hưởng gì đến sản xuất chè Việt Nam?",
+   "relevant_chunk_ids": [
+    "tea_000047",
+    "tea_000048",
+    "tea_000049"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q055",
+   "query": "Mô hình CSA trồng chè tại Phú Thọ đạt kết quả gì?",
+   "relevant_chunk_ids": [
+    "tea_000054",
+    "tea_000055",
+    "tea_000056",
+    "tea_000057",
+    "tea_000051"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q056",
+   "query": "Giải pháp kỹ thuật canh tác chè thích ứng biến đổi khí hậu",
+   "relevant_chunk_ids": [
+    "tea_000052",
+    "tea_000076",
+    "tea_000049",
+    "tea_000050",
+    "tea_000070"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q057",
+   "query": "Tưới nước cho chè trong điều kiện hạn hán do biến đổi khí hậu",
+   "relevant_chunk_ids": [
+    "tea_000072",
+    "tea_000058",
+    "tea_000095"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q058",
+   "query": "Bộ dữ liệu TeaLeafDiseaseBD gồm những lớp bệnh nào?",
+   "relevant_chunk_ids": [
+    "tea_000100",
+    "tea_000101",
+    "tea_000102",
+    "tea_000103",
+    "tea_000104",
+    "tea_000105",
+    "tea_000106",
+    "tea_000107",
+    "tea_000096"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q059",
+   "query": "Bộ dữ liệu ảnh lá chè được thu thập ở đâu và bằng thiết bị gì?",
+   "relevant_chunk_ids": [
+    "tea_000097",
+    "tea_000098",
+    "tea_000099"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q060",
+   "query": "Định dạng annotation YOLO của bộ dữ liệu bệnh lá chè",
+   "relevant_chunk_ids": [
+    "tea_000114",
+    "tea_000112",
+    "tea_000111"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q061",
+   "query": "Quyết định ban hành hướng dẫn kỹ thuật trồng chè có hiệu lực từ khi nào?",
+   "relevant_chunk_ids": [
+    "tea_000118",
+    "tea_000119",
+    "tea_000120"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q062",
+   "query": "Tình hình sản xuất chè ở Việt Nam hiện nay",
+   "relevant_chunk_ids": [
+    "tea_000001",
+    "tea_000048"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q063",
+   "query": "Các bệnh thường gặp trên cây chè",
+   "relevant_chunk_ids": [
+    "tea_000031",
+    "tea_000032",
+    "tea_000033",
+    "tea_000034",
+    "tea_000035",
+    "tea_000036"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q064",
+   "query": "Sâu hại chính trên cây chè",
+   "relevant_chunk_ids": [
+    "tea_000025",
+    "tea_000026",
+    "tea_000027",
+    "tea_000028",
+    "tea_000029",
+    "tea_000030"
+   ],
+   "type": "in_domain",
+   "note": ""
+  },
+  {
+   "id": "q065",
+   "query": "Cách sửa xe máy bị chết máy",
+   "relevant_chunk_ids": [],
+   "type": "out_of_domain",
+   "note": ""
+  },
+  {
+   "id": "q066",
+   "query": "Giá Bitcoin hôm nay là bao nhiêu?",
+   "relevant_chunk_ids": [],
+   "type": "out_of_domain",
+   "note": ""
+  },
+  {
+   "id": "q067",
+   "query": "Công thức nấu phở bò",
+   "relevant_chunk_ids": [],
+   "type": "out_of_domain",
+   "note": ""
+  },
+  {
+   "id": "q068",
+   "query": "Ai là tổng thống Mỹ hiện tại?",
+   "relevant_chunk_ids": [],
+   "type": "out_of_domain",
+   "note": ""
+  },
+  {
+   "id": "q069",
+   "query": "Kỹ thuật ghép cành cây sầu riêng",
+   "relevant_chunk_ids": [],
+   "type": "out_of_domain",
+   "note": ""
+  },
+  {
+   "id": "q070",
+   "query": "Cách trị mụn trứng cá",
+   "relevant_chunk_ids": [],
+   "type": "out_of_domain",
+   "note": ""
+  },
+  {
+   "id": "q071",
+   "query": "Lịch thi đấu bóng đá Ngoại hạng Anh",
+   "relevant_chunk_ids": [],
+   "type": "out_of_domain",
+   "note": ""
+  },
+  {
+   "id": "q072",
+   "query": "Cách cài đặt Windows 11",
+   "relevant_chunk_ids": [],
+   "type": "out_of_domain",
+   "note": ""
+  },
+  {
+   "id": "q073",
+   "query": "Tại sao lá chè bị vàng?",
+   "relevant_chunk_ids": [],
+   "type": "knowledge_gap",
+   "note": "KB không có chunk về vàng lá / thiếu dinh dưỡng"
+  },
+  {
+   "id": "q074",
+   "query": "Cách pha trà ô long ngon nhất",
+   "relevant_chunk_ids": [],
+   "type": "knowledge_gap",
+   "note": "KB không nói về pha trà"
+  },
+  {
+   "id": "q075",
+   "query": "Giá chè búp tươi hôm nay ở Thái Nguyên",
+   "relevant_chunk_ids": [],
+   "type": "knowledge_gap",
+   "note": "KB không có dữ liệu giá"
+  },
+  {
+   "id": "q076",
+   "query": "Công dụng của trà xanh với sức khỏe",
+   "relevant_chunk_ids": [],
+   "type": "knowledge_gap",
+   "note": "KB không nói về sức khỏe"
+  },
+  {
+   "id": "q077",
+   "query": "Cây chè có tên khoa học là gì?",
+   "relevant_chunk_ids": [
+    "tea_000163"
+   ],
+   "type": "in_domain",
+   "note": "Câu hỏi cho nguồn ngoài (FAO EcoCrop, Tang 2020)"
+  },
+  {
+   "id": "q078",
+   "query": "Nhiệt độ bao nhiêu thì cây chè bị chết?",
+   "relevant_chunk_ids": [
+    "tea_000164"
+   ],
+   "type": "in_domain",
+   "note": "Câu hỏi cho nguồn ngoài (FAO EcoCrop, Tang 2020)"
+  },
+  {
+   "id": "q079",
+   "query": "Chè trồng được ở độ cao tối đa bao nhiêu mét?",
+   "relevant_chunk_ids": [
+    "tea_000165"
+   ],
+   "type": "in_domain",
+   "note": "Câu hỏi cho nguồn ngoài (FAO EcoCrop, Tang 2020)"
+  },
+  {
+   "id": "q080",
+   "query": "Rễ cây chè ăn sâu bao nhiêu?",
+   "relevant_chunk_ids": [
+    "tea_000166"
+   ],
+   "type": "in_domain",
+   "note": "Câu hỏi cho nguồn ngoài (FAO EcoCrop, Tang 2020)"
+  },
+  {
+   "id": "q081",
+   "query": "Cây chè cho thu hái sau bao nhiêu năm và sống được bao lâu?",
+   "relevant_chunk_ids": [
+    "tea_000167"
+   ],
+   "type": "in_domain",
+   "note": "Câu hỏi cho nguồn ngoài (FAO EcoCrop, Tang 2020)"
+  },
+  {
+   "id": "q082",
+   "query": "Một tấn chè lấy đi bao nhiêu đạm, lân, kali từ đất?",
+   "relevant_chunk_ids": [
+    "tea_000168",
+    "tea_000169"
+   ],
+   "type": "in_domain",
+   "note": "Câu hỏi cho nguồn ngoài (FAO EcoCrop, Tang 2020)"
+  },
+  {
+   "id": "q083",
+   "query": "Nhu cầu đạm lân kali của chè vụ xuân, vụ hè và vụ thu",
+   "relevant_chunk_ids": [
+    "tea_000169",
+    "tea_000170"
+   ],
+   "type": "in_domain",
+   "note": "Câu hỏi cho nguồn ngoài (FAO EcoCrop, Tang 2020)"
+  },
+  {
+   "id": "q084",
+   "query": "Tỷ lệ N:P:K tối ưu cho chè vụ xuân là bao nhiêu?",
+   "relevant_chunk_ids": [
+    "tea_000170"
+   ],
+   "type": "in_domain",
+   "note": "Câu hỏi cho nguồn ngoài (FAO EcoCrop, Tang 2020)"
+  }
+ ]
+}

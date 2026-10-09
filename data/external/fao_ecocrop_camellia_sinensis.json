@@ -1,0 +1,97 @@
+{
+  "dataset": "FAO_EcoCrop_Camellia_sinensis",
+  "document": {
+    "document_code": "FAO_EcoCrop_Camellia_sinensis",
+    "title": "FAO EcoCrop — Camellia sinensis (L.) O. Kuntze (tea)",
+    "source": "FAO EcoCrop — Camellia sinensis (tea)",
+    "source_type": "scientific_reference",
+    "version": "2026-09-19",
+    "year": null,
+    "region": "Quốc tế",
+    "description": "Yêu cầu sinh thái và số liệu sản xuất của cây chè theo cơ sở dữ liệu EcoCrop của FAO.",
+    "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/cropView?id=599",
+    "license": "CC-BY-4.0",
+    "citation": "FAO. EcoCrop: Camellia sinensis (L.) O. Kuntze (tea). Truy cập ngày 19/09/2026. https://ecocrop.apps.fao.org/ecocrop/srv/en/cropView?id=599 Giấy phép: CC-BY-4.0 (theo điều khoản cơ sở dữ liệu của FAO). Nội dung là bản dịch/tóm lược tiếng Việt; FAO không tham gia hay xác nhận việc sử dụng này.",
+    "accessed": "2026-09-19"
+  },
+  "chunks": [
+    {
+      "title": "Cây chè (Camellia sinensis) theo FAO EcoCrop — đặc điểm chung",
+      "content": "Theo cơ sở dữ liệu FAO EcoCrop, chè có tên khoa học Camellia sinensis (L.) O. Kuntze, họ Theaceae; tên gọi thông thường gồm cha, chah, tea, tee, ti. Hiện nay chè được trồng trong khoảng từ 40° vĩ Bắc đến 33° vĩ Nam. Đây là số liệu tổng quan quốc tế, không thay thế khuyến cáo kỹ thuật riêng của từng vùng trồng ở Việt Nam.",
+      "category": "general_knowledge",
+      "disease": "",
+      "metadata": {
+        "section": "Đặc điểm chung",
+        "page": null,
+        "region": "Quốc tế",
+        "year": null,
+        "original_quote": "\"Camellia sinensis\"; \"Authority: (L.) O. Kuntze\"; \"Common names: cha, chah, tea, tee, ti\"; \"it is now grown between 40°N and 33°S\""
+      }
+    },
+    {
+      "title": "Nhiệt độ gây chết đối với cây chè (FAO EcoCrop)",
+      "content": "Theo FAO EcoCrop, nhiệt độ gây chết đối với chè là từ 0 đến −5°C tùy giống: chè var. sinensis chịu được −5°C, trong khi lá của chè var. assamica bị chết ở 0°C.",
+      "category": "ecological_conditions",
+      "disease": "",
+      "metadata": {
+        "section": "Nhiệt độ",
+        "page": null,
+        "region": "Quốc tế",
+        "year": null,
+        "original_quote": "\"KILLING T.: 0 to -5°C depending on the cultivar, var. sinensis withstands -5°C, whereas the leaves of var. assamica are killed by 0°C.\""
+      }
+    },
+    {
+      "title": "Độ cao và vĩ độ thích hợp trồng chè (FAO EcoCrop)",
+      "content": "Theo FAO EcoCrop, chè có thể được trồng ở vùng đất thấp cận nhiệt đới và lên đến khoảng 1.800 m, thậm chí 2.400–3.000 m ở vùng nhiệt đới. Phần lớn sản lượng chè được sản xuất ở độ cao từ 750 đến 1.500 m.",
+      "category": "ecological_conditions",
+      "disease": "",
+      "metadata": {
+        "section": "Độ cao",
+        "page": null,
+        "region": "Quốc tế",
+        "year": null,
+        "original_quote": "\"Tea can be grown in subtropical lowland and up to about 1800 m or even 2400-3000 m in the tropics\"; \"the majority of the production takes place between 750 and 1500 m\""
+      }
+    },
+    {
+      "title": "Độ ẩm và hệ rễ của cây chè (FAO EcoCrop)",
+      "content": "Theo FAO EcoCrop, độ ẩm quá thấp hoặc quá cao đều có thể làm giảm năng suất chè và tạo điều kiện cho sâu bệnh phát sinh. Cây chè có rễ cọc hoặc hệ rễ xiên; rễ cọc có thể ăn sâu tới 3 m nhưng độ sâu thường gặp là 1,5 m.",
+      "category": "ecological_conditions",
+      "disease": "",
+      "metadata": {
+        "section": "Độ ẩm và rễ",
+        "page": null,
+        "region": "Quốc tế",
+        "year": null,
+        "original_quote": "\"Too low and too high humidity can reduce yields and encourage disease.\"; \"It has a taproot or oblique root system. The taproot may reach 3 m deep, but 1.5 is the usual.\""
+      }
+    },
+    {
+      "title": "Chu kỳ sinh trưởng, tuổi thọ và thời gian bắt đầu thu hái chè (FAO EcoCrop)",
+      "content": "Theo FAO EcoCrop, chu kỳ sinh trưởng của chè là 240–365 ngày. Cây có thể bắt đầu cho thu hái lá sau 2–5 năm và đạt tối đa ở năm thứ 7–10. Đời sống kinh tế của cây khoảng 40 năm, đôi khi các đồi chè được giữ trong sản xuất 60–70 năm hoặc thậm chí 100 năm.",
+      "category": "cultivation_technique",
+      "disease": "",
+      "metadata": {
+        "section": "Chu kỳ và tuổi thọ",
+        "page": null,
+        "region": "Quốc tế",
+        "year": null,
+        "original_quote": "\"The growth cycle is 240-365 days\"; \"Harvest of leaves may begin after 2-5 years and reaches a maximum at 7-10 years.\"; \"The economic life of the plant is about 40 years, but sometimes the shrubs are kept in production 60-70, or even 100 years.\""
+      }
+    },
+    {
+      "title": "Lượng dưỡng chất chè lấy đi khỏi ruộng và năng suất tối ưu (FAO EcoCrop)",
+      "content": "Theo FAO EcoCrop, mỗi tấn chè lấy đi khỏi ruộng khoảng 45–60 kg N, 4–7 kg P và 20–30 kg K. Năng suất tối ưu khoảng 3,0 tấn/ha; ở châu Phi, năng suất trung bình dao động từ 0,5 đến 2,0 tấn/ha. Đây là số liệu tham khảo quốc tế, cần đối chiếu với định mức bón phân trong tài liệu kỹ thuật của Việt Nam.",
+      "category": "fertilization",
+      "disease": "",
+      "metadata": {
+        "section": "Dưỡng chất và năng suất",
+        "page": null,
+        "region": "Quốc tế",
+        "year": null,
+        "original_quote": "\"One ton of tea removes 45-60 kg N, 4-7 kg P and 20-30 kg K from the field.\"; \"Optimum yield is about 3.0 t/ha, in Africa average yields are between 0.5-2.0 t/ha.\""
+      }
+    }
+  ]
+}

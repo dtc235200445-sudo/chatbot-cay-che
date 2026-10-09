@@ -1,0 +1,1416 @@
+{
+ "summary": {
+  "model": "openai/gpt-oss-20b",
+  "n_chunks": 91,
+  "n_generated": 182,
+  "n_kept": 112,
+  "max_overlap": 0.5,
+  "mean_overlap_original_928": 0.322,
+  "mean_overlap_generated": 0.474,
+  "mean_overlap_kept": 0.328
+ },
+ "by_chunk": [
+  {
+   "chunk_id": "tea_000166",
+   "dataset": "FAO_EcoCrop_Camellia_sinensis",
+   "questions": [
+    "Nhiệt độ và độ ẩm ảnh hưởng như thế nào tới năng suất của cây chè?",
+    "Cây chè có rễ phát triển sâu tới bao nhiêu độ trong đất?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000168",
+   "dataset": "FAO_EcoCrop_Camellia_sinensis",
+   "questions": [
+    "Làm sao để biết lượng phân N, P, K cần bón cho cây chè khi thu hoạch một tấn?",
+    "Năng suất trồng chè ở châu Phi thường như thế nào, và làm sao so sánh với mức tối ưu?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000165",
+   "dataset": "FAO_EcoCrop_Camellia_sinensis",
+   "questions": [
+    "Ở vùng đất nào cây chè thường được trồng?",
+    "Ở độ cao nào phần lớn sản lượng chè được sản xuất?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000127",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "questions": [
+    "Cây chè cần có cành chắc khỏe và thân thẳng để phát triển tốt, đúng không?",
+    "Để tránh nấm mốc, cây chè cần được cắt bỏ nụ hoa hoàn toàn, phải không?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000154",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao để điều chỉnh độ cao của cây khi trồng trong những năm đầu?",
+    "Cần thay đổi tần suất cắt khi cây có tán lá mỏng và sinh trưởng chậm như thế nào?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000143",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "questions": [
+    "Làm thế nào để bón phân hữu cơ cho cây chè khi năng suất thấp hơn 60 tạ/ha?",
+    "Bao lâu và vào những thời điểm nào nên bón các loại phân N, P và K cho cây chè?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000151",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao để chọn thuốc bảo vệ thực vật cho chè mà không vi phạm quy định pháp luật?",
+    "Khi nào và làm sao để áp dụng thuốc bảo vệ thực vật trên chè một cách an toàn?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000130",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "questions": [
+    "Cây chè nhỏ này thường được trồng ở đâu và cần chăm sóc như thế nào?",
+    "Làm sao để biết khi nào cây chè này đã đủ lớn để thu hoạch?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000149",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao để phát hiện sớm sâu bệnh trên chè?",
+    "Cần làm gì để bảo vệ chè khỏi sâu bệnh?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000123",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "questions": [
+    "Cần trồng chè ở đất nào để cây phát triển tốt?",
+    "Làm sao biết đất có đủ độ dốc và độ pH cho chè?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000161",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao để tránh hại cây khi thu hoạch trong thời tiết khô hạn?",
+    "Nên dừng máy thu hoạch khi nắng quá nóng thì sao?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000160",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "questions": [
+    "Bạn thường dùng máy hái chè ở đâu và sau khi hái, làm sao để giữ cho tán chè được gọn gàng?",
+    "Khi hái chè bằng máy, bạn có làm gì để sửa tán chè ngay sau khi hái không?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000155",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao biết khi nào cần cắt tỉa cây chè cao quá?",
+    "Có cách nào xác định độ cao phù hợp để bảo vệ năng suất của chè không?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000156",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "questions": [
+    "Khi nào là thời điểm thích hợp để bắt đầu thu hoạch lá cây này trong mùa thu?",
+    "Quá trình thu hoạch thường được thực hiện như thế nào, từ giai đoạn nhỏ tới lớn?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000118",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "questions": [
+    "Lai Châu có điều kiện gì để trồng chè không?",
+    "Làm sao bảo quản chè khi thu hoạch ở Lai Châu?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000122",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao để cây chè phát triển nhanh hơn khi nhiệt độ quanh khu vườn ổn định ở mức trung bình?",
+    "Có cách nào giúp cây chè có nhiều búp hơn mà không cần ánh sáng trực tiếp?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000137",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "questions": [
+    "Tại sao nên trồng cây làm bóng giữa các hàng chè?",
+    "Làm sao để chăm sóc cây bóng mát trong mùa đông?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000124",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao bố trí hàng chè khi độ dốc của đồi không quá 6 độ?",
+    "Nếu độ dốc của đồi lớn hơn 6 độ, ta nên sắp xếp hàng chè như thế nào?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000147",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao để trộn phân cho cây chè một cách đồng đều?",
+    "Bao xa cần đặt các rãnh để bón phân cho cây chè?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000138",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "questions": [
+    "Khi nào là thời điểm thích hợp để gieo cây con vào nương chè?",
+    "Điều gì cần làm để nương chè phát triển dày và đồng đều?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000142",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "questions": [
+    "Làm thế nào để lên kế hoạch bón phân cho cây chè trong năm thứ ba?",
+    "Có những thời điểm nào nên bón phân cho cây chè để đạt hiệu quả tối ưu?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000150",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao để giữ ẩm cho vùng trồng chè mà không dùng quá nhiều thuốc hoá học?",
+    "Có cách nào trồng cây che nắng để hỗ trợ sinh thái trong khu vực chè không?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000125",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao để chuẩn bị đất khi trồng trên vùng bằng phẳng rộng lớn?",
+    "Có cách nào tránh phải cày toàn bộ bề mặt khi trồng cây trên vùng bằng phẳng không?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000132",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "questions": [
+    "Bạn nên trồng cây chè vào thời điểm nào trong năm để có hiệu quả tốt nhất?",
+    "Làm sao để tránh rủi ro khi trồng chè trong mùa khô?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000148",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "questions": [
+    "Làm thế nào để giữ cho cỏ quanh chè sạch quanh năm mà không dùng thuốc trừ cỏ?",
+    "Cần làm gì để bảo vệ chè 1 tuổi khi cỏ mọc dày dặn quanh gốc?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000162",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao để giữ cho cây chè tươi sau khi thu hoạch?",
+    "Trong bao lâu nên đưa chè tới chế biến sau khi hái?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000128",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "questions": [
+    "Bạn có thể cho mình biết loại chè nào trong nhóm 1 thường được trồng ở vùng đồng bằng?",
+    "Những cây chè trong nhóm 1 có đặc điểm nào về độ dày và chiều cao khi trưởng thành?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000013",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao để trồng cây chè mà không làm rác?",
+    "Có cách bảo vệ cây chè bằng vật liệu tự hủy không?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000082",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao để chăm sóc cây trồng trước khi trồng lại?",
+    "Những bước quan trọng khi nuôi cành để đạt tiêu chuẩn cắt giâm là gì?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000015",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao để giữ cho vùng trồng chè không bị cỏ dại lây lan sau khi mưa?",
+    "Nếu đất bị nát sau mưa, nên làm gì ngay để tránh hại cho cây?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000064",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao đường đi giữa khu trồng và nơi làm việc được thiết kế sao cho dễ di chuyển và tránh bị ngập lụt?",
+    "Mức độ dốc của các con đường trong khu trồng cần được điều chỉnh như thế nào để phù hợp với công việc chăm sóc cây?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000050",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Tôi nên chọn loại cây nào để trồng làm lớp che bóng cho chè trong mùa hè nóng nảy?",
+    "Làm sao để bố trí hàng cây che bóng sao cho không làm lỗ hổng cho côn trùng xâm nhập?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000066",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm thế nào để biết cây chè nhỏ đã đủ lớn để trồng riêng?",
+    "Những điều gì cần lưu ý khi chuẩn bị và trồng cây chè trong mùa đông?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000012",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao để gieo hạt chè mà không làm vỡ đất xung quanh?",
+    "Cách nào để đặt hạt chè sao cho lá hướng theo gió đúng hướng?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000011",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Cây chè cần được ươm trong bầu có phải để tránh sâu bệnh không?",
+    "Tại sao một cây chè cần có chiều cao đủ lớn và thân có màu nâu?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000056",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Bạn có biết cách chọn giống chè giúp tăng năng suất và giảm mất mát không?",
+    "Làm sao để bảo vệ chè tránh bị sâu và bệnh mà không dùng nhiều thuốc hoà tan?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000062",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao để chọn cây giúp bảo vệ đất khi trồng chè mới?",
+    "Làm thế nào để tăng độ bền của đất cho cây chè khi có nhiều dinh dưỡng?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000083",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao chọn cành cây chè để đảm bảo sức khỏe và tránh sâu bệnh?",
+    "Thế nào là môi trường đất phù hợp để trồng cành chè?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000006",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Tôi có nên trồng cây cốt khí vào tháng nào và cách trồng sao cho không bị chồng lề?",
+    "Làm sao để chăm sóc cây lạc và đậu khi trồng giữa hàng chè?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000079",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao để bố trí rừng sao cho không bị gió cuốn hạt chè?",
+    "Có cách nào để lưu trữ nước và phân hữu cơ trong khu trồng chè không?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000005",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Khi làm đất cho vườn chè nên dùng máy hay tay?",
+    "Có nên bừa san khi làm đất cho chè?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000055",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao để trồng chè mới có chất lượng tốt?",
+    "Cách chăm sóc chè trong mùa đông để thu hoạch ngon lành?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000069",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Tại sao phải phủ vườn chè với lớp vật liệu tự nhiên khi trời nắng nóng?",
+    "Lớp phủ giúp vườn chè tránh lạnh lòe như thế nào?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000027",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao để bảo vệ cây chè khỏi những côn trùng hút dịch trên lá?",
+    "Khi nên bắt đầu phun thuốc để phòng ngừa sâu bệnh trên chè?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000089",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao chăm sóc cỏ quanh hàng chè để cây phát triển khỏe mạnh?",
+    "Có cách nào làm sạch cỏ giữa hàng chè mà không cần cày sâu quá nhiều?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000035",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao để ngăn chặn bệnh làm hại cành chè khi cây đã trưởng thành?",
+    "Có biện pháp gì để xử lý cành chè bị nhiễm bệnh nhanh chóng?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000068",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao cây che bóng có thể giúp bảo vệ vườn chè khỏi nắng nóng và khô hạn?",
+    "Tại sao nên trồng cây che bóng ở nhiều tầng khác nhau trong vườn chè?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000078",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao để thiết kế đường chạy qua vườn chè sao cho thoát nước hiệu quả?",
+    "Cần làm gì khi xây đường vào đồi để tránh gập nở của đất?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000036",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Cây chè bị khô cành thì có cách xử lý nào để cứu cây?",
+    "Làm sao phòng ngừa và điều trị khi có dấu hiệu loét trên cành chè?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000093",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm thế nào để bảo vệ vườn chè khỏi sâu nhện khi mùa khô tới?",
+    "Có những loại thuốc tự nhiên nào giúp phòng ngừa sâu nhện mà không dùng hóa chất?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000041",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Tôi cần làm gì để giữ nơi làm chè sạch sẽ và tránh tiếp xúc với gia súc?",
+    "Có cách nào để bảo quản dụng cụ chế biến chè không bị nhiễm chất bẩn?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000042",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm thế nào để xử lý chè vừa tươi mới vừa tránh bị hong héo?",
+    "Quá trình làm sạch và bảo quản chè từ lúc thu hoạch đến khi đóng gói được thực hiện như thế nào?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000030",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Sâu róm thường ăn lá cây chè như thế nào và khi nào chúng gây hại nặng nhất?",
+    "Có cách nào tự nhiên hay bằng thuốc để ngăn chặn sâu róm ăn lá cây chè không?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000080",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm đất cho cây chè cần làm sâu và sạch, nhưng làm thế nào để tránh bị xói mòn?",
+    "Thời gian trồng bầu cây chè thay đổi ở miền Bắc và miền Nam, khi nào nên trồng để đạt hiệu quả tốt nhất?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000034",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Cây chè bị rụng lá nhiều khi nào và tại sao?",
+    "Làm sao để ngăn chặn bệnh làm hại chè khi thời tiết nóng ẩm?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000022",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao để cho cây chè nhận đủ chất dinh dưỡng mỗi năm?",
+    "Tôi nên bón phân vào thời điểm nào trong năm để cây chè phát triển tốt?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000087",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao tôi có thể chuẩn bị đất trước khi gieo chè?",
+    "Có cần bón phân vào những thời điểm nào trong năm để chè phát triển tốt?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000092",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm thế nào để bảo vệ cây chè khỏi sâu gây hại mà vẫn giữ vườn sạch và không dùng nhiều thuốc hóa học?",
+    "Có cách nào chọn thuốc an toàn, hiệu quả để kiểm soát sâu trên chè mà không làm ảnh hưởng đến thiên địch?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000095",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm thế nào để biết khi nào cần tưới chè trong mùa hè?",
+    "Cách nào đơn giản để kiểm tra độ ẩm đất trước khi bón nước cho cây chè?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000020",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm thế nào để quyết định khi nào nên thu hoạch cây chè?",
+    "Khoảng cách giữa lần thu hoạch của một cây chè thường kéo dài bao lâu?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000043",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm thế nào để xử lý chè sao cho không bị cháy và vẫn giữ được hương thơm?",
+    "Bao lâu và ở nhiệt độ nào nên quay thùng sao để chè có màu vàng sáng và không khét?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000077",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Mùa nào trồng chè phù hợp với điều kiện khí hậu và độ ẩm quanh năm?",
+    "Khu đất nào có cấu trúc phù hợp để trồng chè?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000009",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Tôi muốn trồng cây chè ở vùng thấp, làm sao chọn giống và sắp xếp cây sao cho dày đặc mà vẫn giữ sức khỏe cho cây?",
+    "Ở vùng cao hơn 500m, loại chè nào được khuyến nghị và cách bố trí cây sao cho tối ưu diện tích?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000051",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao trồng các loại cây khác nhau trong vườn chè giúp tăng thu và bảo vệ đất?",
+    "Có cách nào trồng chè mà không dùng thuốc hoá học và vẫn có sản phẩm sạch?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000090",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm thế nào để chăm sóc cây chè tránh bị sâu bệnh và giữ cho cây khỏe mạnh?",
+    "Những biện pháp nào giúp bảo vệ cây chè khỏi những tác nhân gây hại tự nhiên?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000081",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao biết loại chè phù hợp cho vùng cao hơn 500m?",
+    "Cây chè nào nên trồng ở miền núi phía Bắc để có năng suất tốt?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000058",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao để tiết kiệm chi phí khi xây dựng hệ thống tưới cho vườn chè?",
+    "Bạn có thể giải thích cách tăng hiệu quả công việc chăm sóc cây chè mà không tốn quá nhiều công sức?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000044",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao để làm cho chè mát lại sau khi đã tẩy men?",
+    "Cách nào đơn giản nhất để vắt chè mà không cần máy?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000060",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Ở miền núi phía Bắc, người trồng chè thường ưu tiên giống nào cho sản xuất?",
+    "Ở vùng núi cao phía Bắc, những loại chè nào được trồng phổ biến?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000061",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao để bảo vệ đất dốc khi trồng chè mà không làm hỏng mặt đất?",
+    "Cần gì làm khi chè trồng trên những gốc đất nghiêng hơn 20 độ để tránh mất đất?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000019",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Khi nên cắt tỉa cây chè cao hơn 70cm để giữ năng suất ổn định?",
+    "Nếu cây chè có nhiều cành khô và sinh trưởng chậm, tôi nên cắt tỉa ở mức độ nào để khôi phục?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000010",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Khi nào người nông dân ở miền Bắc nên gieo cây chè để tránh thời tiết khô?",
+    "Ở vùng Tây Nguyên, thời gian trồng chè thường diễn ra vào mùa nào trong năm?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000001",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Bạn có biết Việt Nam là một trong những nước lớn về sản xuất chè không?",
+    "Bạn có biết tại sao giá xuất khẩu chè Việt Nam thường thấp hơn giá trên thị trường thế giới?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000033",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Cây chè bị những vết nhỏ màu xám nâu ở mép lá như thế nào?",
+    "Làm sao để ngăn chặn rụng lá khi vết bệnh lan rộng?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000024",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Tôi có nên kiểm tra thường xuyên quanh gốc cây chè không?",
+    "Làm sao chọn cách tưới phù hợp để tránh dùng nước ô nhiễm?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000026",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao để phòng tránh côn trùng hút dịch khiến chè bị đắng và rụng sớm?",
+    "Khi cần dùng thuốc trừ sâu, có nên phun ngay khi thấy vài búp bị hại hay chờ thêm?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000094",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "questions": [
+    "Làm sao để biết khi nào cần cắt tỉa những cành lớn của cây chè?",
+    "Tôi nên chọn công cụ nào để cắt các cành nhỏ và lớn của chè trong mùa thu?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000171",
+   "dataset": "Tang2020_Tea_Nutrient_QUEFTS",
+   "questions": [
+    "Làm sao những thí nghiệm ở Trung Quốc giúp ta biết thêm về việc trồng chè?",
+    "Tại sao dữ liệu từ Trung Quốc không thể áp dụng trực tiếp cho chè Việt Nam?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000170",
+   "dataset": "Tang2020_Tea_Nutrient_QUEFTS",
+   "questions": [
+    "Bạn nên bón phân như thế nào cho cây chè mùa xuân để đạt hiệu quả tốt nhất?",
+    "Làm sao để điều chỉnh lượng phân cho chè mùa hè so với mùa thu?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000096",
+   "dataset": "TeaLeafDiseaseBD",
+   "questions": [
+    "Bạn có thể chia sẻ về bộ ảnh lá chè được thu thập ở Bangladesh?",
+    "Bộ dữ liệu này có bao gồm cả hình ảnh của lá chè bị bệnh không?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000101",
+   "dataset": "TeaLeafDiseaseBD",
+   "questions": [
+    "Cây chè có bị bệnh gì làm rụng lá đỏ?",
+    "Những dấu hiệu nào cho thấy cây chè bị tác động bởi một loại sâu đặc biệt?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000113",
+   "dataset": "TeaLeafDiseaseBD",
+   "questions": [
+    "Bạn làm sao để loại bỏ tiếng ồn khi đánh dấu khu vực trên cây chè?",
+    "Quy trình kiểm tra này có giúp xác định vùng nào cần xử lý không?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000110",
+   "dataset": "TeaLeafDiseaseBD",
+   "questions": [
+    "Bạn làm sao biết hình ảnh của cây chè được chuẩn bị như thế nào để dễ dùng cho máy học?",
+    "Tại sao phải chỉnh kích thước ảnh trước khi đưa vào mô hình?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000105",
+   "dataset": "TeaLeafDiseaseBD",
+   "questions": [
+    "Có bao nhiêu loại bệnh gây hại cho cây chè được xác định trong bộ dữ liệu này?",
+    "Cách nhận diện bệnh này trên hình ảnh được mô tả như thế nào?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000100",
+   "dataset": "TeaLeafDiseaseBD",
+   "questions": [
+    "Lá chè có thể bị ảnh hưởng bởi nhiều loại bệnh, bạn có biết những loại nào thường gặp?",
+    "Có cách nhận biết sự khác nhau giữa lá khỏe mạnh và lá bị bệnh trên cây chè không?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000107",
+   "dataset": "TeaLeafDiseaseBD",
+   "questions": [
+    "Cây chè có những dấu hiệu nào cho thấy lá vẫn khỏe mạnh?",
+    "Lá chè khỏe mạnh có liên quan đến cách phân loại các bệnh trong dữ liệu không?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000109",
+   "dataset": "TeaLeafDiseaseBD",
+   "questions": [
+    "Làm sao để đảm bảo nhãn bệnh trên cây chè chính xác khi thu thập dữ liệu thực địa?",
+    "Những bước nào được thực hiện cùng chuyên gia để tăng độ tin cậy của nhãn bệnh trên cây chè?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000116",
+   "dataset": "TeaLeafDiseaseBD",
+   "questions": [
+    "Ai là người phát hành bộ dữ liệu về bệnh cây chè mới ra mắt vào đầu năm nay?",
+    "Nơi nào được liệt kê làm đơn vị công tác trong dự án này?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000117",
+   "dataset": "TeaLeafDiseaseBD",
+   "questions": [
+    "Bạn đang học về công nghệ nhận diện hình ảnh cây chè, bạn có muốn biết cách áp dụng AI vào chăm sóc cây không?",
+    "Bạn muốn tìm hiểu cách học máy có thể giúp phát hiện bệnh trên cây chè mà không cần đọc các thuật ngữ chuyên ngành?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000111",
+   "dataset": "TeaLeafDiseaseBD",
+   "questions": [
+    "Làm sao công nghệ mới có thể giúp nhận diện khu vực hại trên lá chè mà không cần người đánh dấu thủ công?",
+    "Công cụ tự động này có cải thiện độ nhất quán trong việc xác định vùng tổn thương trên cây chè không?"
+   ]
+  },
+  {
+   "chunk_id": "tea_000102",
+   "dataset": "TeaLeafDiseaseBD",
+   "questions": [
+    "Cây chè có bị nấm gì làm hại lá?",
+    "Màu lá chè bị gì khiến nó bị xám?"
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "question": "Nhiệt độ và độ ẩm ảnh hưởng như thế nào tới năng suất của cây chè?",
+   "source_chunk_id": "tea_000166",
+   "dataset": "FAO_EcoCrop_Camellia_sinensis",
+   "overlap": 0.5
+  },
+  {
+   "question": "Cây chè có rễ phát triển sâu tới bao nhiêu độ trong đất?",
+   "source_chunk_id": "tea_000166",
+   "dataset": "FAO_EcoCrop_Camellia_sinensis",
+   "overlap": 0.429
+  },
+  {
+   "question": "Làm sao để biết lượng phân N, P, K cần bón cho cây chè khi thu hoạch một tấn?",
+   "source_chunk_id": "tea_000168",
+   "dataset": "FAO_EcoCrop_Camellia_sinensis",
+   "overlap": 0.375
+  },
+  {
+   "question": "Cây chè cần có cành chắc khỏe và thân thẳng để phát triển tốt, đúng không?",
+   "source_chunk_id": "tea_000127",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.444
+  },
+  {
+   "question": "Để tránh nấm mốc, cây chè cần được cắt bỏ nụ hoa hoàn toàn, phải không?",
+   "source_chunk_id": "tea_000127",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.25
+  },
+  {
+   "question": "Làm sao để điều chỉnh độ cao của cây khi trồng trong những năm đầu?",
+   "source_chunk_id": "tea_000154",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.429
+  },
+  {
+   "question": "Cần thay đổi tần suất cắt khi cây có tán lá mỏng và sinh trưởng chậm như thế nào?",
+   "source_chunk_id": "tea_000154",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.5
+  },
+  {
+   "question": "Bao lâu và vào những thời điểm nào nên bón các loại phân N, P và K cho cây chè?",
+   "source_chunk_id": "tea_000143",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.375
+  },
+  {
+   "question": "Làm sao để chọn thuốc bảo vệ thực vật cho chè mà không vi phạm quy định pháp luật?",
+   "source_chunk_id": "tea_000151",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.364
+  },
+  {
+   "question": "Cây chè nhỏ này thường được trồng ở đâu và cần chăm sóc như thế nào?",
+   "source_chunk_id": "tea_000130",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.167
+  },
+  {
+   "question": "Làm sao để biết khi nào cây chè này đã đủ lớn để thu hoạch?",
+   "source_chunk_id": "tea_000130",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.0
+  },
+  {
+   "question": "Cần làm gì để bảo vệ chè khỏi sâu bệnh?",
+   "source_chunk_id": "tea_000149",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.4
+  },
+  {
+   "question": "Cần trồng chè ở đất nào để cây phát triển tốt?",
+   "source_chunk_id": "tea_000123",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.4
+  },
+  {
+   "question": "Làm sao biết đất có đủ độ dốc và độ pH cho chè?",
+   "source_chunk_id": "tea_000123",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.5
+  },
+  {
+   "question": "Bạn thường dùng máy hái chè ở đâu và sau khi hái, làm sao để giữ cho tán chè được gọn gàng?",
+   "source_chunk_id": "tea_000160",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.333
+  },
+  {
+   "question": "Làm sao biết khi nào cần cắt tỉa cây chè cao quá?",
+   "source_chunk_id": "tea_000155",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.333
+  },
+  {
+   "question": "Khi nào là thời điểm thích hợp để bắt đầu thu hoạch lá cây này trong mùa thu?",
+   "source_chunk_id": "tea_000156",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.111
+  },
+  {
+   "question": "Quá trình thu hoạch thường được thực hiện như thế nào, từ giai đoạn nhỏ tới lớn?",
+   "source_chunk_id": "tea_000156",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.167
+  },
+  {
+   "question": "Làm sao để cây chè phát triển nhanh hơn khi nhiệt độ quanh khu vườn ổn định ở mức trung bình?",
+   "source_chunk_id": "tea_000122",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.077
+  },
+  {
+   "question": "Có cách nào giúp cây chè có nhiều búp hơn mà không cần ánh sáng trực tiếp?",
+   "source_chunk_id": "tea_000122",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.333
+  },
+  {
+   "question": "Làm sao bố trí hàng chè khi độ dốc của đồi không quá 6 độ?",
+   "source_chunk_id": "tea_000124",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.5
+  },
+  {
+   "question": "Nếu độ dốc của đồi lớn hơn 6 độ, ta nên sắp xếp hàng chè như thế nào?",
+   "source_chunk_id": "tea_000124",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.5
+  },
+  {
+   "question": "Bao xa cần đặt các rãnh để bón phân cho cây chè?",
+   "source_chunk_id": "tea_000147",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.4
+  },
+  {
+   "question": "Điều gì cần làm để nương chè phát triển dày và đồng đều?",
+   "source_chunk_id": "tea_000138",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.375
+  },
+  {
+   "question": "Có những thời điểm nào nên bón phân cho cây chè để đạt hiệu quả tối ưu?",
+   "source_chunk_id": "tea_000142",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.25
+  },
+  {
+   "question": "Làm sao để giữ ẩm cho vùng trồng chè mà không dùng quá nhiều thuốc hoá học?",
+   "source_chunk_id": "tea_000150",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.3
+  },
+  {
+   "question": "Có cách nào trồng cây che nắng để hỗ trợ sinh thái trong khu vực chè không?",
+   "source_chunk_id": "tea_000150",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.333
+  },
+  {
+   "question": "Bạn nên trồng cây chè vào thời điểm nào trong năm để có hiệu quả tốt nhất?",
+   "source_chunk_id": "tea_000132",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.5
+  },
+  {
+   "question": "Làm sao để tránh rủi ro khi trồng chè trong mùa khô?",
+   "source_chunk_id": "tea_000132",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.5
+  },
+  {
+   "question": "Cần làm gì để bảo vệ chè 1 tuổi khi cỏ mọc dày dặn quanh gốc?",
+   "source_chunk_id": "tea_000148",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.5
+  },
+  {
+   "question": "Làm sao để giữ cho cây chè tươi sau khi thu hoạch?",
+   "source_chunk_id": "tea_000162",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.5
+  },
+  {
+   "question": "Bạn có thể cho mình biết loại chè nào trong nhóm 1 thường được trồng ở vùng đồng bằng?",
+   "source_chunk_id": "tea_000128",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.091
+  },
+  {
+   "question": "Những cây chè trong nhóm 1 có đặc điểm nào về độ dày và chiều cao khi trưởng thành?",
+   "source_chunk_id": "tea_000128",
+   "dataset": "LaiChau_Tea_Technical_Guideline",
+   "overlap": 0.5
+  },
+  {
+   "question": "Có cách bảo vệ cây chè bằng vật liệu tự hủy không?",
+   "source_chunk_id": "tea_000013",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.167
+  },
+  {
+   "question": "Làm sao để giữ cho vùng trồng chè không bị cỏ dại lây lan sau khi mưa?",
+   "source_chunk_id": "tea_000015",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.333
+  },
+  {
+   "question": "Nếu đất bị nát sau mưa, nên làm gì ngay để tránh hại cho cây?",
+   "source_chunk_id": "tea_000015",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.444
+  },
+  {
+   "question": "Làm sao đường đi giữa khu trồng và nơi làm việc được thiết kế sao cho dễ di chuyển và tránh bị ngập lụt?",
+   "source_chunk_id": "tea_000064",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.25
+  },
+  {
+   "question": "Mức độ dốc của các con đường trong khu trồng cần được điều chỉnh như thế nào để phù hợp với công việc chăm sóc cây?",
+   "source_chunk_id": "tea_000064",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.429
+  },
+  {
+   "question": "Tôi nên chọn loại cây nào để trồng làm lớp che bóng cho chè trong mùa hè nóng nảy?",
+   "source_chunk_id": "tea_000050",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.455
+  },
+  {
+   "question": "Làm sao để bố trí hàng cây che bóng sao cho không làm lỗ hổng cho côn trùng xâm nhập?",
+   "source_chunk_id": "tea_000050",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.3
+  },
+  {
+   "question": "Làm thế nào để biết cây chè nhỏ đã đủ lớn để trồng riêng?",
+   "source_chunk_id": "tea_000066",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.333
+  },
+  {
+   "question": "Những điều gì cần lưu ý khi chuẩn bị và trồng cây chè trong mùa đông?",
+   "source_chunk_id": "tea_000066",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.5
+  },
+  {
+   "question": "Làm sao để gieo hạt chè mà không làm vỡ đất xung quanh?",
+   "source_chunk_id": "tea_000012",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.333
+  },
+  {
+   "question": "Bạn có biết cách chọn giống chè giúp tăng năng suất và giảm mất mát không?",
+   "source_chunk_id": "tea_000056",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.417
+  },
+  {
+   "question": "Làm sao để bảo vệ chè tránh bị sâu và bệnh mà không dùng nhiều thuốc hoà tan?",
+   "source_chunk_id": "tea_000056",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.2
+  },
+  {
+   "question": "Thế nào là môi trường đất phù hợp để trồng cành chè?",
+   "source_chunk_id": "tea_000083",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.286
+  },
+  {
+   "question": "Làm sao để bố trí rừng sao cho không bị gió cuốn hạt chè?",
+   "source_chunk_id": "tea_000079",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.5
+  },
+  {
+   "question": "Có cách nào để lưu trữ nước và phân hữu cơ trong khu trồng chè không?",
+   "source_chunk_id": "tea_000079",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.5
+  },
+  {
+   "question": "Khi làm đất cho vườn chè nên dùng máy hay tay?",
+   "source_chunk_id": "tea_000005",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.286
+  },
+  {
+   "question": "Tại sao phải phủ vườn chè với lớp vật liệu tự nhiên khi trời nắng nóng?",
+   "source_chunk_id": "tea_000069",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.455
+  },
+  {
+   "question": "Lớp phủ giúp vườn chè tránh lạnh lòe như thế nào?",
+   "source_chunk_id": "tea_000069",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.286
+  },
+  {
+   "question": "Khi nên bắt đầu phun thuốc để phòng ngừa sâu bệnh trên chè?",
+   "source_chunk_id": "tea_000027",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.444
+  },
+  {
+   "question": "Làm sao chăm sóc cỏ quanh hàng chè để cây phát triển khỏe mạnh?",
+   "source_chunk_id": "tea_000089",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.444
+  },
+  {
+   "question": "Làm sao cây che bóng có thể giúp bảo vệ vườn chè khỏi nắng nóng và khô hạn?",
+   "source_chunk_id": "tea_000068",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.333
+  },
+  {
+   "question": "Làm sao để thiết kế đường chạy qua vườn chè sao cho thoát nước hiệu quả?",
+   "source_chunk_id": "tea_000078",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.5
+  },
+  {
+   "question": "Cần làm gì khi xây đường vào đồi để tránh gập nở của đất?",
+   "source_chunk_id": "tea_000078",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.5
+  },
+  {
+   "question": "Cây chè bị khô cành thì có cách xử lý nào để cứu cây?",
+   "source_chunk_id": "tea_000036",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.5
+  },
+  {
+   "question": "Làm sao phòng ngừa và điều trị khi có dấu hiệu loét trên cành chè?",
+   "source_chunk_id": "tea_000036",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.5
+  },
+  {
+   "question": "Có những loại thuốc tự nhiên nào giúp phòng ngừa sâu nhện mà không dùng hóa chất?",
+   "source_chunk_id": "tea_000093",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.364
+  },
+  {
+   "question": "Tôi cần làm gì để giữ nơi làm chè sạch sẽ và tránh tiếp xúc với gia súc?",
+   "source_chunk_id": "tea_000041",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.4
+  },
+  {
+   "question": "Quá trình làm sạch và bảo quản chè từ lúc thu hoạch đến khi đóng gói được thực hiện như thế nào?",
+   "source_chunk_id": "tea_000042",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.357
+  },
+  {
+   "question": "Có cách nào tự nhiên hay bằng thuốc để ngăn chặn sâu róm ăn lá cây chè không?",
+   "source_chunk_id": "tea_000030",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.333
+  },
+  {
+   "question": "Thời gian trồng bầu cây chè thay đổi ở miền Bắc và miền Nam, khi nào nên trồng để đạt hiệu quả tốt nhất?",
+   "source_chunk_id": "tea_000080",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.5
+  },
+  {
+   "question": "Cây chè bị rụng lá nhiều khi nào và tại sao?",
+   "source_chunk_id": "tea_000034",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.333
+  },
+  {
+   "question": "Làm sao để cho cây chè nhận đủ chất dinh dưỡng mỗi năm?",
+   "source_chunk_id": "tea_000022",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.286
+  },
+  {
+   "question": "Tôi nên bón phân vào thời điểm nào trong năm để cây chè phát triển tốt?",
+   "source_chunk_id": "tea_000022",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.3
+  },
+  {
+   "question": "Làm sao tôi có thể chuẩn bị đất trước khi gieo chè?",
+   "source_chunk_id": "tea_000087",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.286
+  },
+  {
+   "question": "Có cần bón phân vào những thời điểm nào trong năm để chè phát triển tốt?",
+   "source_chunk_id": "tea_000087",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.333
+  },
+  {
+   "question": "Có cách nào chọn thuốc an toàn, hiệu quả để kiểm soát sâu trên chè mà không làm ảnh hưởng đến thiên địch?",
+   "source_chunk_id": "tea_000092",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.25
+  },
+  {
+   "question": "Làm thế nào để biết khi nào cần tưới chè trong mùa hè?",
+   "source_chunk_id": "tea_000095",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.25
+  },
+  {
+   "question": "Cách nào đơn giản để kiểm tra độ ẩm đất trước khi bón nước cho cây chè?",
+   "source_chunk_id": "tea_000095",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.111
+  },
+  {
+   "question": "Làm thế nào để quyết định khi nào nên thu hoạch cây chè?",
+   "source_chunk_id": "tea_000020",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.0
+  },
+  {
+   "question": "Khoảng cách giữa lần thu hoạch của một cây chè thường kéo dài bao lâu?",
+   "source_chunk_id": "tea_000020",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.091
+  },
+  {
+   "question": "Làm thế nào để xử lý chè sao cho không bị cháy và vẫn giữ được hương thơm?",
+   "source_chunk_id": "tea_000043",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.333
+  },
+  {
+   "question": "Mùa nào trồng chè phù hợp với điều kiện khí hậu và độ ẩm quanh năm?",
+   "source_chunk_id": "tea_000077",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.3
+  },
+  {
+   "question": "Khu đất nào có cấu trúc phù hợp để trồng chè?",
+   "source_chunk_id": "tea_000077",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.286
+  },
+  {
+   "question": "Tôi muốn trồng cây chè ở vùng thấp, làm sao chọn giống và sắp xếp cây sao cho dày đặc mà vẫn giữ sức khỏe cho cây?",
+   "source_chunk_id": "tea_000009",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.188
+  },
+  {
+   "question": "Ở vùng cao hơn 500m, loại chè nào được khuyến nghị và cách bố trí cây sao cho tối ưu diện tích?",
+   "source_chunk_id": "tea_000009",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.25
+  },
+  {
+   "question": "Làm thế nào để chăm sóc cây chè tránh bị sâu bệnh và giữ cho cây khỏe mạnh?",
+   "source_chunk_id": "tea_000090",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.333
+  },
+  {
+   "question": "Những biện pháp nào giúp bảo vệ cây chè khỏi những tác nhân gây hại tự nhiên?",
+   "source_chunk_id": "tea_000090",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.2
+  },
+  {
+   "question": "Làm sao biết loại chè phù hợp cho vùng cao hơn 500m?",
+   "source_chunk_id": "tea_000081",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.333
+  },
+  {
+   "question": "Cây chè nào nên trồng ở miền núi phía Bắc để có năng suất tốt?",
+   "source_chunk_id": "tea_000081",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.5
+  },
+  {
+   "question": "Bạn có thể giải thích cách tăng hiệu quả công việc chăm sóc cây chè mà không tốn quá nhiều công sức?",
+   "source_chunk_id": "tea_000058",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.5
+  },
+  {
+   "question": "Làm sao để làm cho chè mát lại sau khi đã tẩy men?",
+   "source_chunk_id": "tea_000044",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.333
+  },
+  {
+   "question": "Cách nào đơn giản nhất để vắt chè mà không cần máy?",
+   "source_chunk_id": "tea_000044",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.167
+  },
+  {
+   "question": "Nếu cây chè có nhiều cành khô và sinh trưởng chậm, tôi nên cắt tỉa ở mức độ nào để khôi phục?",
+   "source_chunk_id": "tea_000019",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.385
+  },
+  {
+   "question": "Khi nào người nông dân ở miền Bắc nên gieo cây chè để tránh thời tiết khô?",
+   "source_chunk_id": "tea_000010",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.2
+  },
+  {
+   "question": "Ở vùng Tây Nguyên, thời gian trồng chè thường diễn ra vào mùa nào trong năm?",
+   "source_chunk_id": "tea_000010",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.273
+  },
+  {
+   "question": "Làm sao để ngăn chặn rụng lá khi vết bệnh lan rộng?",
+   "source_chunk_id": "tea_000033",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.5
+  },
+  {
+   "question": "Khi cần dùng thuốc trừ sâu, có nên phun ngay khi thấy vài búp bị hại hay chờ thêm?",
+   "source_chunk_id": "tea_000026",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.385
+  },
+  {
+   "question": "Tôi nên chọn công cụ nào để cắt các cành nhỏ và lớn của chè trong mùa thu?",
+   "source_chunk_id": "tea_000094",
+   "dataset": "TL1_Tea_Technical_Guideline",
+   "overlap": 0.444
+  },
+  {
+   "question": "Làm sao những thí nghiệm ở Trung Quốc giúp ta biết thêm về việc trồng chè?",
+   "source_chunk_id": "tea_000171",
+   "dataset": "Tang2020_Tea_Nutrient_QUEFTS",
+   "overlap": 0.4
+  },
+  {
+   "question": "Bạn nên bón phân như thế nào cho cây chè mùa xuân để đạt hiệu quả tốt nhất?",
+   "source_chunk_id": "tea_000170",
+   "dataset": "Tang2020_Tea_Nutrient_QUEFTS",
+   "overlap": 0.1
+  },
+  {
+   "question": "Làm sao để điều chỉnh lượng phân cho chè mùa hè so với mùa thu?",
+   "source_chunk_id": "tea_000170",
+   "dataset": "Tang2020_Tea_Nutrient_QUEFTS",
+   "overlap": 0.143
+  },
+  {
+   "question": "Cây chè có bị bệnh gì làm rụng lá đỏ?",
+   "source_chunk_id": "tea_000101",
+   "dataset": "TeaLeafDiseaseBD",
+   "overlap": 0.333
+  },
+  {
+   "question": "Những dấu hiệu nào cho thấy cây chè bị tác động bởi một loại sâu đặc biệt?",
+   "source_chunk_id": "tea_000101",
+   "dataset": "TeaLeafDiseaseBD",
+   "overlap": 0.1
+  },
+  {
+   "question": "Bạn làm sao để loại bỏ tiếng ồn khi đánh dấu khu vực trên cây chè?",
+   "source_chunk_id": "tea_000113",
+   "dataset": "TeaLeafDiseaseBD",
+   "overlap": 0.333
+  },
+  {
+   "question": "Bạn làm sao biết hình ảnh của cây chè được chuẩn bị như thế nào để dễ dùng cho máy học?",
+   "source_chunk_id": "tea_000110",
+   "dataset": "TeaLeafDiseaseBD",
+   "overlap": 0.333
+  },
+  {
+   "question": "Tại sao phải chỉnh kích thước ảnh trước khi đưa vào mô hình?",
+   "source_chunk_id": "tea_000110",
+   "dataset": "TeaLeafDiseaseBD",
+   "overlap": 0.4
+  },
+  {
+   "question": "Cách nhận diện bệnh này trên hình ảnh được mô tả như thế nào?",
+   "source_chunk_id": "tea_000105",
+   "dataset": "TeaLeafDiseaseBD",
+   "overlap": 0.429
+  },
+  {
+   "question": "Lá chè có thể bị ảnh hưởng bởi nhiều loại bệnh, bạn có biết những loại nào thường gặp?",
+   "source_chunk_id": "tea_000100",
+   "dataset": "TeaLeafDiseaseBD",
+   "overlap": 0.091
+  },
+  {
+   "question": "Có cách nhận biết sự khác nhau giữa lá khỏe mạnh và lá bị bệnh trên cây chè không?",
+   "source_chunk_id": "tea_000100",
+   "dataset": "TeaLeafDiseaseBD",
+   "overlap": 0.4
+  },
+  {
+   "question": "Cây chè có những dấu hiệu nào cho thấy lá vẫn khỏe mạnh?",
+   "source_chunk_id": "tea_000107",
+   "dataset": "TeaLeafDiseaseBD",
+   "overlap": 0.333
+  },
+  {
+   "question": "Lá chè khỏe mạnh có liên quan đến cách phân loại các bệnh trong dữ liệu không?",
+   "source_chunk_id": "tea_000107",
+   "dataset": "TeaLeafDiseaseBD",
+   "overlap": 0.4
+  },
+  {
+   "question": "Làm sao để đảm bảo nhãn bệnh trên cây chè chính xác khi thu thập dữ liệu thực địa?",
+   "source_chunk_id": "tea_000109",
+   "dataset": "TeaLeafDiseaseBD",
+   "overlap": 0.462
+  },
+  {
+   "question": "Ai là người phát hành bộ dữ liệu về bệnh cây chè mới ra mắt vào đầu năm nay?",
+   "source_chunk_id": "tea_000116",
+   "dataset": "TeaLeafDiseaseBD",
+   "overlap": 0.091
+  },
+  {
+   "question": "Nơi nào được liệt kê làm đơn vị công tác trong dự án này?",
+   "source_chunk_id": "tea_000116",
+   "dataset": "TeaLeafDiseaseBD",
+   "overlap": 0.5
+  },
+  {
+   "question": "Bạn đang học về công nghệ nhận diện hình ảnh cây chè, bạn có muốn biết cách áp dụng AI vào chăm sóc cây không?",
+   "source_chunk_id": "tea_000117",
+   "dataset": "TeaLeafDiseaseBD",
+   "overlap": 0.0
+  },
+  {
+   "question": "Bạn muốn tìm hiểu cách học máy có thể giúp phát hiện bệnh trên cây chè mà không cần đọc các thuật ngữ chuyên ngành?",
+   "source_chunk_id": "tea_000117",
+   "dataset": "TeaLeafDiseaseBD",
+   "overlap": 0.0
+  },
+  {
+   "question": "Làm sao công nghệ mới có thể giúp nhận diện khu vực hại trên lá chè mà không cần người đánh dấu thủ công?",
+   "source_chunk_id": "tea_000111",
+   "dataset": "TeaLeafDiseaseBD",
+   "overlap": 0.375
+  },
+  {
+   "question": "Cây chè có bị nấm gì làm hại lá?",
+   "source_chunk_id": "tea_000102",
+   "dataset": "TeaLeafDiseaseBD",
+   "overlap": 0.0
+  },
+  {
+   "question": "Màu lá chè bị gì khiến nó bị xám?",
+   "source_chunk_id": "tea_000102",
+   "dataset": "TeaLeafDiseaseBD",
+   "overlap": 0.0
+  }
+ ]
+}

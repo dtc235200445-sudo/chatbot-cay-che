@@ -1,0 +1,58 @@
+{
+  "dataset": "Tang2020_Tea_Nutrient_QUEFTS",
+  "document": {
+    "document_code": "Tang2020_Tea_Nutrient_QUEFTS",
+    "title": "Temporal variation in nutrient requirements of tea (Camellia sinensis) in China based on QUEFTS analysis",
+    "source": "Tang et al. (2020), Scientific Reports — Nhu cầu dưỡng chất của chè (QUEFTS)",
+    "source_type": "scientific_reference",
+    "version": "2020",
+    "year": 2020,
+    "region": "Trung Quốc",
+    "description": "Bài báo truy cập mở về nhu cầu N, P, K của chè theo vụ dựa trên 21 thí nghiệm tại Trung Quốc.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7000836/",
+    "license": "CC-BY-4.0",
+    "citation": "Tang S., Liu Y., Zheng N., Li Y., Ma Q., Xiao H., Zhou X., Xu X., Jiang T., He P., Wu L. (2020). Temporal variation in nutrient requirements of tea (Camellia sinensis) in China based on QUEFTS analysis. Scientific Reports. DOI: 10.1038/s41598-020-57809-x. https://pmc.ncbi.nlm.nih.gov/articles/PMC7000836/ Giấy phép: CC BY 4.0. Nội dung là bản dịch/tóm lược tiếng Việt; số liệu từ Trung Quốc.",
+    "accessed": "2026-09-19"
+  },
+  "chunks": [
+    {
+      "title": "Nhu cầu N, P, K của chè theo vụ (Tang và cộng sự, 2020)",
+      "content": "Theo nghiên cứu của Tang và cộng sự (2020) tại Trung Quốc, để sản xuất 1.000 kg chè cần: vụ xuân 12,2 kg N, 1,2 kg P và 3,9 kg K; vụ hè 9,1 kg N, 0,8 kg P và 3,1 kg K; vụ thu 8,8 kg N, 1,0 kg P và 3,2 kg K. Nhu cầu đạm (N) cao nhất ở vụ xuân.",
+      "category": "fertilization",
+      "disease": "",
+      "metadata": {
+        "section": "Nhu cầu dưỡng chất theo vụ",
+        "page": null,
+        "region": "Trung Quốc",
+        "year": 2020,
+        "original_quote": "\"12.2 kg nitrogen (N), 1.2 kg phosphorus (P), and 3.9 kg potassium (K)\" (spring); \"9.1 kg N, 0.8 kg P, and 3.1 kg K\" (summer); \"8.8 kg N, 1.0 kg P, and 3.2 kg K\" (autumn)"
+      }
+    },
+    {
+      "title": "Tỷ lệ N:P:K tối ưu cho chè theo vụ (Tang và cộng sự, 2020)",
+      "content": "Theo Tang và cộng sự (2020), tỷ lệ N:P:K tối ưu (quy P về 1) là 10,1:1:3,2 đối với chè vụ xuân, 11,3:1:3,8 đối với vụ hè và 9,2:1:3,4 đối với vụ thu. Tỷ lệ đạm và kali so với lân khác nhau giữa các vụ.",
+      "category": "fertilization",
+      "disease": "",
+      "metadata": {
+        "section": "Tỷ lệ N:P:K",
+        "page": null,
+        "region": "Trung Quốc",
+        "year": 2020,
+        "original_quote": "\"10.1:1:3.2\" (spring); \"11.3:1:3.8\" (summer); \"9.2:1:3.4\" (autumn)"
+      }
+    },
+    {
+      "title": "Phạm vi và giới hạn áp dụng của nghiên cứu nhu cầu dưỡng chất chè (Tang và cộng sự, 2020)",
+      "content": "Nghiên cứu của Tang và cộng sự (2020, Scientific Reports) dựa trên 21 thí nghiệm ngoài đồng tại tám tỉnh của Trung Quốc (An Huy, Hồ Bắc, Vân Nam, Tứ Xuyên, Quý Châu, Hồ Nam, Chiết Giang, Phúc Kiến) thuộc bốn vùng chè; số liệu 2016–2018 dùng để xây dựng mô hình QUEFTS và số liệu 2019 dùng để kiểm chứng. Do điều kiện đất và giống khác Việt Nam, các số liệu này chỉ mang tính tham khảo, không thay thế định mức bón phân trong tài liệu kỹ thuật của Việt Nam.",
+      "category": "fertilization",
+      "disease": "",
+      "metadata": {
+        "section": "Phạm vi nghiên cứu",
+        "page": null,
+        "region": "Trung Quốc",
+        "year": 2020,
+        "original_quote": "\"21 field experiments\"; \"Eight provinces (Anhui, Hubei, Yunnan, Sichuan, Guizhou, Hunan, Zhejiang, Fujian)\"; \"2016-2018 data for model construction and 2019 for validation\""
+      }
+    }
+  ]
+}

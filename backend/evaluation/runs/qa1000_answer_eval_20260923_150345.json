@@ -1,0 +1,92 @@
+{
+ "summary": {
+  "n_total": 3,
+  "abstain": {
+   "n": 3,
+   "correctly_abstained": 3,
+   "violations_bịa_số": 0
+  },
+  "exact_value_out_of_rag_scope": {
+   "n": 0,
+   "refused_or_not_relevant": 0,
+   "note": "Nguồn Tea_Regions_Project_Config không được ingest vào RAG; kỳ vọng từ chối vì ngoài phạm vi RAG hiện tại."
+  },
+  "semantic_factual": {
+   "n": 0,
+   "wrongly_refused": 0,
+   "n_judged": 0,
+   "faithfulness": null,
+   "correctness": null,
+   "relevance": null,
+   "key_point_coverage": null,
+   "answers_with_unsupported_numbers": 0,
+   "judge_failures": 0
+  },
+  "avg_latency_s": 2.22
+ },
+ "records": [
+  {
+   "id": "QA0904",
+   "question": "Diện tích vùng chè Thái Nguyên trong file tea_regions.json là bao nhiêu ha?",
+   "question_type": "insufficient_data",
+   "difficulty": "hard",
+   "grading_mode": "abstain_no_data",
+   "dataset": "Tea_Regions_Project_Config",
+   "source_chunk_id": "region_Thái Nguyên",
+   "gate_relevant": true,
+   "answer": "Hiện tại cơ sở tri thức chưa có đủ thông tin để trả lời chính xác câu hỏi này của bạn.",
+   "refused": true,
+   "latency_s": 3.21,
+   "unsupported_numbers": [],
+   "judge": null,
+   "judge_error": null,
+   "abstain_violation": false,
+   "words": 21,
+   "structured": false,
+   "style_noise": false,
+   "copy_ratio": 0.0
+  },
+  {
+   "id": "QA0905",
+   "question": "Độ cao vùng chè Thái Nguyên trong file tea_regions.json là bao nhiêu mét?",
+   "question_type": "insufficient_data",
+   "difficulty": "hard",
+   "grading_mode": "abstain_no_data",
+   "dataset": "Tea_Regions_Project_Config",
+   "source_chunk_id": "region_Thái Nguyên",
+   "gate_relevant": true,
+   "answer": "Hiện tại cơ sở tri thức chưa có đủ thông tin để trả lời chính xác câu hỏi này của bạn.",
+   "refused": true,
+   "latency_s": 1.41,
+   "unsupported_numbers": [],
+   "judge": null,
+   "judge_error": null,
+   "abstain_violation": false,
+   "words": 21,
+   "structured": false,
+   "style_noise": false,
+   "copy_ratio": 0.0
+  },
+  {
+   "id": "QA0906",
+   "question": "Diện tích vùng chè Phú Thọ trong file tea_regions.json là bao nhiêu ha?",
+   "question_type": "insufficient_data",
+   "difficulty": "hard",
+   "grading_mode": "abstain_no_data",
+   "dataset": "Tea_Regions_Project_Config",
+   "source_chunk_id": "region_Phú Thọ",
+   "gate_relevant": true,
+   "answer": "Hiện tại cơ sở tri thức chưa có đủ thông tin để trả lời chính xác câu hỏi này của bạn.",
+   "refused": true,
+   "latency_s": 2.04,
+   "unsupported_numbers": [],
+   "judge": null,
+   "judge_error": null,
+   "abstain_violation": false,
+   "words": 21,
+   "structured": false,
+   "style_noise": false,
+   "copy_ratio": 0.0
+  }
+ ]
+}

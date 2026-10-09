@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "description": "Danh mục vùng chè do dự án xây dựng, dùng để nhận diện vùng trong câu hỏi và tra tọa độ thời tiết. Các trường area_ha và altitude_m để trống (null) vì chưa có nguồn đáng tin cậy; chỉ điền khi có tài liệu dẫn nguồn.",
+  "regions": [
+    {"name": "Thái Nguyên", "province": "Thái Nguyên", "latitude": 21.5928, "longitude": 105.8442, "is_tea_region": true, "area_ha": null, "altitude_m": null, "note": "Tọa độ đại diện, lấy từ cấu hình cũ của dự án, chưa đối chiếu nguồn độc lập."},
+    {"name": "Phú Thọ", "province": "Phú Thọ", "latitude": 21.3167, "longitude": 105.2167, "is_tea_region": true, "area_ha": null, "altitude_m": null, "note": "Tọa độ đại diện, lấy từ cấu hình cũ của dự án, chưa đối chiếu nguồn độc lập."},
+    {"name": "Lâm Đồng", "province": "Lâm Đồng", "latitude": 11.9404, "longitude": 108.4583, "is_tea_region": true, "area_ha": null, "altitude_m": null, "note": "Tọa độ đại diện, lấy từ cấu hình cũ của dự án, chưa đối chiếu nguồn độc lập."},
+    {"name": "Bảo Lộc", "province": "Lâm Đồng", "latitude": 11.5469, "longitude": 107.8080, "is_tea_region": true, "area_ha": null, "altitude_m": null, "note": "Thành phố thuộc Lâm Đồng. Tọa độ lấy từ cấu hình cũ của dự án."},
+    {"name": "Đà Lạt", "province": "Lâm Đồng", "latitude": 11.9404, "longitude": 108.4583, "is_tea_region": true, "area_ha": null, "altitude_m": null, "note": "Thành phố thuộc Lâm Đồng. Dùng chung tọa độ với Lâm Đồng theo cấu hình cũ."},
+    {"name": "Lai Châu", "province": "Lai Châu", "latitude": 22.3964, "longitude": 103.4589, "is_tea_region": true, "area_ha": null, "altitude_m": null, "note": "Tọa độ đại diện, lấy từ cấu hình cũ của dự án, chưa đối chiếu nguồn độc lập."},
+    {"name": "Sơn La", "province": "Sơn La", "latitude": 21.3256, "longitude": 103.9188, "is_tea_region": true, "area_ha": null, "altitude_m": null, "note": "Đã sửa: cấu hình cũ dùng tọa độ của Mộc Châu (20.8437, 104.6366) cho Sơn La. Giá trị mới là tọa độ trung tâm thành phố Sơn La, chưa đối chiếu nguồn độc lập."},
+    {"name": "Mộc Châu", "province": "Sơn La", "latitude": 20.8437, "longitude": 104.6366, "is_tea_region": true, "area_ha": null, "altitude_m": null, "note": "Huyện thuộc Sơn La. Tọa độ lấy từ cấu hình cũ của dự án."},
+    {"name": "Hà Giang", "province": "Hà Giang", "latitude": 22.8233, "longitude": 104.9839, "is_tea_region": true, "area_ha": null, "altitude_m": null, "note": "Tọa độ đại diện, lấy từ cấu hình cũ của dự án, chưa đối chiếu nguồn độc lập."},
+    {"name": "Yên Bái", "province": "Yên Bái", "latitude": 21.7051, "longitude": 104.8722, "is_tea_region": true, "area_ha": null, "altitude_m": null, "note": "Tọa độ đại diện, lấy từ cấu hình cũ của dự án, chưa đối chiếu nguồn độc lập."},
+    {"name": "Tuyên Quang", "province": "Tuyên Quang", "latitude": 21.8242, "longitude": 105.2155, "is_tea_region": true, "area_ha": null, "altitude_m": null, "note": "Tọa độ đại diện, lấy từ cấu hình cũ của dự án, chưa đối chiếu nguồn độc lập."},
+    {"name": "Nghệ An", "province": "Nghệ An", "latitude": 19.2342, "longitude": 104.8876, "is_tea_region": true, "area_ha": null, "altitude_m": null, "note": "Tọa độ đại diện tỉnh, lấy từ cấu hình cũ của dự án, chưa đối chiếu nguồn độc lập."}
+  ]
+}

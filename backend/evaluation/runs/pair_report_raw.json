@@ -1,0 +1,146 @@
+[
+ {
+  "gen": "gpt-oss-120b",
+  "judge": "qwen3.8-27b",
+  "n_sem": 67,
+  "n_ab": 24,
+  "n_both": 42,
+  "n_e2e": 67,
+  "tea_cond": {
+   "correctness": 4.595238095238095,
+   "faithfulness": 0.9936507936507937,
+   "key_point_coverage": 0.9200302343159488
+  },
+  "tea_e2e": {
+   "correctness": 4.7164179104477615,
+   "key_point_coverage": 0.9458718313195925
+  },
+  "tea_wrong_refuse": 1,
+  "tea_unsup": 0,
+  "tea_hit_src": null,
+  "tea_abst_ok": 24,
+  "tea_abst_viol": 0,
+  "tea_lat": 16.669253731343282,
+  "van_cond": {
+   "correctness": 2.6904761904761907,
+   "faithfulness": 0.837165083593655,
+   "key_point_coverage": 0.4288359788359789
+  },
+  "van_e2e": {
+   "correctness": 2.0597014925373136,
+   "key_point_coverage": 0.2688225538971808
+  },
+  "van_wrong_refuse": 25,
+  "van_unsup": 9,
+  "van_hit_src": 19,
+  "van_abst_ok": 24,
+  "van_abst_viol": 0,
+  "van_lat": 5.675074626865672,
+  "diff_cond": [
+   1.9047619047619047,
+   1.3571428571428568,
+   2.452380952380952
+  ],
+  "diff_e2e": [
+   2.656716417910448,
+   2.2238805970149254,
+   3.044776119402985
+  ]
+ },
+ {
+  "gen": "gpt-oss-20b",
+  "judge": "qwen3.8-27b",
+  "n_sem": 24,
+  "n_ab": 8,
+  "n_both": 18,
+  "n_e2e": 24,
+  "tea_cond": {
+   "correctness": 4.777777777777778,
+   "faithfulness": 1.0,
+   "key_point_coverage": 0.9253968253968254
+  },
+  "tea_e2e": {
+   "correctness": 4.583333333333333,
+   "key_point_coverage": 0.9087466931216932
+  },
+  "tea_wrong_refuse": 0,
+  "tea_unsup": 1,
+  "tea_hit_src": null,
+  "tea_abst_ok": 8,
+  "tea_abst_viol": 0,
+  "tea_lat": 5.917083333333333,
+  "van_cond": {
+   "correctness": 2.6666666666666665,
+   "faithfulness": 0.6867283950617284,
+   "key_point_coverage": 0.3932980599647266
+  },
+  "van_e2e": {
+   "correctness": 2.25,
+   "key_point_coverage": 0.29497354497354494
+  },
+  "van_wrong_refuse": 6,
+  "van_unsup": 8,
+  "van_hit_src": 8,
+  "van_abst_ok": 8,
+  "van_abst_viol": 0,
+  "van_lat": 2.9575,
+  "diff_cond": [
+   2.111111111111111,
+   1.2777777777777781,
+   2.9444444444444446
+  ],
+  "diff_e2e": [
+   2.3333333333333335,
+   1.6666666666666665,
+   3.0
+  ]
+ },
+ {
+  "gen": "qwen3.8-27b",
+  "judge": "gpt-oss-20b",
+  "n_sem": 24,
+  "n_ab": 8,
+  "n_both": 21,
+  "n_e2e": 22,
+  "tea_cond": {
+   "correctness": 4.904761904761905,
+   "faithfulness": 0.9761904761904762,
+   "key_point_coverage": 0.9938271604938271
+  },
+  "tea_e2e": {
+   "correctness": 4.909090909090909,
+   "key_point_coverage": 0.9941520467836258
+  },
+  "tea_wrong_refuse": 1,
+  "tea_unsup": 0,
+  "tea_hit_src": null,
+  "tea_abst_ok": 8,
+  "tea_abst_viol": 0,
+  "tea_lat": 34.49041666666667,
+  "van_cond": {
+   "correctness": 2.3333333333333335,
+   "faithfulness": 0.9523809523809523,
+   "key_point_coverage": 0.3216374269005848
+  },
+  "van_e2e": {
+   "correctness": 2.272727272727273,
+   "key_point_coverage": 0.3055555555555555
+  },
+  "van_wrong_refuse": 1,
+  "van_unsup": 2,
+  "van_hit_src": 8,
+  "van_abst_ok": 8,
+  "van_abst_viol": 0,
+  "van_lat": 26.31833333333333,
+  "diff_cond": [
+   2.5714285714285716,
+   1.7619047619047619,
+   3.2857142857142856
+  ],
+  "diff_e2e": [
+   2.6363636363636362,
+   1.8181818181818183,
+   3.3636363636363638
+  ]
+ }
+]
